@@ -1,0 +1,209 @@
+Sender: LSF System <lsfadmin@lc07e16>
+Subject: Job 176303665: <bamCoverage -b /wt_H3K4me3_rep1.bam -bs 25 -r chrX --effectiveGenomeSize 2308125349 -of bedgraph -o /sc/arion/scratch/arayan01/projects/chipseq_tut/results/norm/wt_H3K4me3_rep1.bedgraph> in cluster <chimera> Exited
+
+Job <bamCoverage -b /wt_H3K4me3_rep1.bam -bs 25 -r chrX --effectiveGenomeSize 2308125349 -of bedgraph -o /sc/arion/scratch/arayan01/projects/chipseq_tut/results/norm/wt_H3K4me3_rep1.bedgraph> was submitted from host <li04e04> by user <arayan01> in cluster <chimera> at Thu Mar 27 15:06:39 2025
+Job was executed on host(s) <1*lc07e16>, in queue <premium>, as user <arayan01> in cluster <chimera> at Thu Mar 27 15:06:40 2025
+                            <1*lc06e60>
+</hpc/users/arayan01> was used as the home directory.
+</sc/arion/scratch/arayan01/projects/chipseq_tut/results> was used as the working directory.
+Started at Thu Mar 27 15:06:40 2025
+Terminated at Thu Mar 27 15:06:53 2025
+Results reported at Thu Mar 27 15:06:53 2025
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+bamCoverage -b /wt_H3K4me3_rep1.bam -bs 25 -r chrX --effectiveGenomeSize 2308125349 -of bedgraph -o /sc/arion/scratch/arayan01/projects/chipseq_tut/results/norm/wt_H3K4me3_rep1.bedgraph
+------------------------------------------------------------
+
+Exited with exit code 2.
+
+Resource usage summary:
+
+    CPU time :                                   0.22 sec.
+    Max Memory :                                 23 MB
+    Average Memory :                             10.89 MB
+    Total Requested Memory :                     16000.00 MB
+    Delta Memory :                               15977.00 MB
+    Max Swap :                                   -
+    Max Processes :                              3
+    Max Threads :                                4
+    Run time :                                   13 sec.
+    Turnaround time :                            14 sec.
+
+The output (if any) follows:
+
+usage: An example usage is:$ bamCoverage -b reads.bam -o coverage.bw
+bamCoverage: error: unrecognized arguments: --effectiveGenomeSize 2308125349
+Sender: LSF System <lsfadmin@lc06e62>
+Subject: Job 176303867: <bamCoverage -b /wt_H3K4me3_rep1.bam -bs 25 -r chrX --effectiveGenomeSize 2308125349 -of bedgraph -o /sc/arion/scratch/arayan01/projects/chipseq_tut/results/norm/wt_H3K4me3_rep1.bedgraph> in cluster <chimera> Exited
+
+Job <bamCoverage -b /wt_H3K4me3_rep1.bam -bs 25 -r chrX --effectiveGenomeSize 2308125349 -of bedgraph -o /sc/arion/scratch/arayan01/projects/chipseq_tut/results/norm/wt_H3K4me3_rep1.bedgraph> was submitted from host <li04e04> by user <arayan01> in cluster <chimera> at Thu Mar 27 15:07:48 2025
+Job was executed on host(s) <1*lc06e62>, in queue <premium>, as user <arayan01> in cluster <chimera> at Thu Mar 27 15:07:51 2025
+                            <1*lc06e63>
+</hpc/users/arayan01> was used as the home directory.
+</sc/arion/scratch/arayan01/projects/chipseq_tut/results> was used as the working directory.
+Started at Thu Mar 27 15:07:51 2025
+Terminated at Thu Mar 27 15:08:03 2025
+Results reported at Thu Mar 27 15:08:03 2025
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+bamCoverage -b /wt_H3K4me3_rep1.bam -bs 25 -r chrX --effectiveGenomeSize 2308125349 -of bedgraph -o /sc/arion/scratch/arayan01/projects/chipseq_tut/results/norm/wt_H3K4me3_rep1.bedgraph
+------------------------------------------------------------
+
+Exited with exit code 2.
+
+Resource usage summary:
+
+    CPU time :                                   0.23 sec.
+    Max Memory :                                 21 MB
+    Average Memory :                             14.71 MB
+    Total Requested Memory :                     16000.00 MB
+    Delta Memory :                               15979.00 MB
+    Max Swap :                                   -
+    Max Processes :                              3
+    Max Threads :                                4
+    Run time :                                   13 sec.
+    Turnaround time :                            15 sec.
+
+The output (if any) follows:
+
+usage: An example usage is:$ bamCoverage -b reads.bam -o coverage.bw
+bamCoverage: error: unrecognized arguments: --effectiveGenomeSize 2308125349
+Sender: LSF System <lsfadmin@lh06c20>
+Subject: Job 176304712: <bamCoverage -b /wt_H3K4me3_rep1.bam -bs 25 -r chrX --effectiveGenomeSize=2308125349 -of bedgraph -o /sc/arion/scratch/arayan01/projects/chipseq_tut/results/norm/wt_H3K4me3_rep1.bedgraph> in cluster <chimera> Exited
+
+Job <bamCoverage -b /wt_H3K4me3_rep1.bam -bs 25 -r chrX --effectiveGenomeSize=2308125349 -of bedgraph -o /sc/arion/scratch/arayan01/projects/chipseq_tut/results/norm/wt_H3K4me3_rep1.bedgraph> was submitted from host <li04e04> by user <arayan01> in cluster <chimera> at Thu Mar 27 15:11:14 2025
+Job was executed on host(s) <2*lh06c20>, in queue <premium>, as user <arayan01> in cluster <chimera> at Thu Mar 27 15:11:15 2025
+</hpc/users/arayan01> was used as the home directory.
+</sc/arion/scratch/arayan01/projects/chipseq_tut/results> was used as the working directory.
+Started at Thu Mar 27 15:11:15 2025
+Terminated at Thu Mar 27 15:11:33 2025
+Results reported at Thu Mar 27 15:11:33 2025
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+bamCoverage -b /wt_H3K4me3_rep1.bam -bs 25 -r chrX --effectiveGenomeSize=2308125349 -of bedgraph -o /sc/arion/scratch/arayan01/projects/chipseq_tut/results/norm/wt_H3K4me3_rep1.bedgraph
+------------------------------------------------------------
+
+Exited with exit code 2.
+
+Resource usage summary:
+
+    CPU time :                                   0.29 sec.
+    Max Memory :                                 19 MB
+    Average Memory :                             14.00 MB
+    Total Requested Memory :                     16000.00 MB
+    Delta Memory :                               15981.00 MB
+    Max Swap :                                   -
+    Max Processes :                              3
+    Max Threads :                                4
+    Run time :                                   12 sec.
+    Turnaround time :                            19 sec.
+
+The output (if any) follows:
+
+usage: An example usage is:$ bamCoverage -b reads.bam -o coverage.bw
+bamCoverage: error: unrecognized arguments: --effectiveGenomeSize=2308125349
+Sender: LSF System <lsfadmin@lc06e17>
+Subject: Job 176305206: <bamCoverage -b /wt_H3K4me3_rep1.bam -bs 25 -r chrX -of bedgraph -o /sc/arion/scratch/arayan01/projects/chipseq_tut/results/norm/wt_H3K4me3_rep1.bedgraph> in cluster <chimera> Exited
+
+Job <bamCoverage -b /wt_H3K4me3_rep1.bam -bs 25 -r chrX -of bedgraph -o /sc/arion/scratch/arayan01/projects/chipseq_tut/results/norm/wt_H3K4me3_rep1.bedgraph> was submitted from host <li04e04> by user <arayan01> in cluster <chimera> at Thu Mar 27 15:12:19 2025
+Job was executed on host(s) <1*lc06e17>, in queue <premium>, as user <arayan01> in cluster <chimera> at Thu Mar 27 15:12:21 2025
+                            <1*lc06e30>
+</hpc/users/arayan01> was used as the home directory.
+</sc/arion/scratch/arayan01/projects/chipseq_tut/results> was used as the working directory.
+Started at Thu Mar 27 15:12:21 2025
+Terminated at Thu Mar 27 15:12:33 2025
+Results reported at Thu Mar 27 15:12:33 2025
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+bamCoverage -b /wt_H3K4me3_rep1.bam -bs 25 -r chrX -of bedgraph -o /sc/arion/scratch/arayan01/projects/chipseq_tut/results/norm/wt_H3K4me3_rep1.bedgraph
+------------------------------------------------------------
+
+Exited with exit code 1.
+
+Resource usage summary:
+
+    CPU time :                                   0.23 sec.
+    Max Memory :                                 26 MB
+    Average Memory :                             18.12 MB
+    Total Requested Memory :                     16000.00 MB
+    Delta Memory :                               15974.00 MB
+    Max Swap :                                   -
+    Max Processes :                              3
+    Max Threads :                                4
+    Run time :                                   12 sec.
+    Turnaround time :                            14 sec.
+
+The output (if any) follows:
+
+The file /wt_H3K4me3_rep1.bam does not exist
+Sender: LSF System <lsfadmin@lc07e69>
+Subject: Job 176305831: <bamCoverage -b /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K4me3_rep1.bam -bs 25 -r chrX -of bedgraph -o /sc/arion/scratch/arayan01/projects/chipseq_tut/results/norm/wt_H3K4me3_rep1.bedgraph> in cluster <chimera> Done
+
+Job <bamCoverage -b /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K4me3_rep1.bam -bs 25 -r chrX -of bedgraph -o /sc/arion/scratch/arayan01/projects/chipseq_tut/results/norm/wt_H3K4me3_rep1.bedgraph> was submitted from host <li04e04> by user <arayan01> in cluster <chimera> at Thu Mar 27 15:13:11 2025
+Job was executed on host(s) <1*lc07e69>, in queue <premium>, as user <arayan01> in cluster <chimera> at Thu Mar 27 15:13:16 2025
+                            <1*lc06e40>
+</hpc/users/arayan01> was used as the home directory.
+</sc/arion/scratch/arayan01/projects/chipseq_tut/results> was used as the working directory.
+Started at Thu Mar 27 15:13:16 2025
+Terminated at Thu Mar 27 15:13:44 2025
+Results reported at Thu Mar 27 15:13:44 2025
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+bamCoverage -b /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K4me3_rep1.bam -bs 25 -r chrX -of bedgraph -o /sc/arion/scratch/arayan01/projects/chipseq_tut/results/norm/wt_H3K4me3_rep1.bedgraph
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   12.85 sec.
+    Max Memory :                                 610 MB
+    Average Memory :                             256.64 MB
+    Total Requested Memory :                     16000.00 MB
+    Delta Memory :                               15390.00 MB
+    Max Swap :                                   -
+    Max Processes :                              51
+    Max Threads :                                55
+    Run time :                                   28 sec.
+    Turnaround time :                            33 sec.
+
+The output (if any) follows:
+
+minFragmentLength: 0
+verbose: False
+out_file_for_raw_data: None
+numberOfSamples: None
+bedFile: None
+bamFilesList: ['/sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K4me3_rep1.bam']
+ignoreDuplicates: False
+numberOfProcessors: 48
+samFlag_exclude: None
+save_data: False
+stepSize: 25
+smoothLength: None
+center_read: False
+defaultFragmentLength: read length
+chrsToSkip: []
+region: chrX:25
+maxPairedFragmentLength: 1000
+samFlag_include: None
+binLength: 25
+blackListFileName: None
+maxFragmentLength: 0
+minMappingQuality: None
+zerosToNans: False

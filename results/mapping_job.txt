@@ -1,0 +1,233 @@
+Sender: LSF System <lsfadmin@lh06c26>
+Subject: Job 175824137: <bowtie2 -x mm10 -1 /sc/arion/scratch/arayan01/projects/chipseq_tut/data/samples/wt_H3K4me3_read1.fastq.gz -2 /sc/arion/scratch/arayan01/projects/chipseq_tut/data/samples/wt_H3K4me3_read2.fastq.gz -S output.sam --met-file bowtie2_mapping_stats.txt> in cluster <chimera> Exited
+
+Job <bowtie2 -x mm10 -1 /sc/arion/scratch/arayan01/projects/chipseq_tut/data/samples/wt_H3K4me3_read1.fastq.gz -2 /sc/arion/scratch/arayan01/projects/chipseq_tut/data/samples/wt_H3K4me3_read2.fastq.gz -S output.sam --met-file bowtie2_mapping_stats.txt> was submitted from host <li04e04> by user <arayan01> in cluster <chimera> at Mon Mar 24 11:45:22 2025
+Job was executed on host(s) <1*lh06c26>, in queue <premium>, as user <arayan01> in cluster <chimera> at Mon Mar 24 11:45:26 2025
+                            <1*lh06c14>
+</hpc/users/arayan01> was used as the home directory.
+</sc/arion/scratch/arayan01/projects/chipseq_tut/results> was used as the working directory.
+Started at Mon Mar 24 11:45:26 2025
+Terminated at Mon Mar 24 11:45:27 2025
+Results reported at Mon Mar 24 11:45:27 2025
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+bowtie2 -x mm10 -1 /sc/arion/scratch/arayan01/projects/chipseq_tut/data/samples/wt_H3K4me3_read1.fastq.gz -2 /sc/arion/scratch/arayan01/projects/chipseq_tut/data/samples/wt_H3K4me3_read2.fastq.gz -S output.sam --met-file bowtie2_mapping_stats.txt
+------------------------------------------------------------
+
+Exited with exit code 1.
+
+Resource usage summary:
+
+    CPU time :                                   0.07 sec.
+    Max Memory :                                 10 MB
+    Average Memory :                             6.00 MB
+    Total Requested Memory :                     16000.00 MB
+    Delta Memory :                               15990.00 MB
+    Max Swap :                                   -
+    Max Processes :                              4
+    Max Threads :                                5
+    Run time :                                   1 sec.
+    Turnaround time :                            5 sec.
+
+The output (if any) follows:
+
+Could not locate a Bowtie index corresponding to basename "mm10"
+Error: Encountered internal Bowtie 2 exception (#1)
+Command: /sc/arion/work/arayan01/test-env/envs/chipseq/bin/bowtie2-align-s --wrapper basic-0 -x mm10 -S output.sam --met-file bowtie2_mapping_stats.txt -1 /tmp/2957162.inpipe1 -2 /tmp/2957162.inpipe2 
+(ERR): bowtie2-align exited with value 1
+Sender: LSF System <lsfadmin@lh06c28>
+Subject: Job 175835203: <bowtie2 -x /sc/arion/scratch/arayan01/projects/chipseq_tut/data/refgen -1 /sc/arion/scratch/arayan01/projects/chipseq_tut/data/samples/wt_H3K4me3_read1.fastq.gz -2 /sc/arion/scratch/arayan01/projects/chipseq_tut/data/samples/wt_H3K4me3_read2.fastq.gz -S output.sam --met-file bowtie2_mapping_stats.txt> in cluster <chimera> Exited
+
+Job <bowtie2 -x /sc/arion/scratch/arayan01/projects/chipseq_tut/data/refgen -1 /sc/arion/scratch/arayan01/projects/chipseq_tut/data/samples/wt_H3K4me3_read1.fastq.gz -2 /sc/arion/scratch/arayan01/projects/chipseq_tut/data/samples/wt_H3K4me3_read2.fastq.gz -S output.sam --met-file bowtie2_mapping_stats.txt> was submitted from host <li04e04> by user <arayan01> in cluster <chimera> at Mon Mar 24 13:28:28 2025
+Job was executed on host(s) <1*lh06c28>, in queue <premium>, as user <arayan01> in cluster <chimera> at Mon Mar 24 13:28:33 2025
+                            <1*lh06c22>
+</hpc/users/arayan01> was used as the home directory.
+</sc/arion/scratch/arayan01/projects/chipseq_tut/results> was used as the working directory.
+Started at Mon Mar 24 13:28:33 2025
+Terminated at Mon Mar 24 13:28:34 2025
+Results reported at Mon Mar 24 13:28:34 2025
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+bowtie2 -x /sc/arion/scratch/arayan01/projects/chipseq_tut/data/refgen -1 /sc/arion/scratch/arayan01/projects/chipseq_tut/data/samples/wt_H3K4me3_read1.fastq.gz -2 /sc/arion/scratch/arayan01/projects/chipseq_tut/data/samples/wt_H3K4me3_read2.fastq.gz -S output.sam --met-file bowtie2_mapping_stats.txt
+------------------------------------------------------------
+
+Exited with exit code 1.
+
+Resource usage summary:
+
+    CPU time :                                   0.15 sec.
+    Max Memory :                                 6 MB
+    Average Memory :                             6.00 MB
+    Total Requested Memory :                     16000.00 MB
+    Delta Memory :                               15994.00 MB
+    Max Swap :                                   -
+    Max Processes :                              3
+    Max Threads :                                4
+    Run time :                                   1 sec.
+    Turnaround time :                            6 sec.
+
+The output (if any) follows:
+
+Could not locate a Bowtie index corresponding to basename "/sc/arion/scratch/arayan01/projects/chipseq_tut/data/refgen"
+Error: Encountered internal Bowtie 2 exception (#1)
+Command: /sc/arion/work/arayan01/test-env/envs/chipseq/bin/bowtie2-align-s --wrapper basic-0 -x /sc/arion/scratch/arayan01/projects/chipseq_tut/data/refgen -S output.sam --met-file bowtie2_mapping_stats.txt -1 /tmp/1430845.inpipe1 -2 /tmp/1430845.inpipe2 
+(ERR): bowtie2-align exited with value 1
+Sender: LSF System <lsfadmin@lc06e02>
+Subject: Job 175835307: <bowtie2 -x /sc/arion/scratch/arayan01/projects/chipseq_tut/data/refgen/mm10 -1 /sc/arion/scratch/arayan01/projects/chipseq_tut/data/samples/wt_H3K4me3_read1.fastq.gz -2 /sc/arion/scratch/arayan01/projects/chipseq_tut/data/samples/wt_H3K4me3_read2.fastq.gz -S output.sam --met-file bowtie2_mapping_stats.txt> in cluster <chimera> Done
+
+Job <bowtie2 -x /sc/arion/scratch/arayan01/projects/chipseq_tut/data/refgen/mm10 -1 /sc/arion/scratch/arayan01/projects/chipseq_tut/data/samples/wt_H3K4me3_read1.fastq.gz -2 /sc/arion/scratch/arayan01/projects/chipseq_tut/data/samples/wt_H3K4me3_read2.fastq.gz -S output.sam --met-file bowtie2_mapping_stats.txt> was submitted from host <li04e04> by user <arayan01> in cluster <chimera> at Mon Mar 24 13:30:09 2025
+Job was executed on host(s) <1*lc06e02>, in queue <premium>, as user <arayan01> in cluster <chimera> at Mon Mar 24 13:30:13 2025
+                            <1*lc07e33>
+</hpc/users/arayan01> was used as the home directory.
+</sc/arion/scratch/arayan01/projects/chipseq_tut/results> was used as the working directory.
+Started at Mon Mar 24 13:30:13 2025
+Terminated at Mon Mar 24 13:30:25 2025
+Results reported at Mon Mar 24 13:30:25 2025
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+bowtie2 -x /sc/arion/scratch/arayan01/projects/chipseq_tut/data/refgen/mm10 -1 /sc/arion/scratch/arayan01/projects/chipseq_tut/data/samples/wt_H3K4me3_read1.fastq.gz -2 /sc/arion/scratch/arayan01/projects/chipseq_tut/data/samples/wt_H3K4me3_read2.fastq.gz -S output.sam --met-file bowtie2_mapping_stats.txt
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   10.27 sec.
+    Max Memory :                                 3006 MB
+    Average Memory :                             2630.00 MB
+    Total Requested Memory :                     16000.00 MB
+    Delta Memory :                               12994.00 MB
+    Max Swap :                                   -
+    Max Processes :                              8
+    Max Threads :                                10
+    Run time :                                   12 sec.
+    Turnaround time :                            16 sec.
+
+The output (if any) follows:
+
+50000 reads; of these:
+  50000 (100.00%) were paired; of these:
+    1880 (3.76%) aligned concordantly 0 times
+    44731 (89.46%) aligned concordantly exactly 1 time
+    3389 (6.78%) aligned concordantly >1 times
+    ----
+    1880 pairs aligned concordantly 0 times; of these:
+      275 (14.63%) aligned discordantly 1 time
+    ----
+    1605 pairs aligned 0 times concordantly or discordantly; of these:
+      3210 mates make up the pairs; of these:
+        1882 (58.63%) aligned 0 times
+        947 (29.50%) aligned exactly 1 time
+        381 (11.87%) aligned >1 times
+98.12% overall alignment rate
+Sender: LSF System <lsfadmin@lh06c25>
+Subject: Job 175835426: <bowtie2 -x /sc/arion/scratch/arayan01/projects/chipseq_tut/data/refgen/mm10 -1 /sc/arion/scratch/arayan01/projects/chipseq_tut/data/samples/wt_H3K4me3_read1.fastq.gz -2 /sc/arion/scratch/arayan01/projects/chipseq_tut/data/samples/wt_H3K4me3_read2.fastq.gz -S output.sam --met-file /sc/arion/scratch/arayan01/projects/chipseq_tut/results/mapping/bowtie2_mapping_stats.txt> in cluster <chimera> Done
+
+Job <bowtie2 -x /sc/arion/scratch/arayan01/projects/chipseq_tut/data/refgen/mm10 -1 /sc/arion/scratch/arayan01/projects/chipseq_tut/data/samples/wt_H3K4me3_read1.fastq.gz -2 /sc/arion/scratch/arayan01/projects/chipseq_tut/data/samples/wt_H3K4me3_read2.fastq.gz -S output.sam --met-file /sc/arion/scratch/arayan01/projects/chipseq_tut/results/mapping/bowtie2_mapping_stats.txt> was submitted from host <li04e04> by user <arayan01> in cluster <chimera> at Mon Mar 24 13:31:57 2025
+Job was executed on host(s) <1*lh06c25>, in queue <premium>, as user <arayan01> in cluster <chimera> at Mon Mar 24 13:31:58 2025
+                            <1*lh06c22>
+</hpc/users/arayan01> was used as the home directory.
+</sc/arion/scratch/arayan01/projects/chipseq_tut/results> was used as the working directory.
+Started at Mon Mar 24 13:31:58 2025
+Terminated at Mon Mar 24 13:32:13 2025
+Results reported at Mon Mar 24 13:32:13 2025
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+bowtie2 -x /sc/arion/scratch/arayan01/projects/chipseq_tut/data/refgen/mm10 -1 /sc/arion/scratch/arayan01/projects/chipseq_tut/data/samples/wt_H3K4me3_read1.fastq.gz -2 /sc/arion/scratch/arayan01/projects/chipseq_tut/data/samples/wt_H3K4me3_read2.fastq.gz -S output.sam --met-file /sc/arion/scratch/arayan01/projects/chipseq_tut/results/mapping/bowtie2_mapping_stats.txt
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   12.30 sec.
+    Max Memory :                                 3006 MB
+    Average Memory :                             2534.30 MB
+    Total Requested Memory :                     16000.00 MB
+    Delta Memory :                               12994.00 MB
+    Max Swap :                                   -
+    Max Processes :                              8
+    Max Threads :                                10
+    Run time :                                   15 sec.
+    Turnaround time :                            16 sec.
+
+The output (if any) follows:
+
+50000 reads; of these:
+  50000 (100.00%) were paired; of these:
+    1880 (3.76%) aligned concordantly 0 times
+    44731 (89.46%) aligned concordantly exactly 1 time
+    3389 (6.78%) aligned concordantly >1 times
+    ----
+    1880 pairs aligned concordantly 0 times; of these:
+      275 (14.63%) aligned discordantly 1 time
+    ----
+    1605 pairs aligned 0 times concordantly or discordantly; of these:
+      3210 mates make up the pairs; of these:
+        1882 (58.63%) aligned 0 times
+        947 (29.50%) aligned exactly 1 time
+        381 (11.87%) aligned >1 times
+98.12% overall alignment rate
+Sender: LSF System <lsfadmin@lh06c18>
+Subject: Job 175835495: <bowtie2 -x /sc/arion/scratch/arayan01/projects/chipseq_tut/data/refgen/mm10 -1 /sc/arion/scratch/arayan01/projects/chipseq_tut/data/samples/wt_H3K4me3_read1.fastq.gz -2 /sc/arion/scratch/arayan01/projects/chipseq_tut/data/samples/wt_H3K4me3_read2.fastq.gz -S /sc/arion/scratch/arayan01/projects/chipseq_tut/results/mapping/output.sam --met-file /sc/arion/scratch/arayan01/projects/chipseq_tut/results/mapping/bowtie2_mapping_stats.txt> in cluster <chimera> Done
+
+Job <bowtie2 -x /sc/arion/scratch/arayan01/projects/chipseq_tut/data/refgen/mm10 -1 /sc/arion/scratch/arayan01/projects/chipseq_tut/data/samples/wt_H3K4me3_read1.fastq.gz -2 /sc/arion/scratch/arayan01/projects/chipseq_tut/data/samples/wt_H3K4me3_read2.fastq.gz -S /sc/arion/scratch/arayan01/projects/chipseq_tut/results/mapping/output.sam --met-file /sc/arion/scratch/arayan01/projects/chipseq_tut/results/mapping/bowtie2_mapping_stats.txt> was submitted from host <li04e04> by user <arayan01> in cluster <chimera> at Mon Mar 24 13:32:54 2025
+Job was executed on host(s) <1*lh06c18>, in queue <premium>, as user <arayan01> in cluster <chimera> at Mon Mar 24 13:33:00 2025
+                            <1*lh06c16>
+</hpc/users/arayan01> was used as the home directory.
+</sc/arion/scratch/arayan01/projects/chipseq_tut/results> was used as the working directory.
+Started at Mon Mar 24 13:33:00 2025
+Terminated at Mon Mar 24 13:33:22 2025
+Results reported at Mon Mar 24 13:33:22 2025
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+bowtie2 -x /sc/arion/scratch/arayan01/projects/chipseq_tut/data/refgen/mm10 -1 /sc/arion/scratch/arayan01/projects/chipseq_tut/data/samples/wt_H3K4me3_read1.fastq.gz -2 /sc/arion/scratch/arayan01/projects/chipseq_tut/data/samples/wt_H3K4me3_read2.fastq.gz -S /sc/arion/scratch/arayan01/projects/chipseq_tut/results/mapping/output.sam --met-file /sc/arion/scratch/arayan01/projects/chipseq_tut/results/mapping/bowtie2_mapping_stats.txt
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   12.58 sec.
+    Max Memory :                                 3006 MB
+    Average Memory :                             1918.46 MB
+    Total Requested Memory :                     16000.00 MB
+    Delta Memory :                               12994.00 MB
+    Max Swap :                                   -
+    Max Processes :                              8
+    Max Threads :                                10
+    Run time :                                   22 sec.
+    Turnaround time :                            28 sec.
+
+The output (if any) follows:
+
+50000 reads; of these:
+  50000 (100.00%) were paired; of these:
+    1880 (3.76%) aligned concordantly 0 times
+    44731 (89.46%) aligned concordantly exactly 1 time
+    3389 (6.78%) aligned concordantly >1 times
+    ----
+    1880 pairs aligned concordantly 0 times; of these:
+      275 (14.63%) aligned discordantly 1 time
+    ----
+    1605 pairs aligned 0 times concordantly or discordantly; of these:
+      3210 mates make up the pairs; of these:
+        1882 (58.63%) aligned 0 times
+        947 (29.50%) aligned exactly 1 time
+        381 (11.87%) aligned >1 times
+98.12% overall alignment rate

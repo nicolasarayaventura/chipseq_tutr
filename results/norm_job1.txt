@@ -1,0 +1,133 @@
+Sender: LSF System <lsfadmin@lh06c10>
+Subject: Job 175996622: <samtools idxstats /wt_input_rep1.bam> in cluster <chimera> Exited
+
+Job <samtools idxstats /wt_input_rep1.bam> was submitted from host <li04e04> by user <arayan01> in cluster <chimera> at Tue Mar 25 13:58:23 2025
+Job was executed on host(s) <1*lh06c10>, in queue <premium>, as user <arayan01> in cluster <chimera> at Tue Mar 25 13:58:27 2025
+                            <1*lh06c19>
+</hpc/users/arayan01> was used as the home directory.
+</sc/arion/scratch/arayan01/projects/chipseq_tut/results> was used as the working directory.
+Started at Tue Mar 25 13:58:27 2025
+Terminated at Tue Mar 25 13:58:28 2025
+Results reported at Tue Mar 25 13:58:28 2025
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+samtools idxstats /wt_input_rep1.bam
+------------------------------------------------------------
+
+Exited with exit code 1.
+
+Resource usage summary:
+
+    CPU time :                                   0.03 sec.
+    Max Memory :                                 5 MB
+    Average Memory :                             5.00 MB
+    Total Requested Memory :                     16000.00 MB
+    Delta Memory :                               15995.00 MB
+    Max Swap :                                   -
+    Max Processes :                              3
+    Max Threads :                                4
+    Run time :                                   1 sec.
+    Turnaround time :                            5 sec.
+
+The output (if any) follows:
+
+[E::hts_open_format] Failed to open file /wt_input_rep1.bam
+samtools idxstats: failed to open "/wt_input_rep1.bam": No such file or directory
+Sender: LSF System <lsfadmin@lh06c08>
+Subject: Job 175998747: <samtools idxstats /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_input_rep1.bam> in cluster <chimera> Done
+
+Job <samtools idxstats /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_input_rep1.bam> was submitted from host <li04e04> by user <arayan01> in cluster <chimera> at Tue Mar 25 14:01:53 2025
+Job was executed on host(s) <1*lh06c08>, in queue <premium>, as user <arayan01> in cluster <chimera> at Tue Mar 25 14:01:57 2025
+                            <1*lh06c17>
+</hpc/users/arayan01> was used as the home directory.
+</sc/arion/scratch/arayan01/projects/chipseq_tut/results> was used as the working directory.
+Started at Tue Mar 25 14:01:57 2025
+Terminated at Tue Mar 25 14:01:58 2025
+Results reported at Tue Mar 25 14:01:58 2025
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+samtools idxstats /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_input_rep1.bam
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   0.03 sec.
+    Max Memory :                                 5 MB
+    Average Memory :                             5.00 MB
+    Total Requested Memory :                     16000.00 MB
+    Delta Memory :                               15995.00 MB
+    Max Swap :                                   -
+    Max Processes :                              3
+    Max Threads :                                4
+    Run time :                                   1 sec.
+    Turnaround time :                            5 sec.
+
+The output (if any) follows:
+
+1	195471971	0	0
+15	104043685	0	0
+3	160039680	0	0
+9	124595110	0	0
+10	130694993	0	0
+16	98207768	0	0
+4	156508116	0	0
+MT	16299	0	0
+11	122082543	0	0
+17	94987271	0	0
+5	151834684	0	0
+X	171031299	1893595	0
+12	120129022	0	0
+18	90702639	0	0
+6	149736546	0	0
+Y	91744698	0	0
+13	120421639	0	0
+19	61431566	0	0
+7	145441459	0	0
+14	124902244	0	0
+2	182113224	0	0
+8	129401213	0	0
+*	0	0	0
+Sender: LSF System <lsfadmin@lh06c16>
+Subject: Job 175998861: <samtools idxstats /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_input_rep1.bam > /sc/arion/scratch/arayan01/projects/chipseq_tut/results/norm/input_rep.idxstats.txt> in cluster <chimera> Done
+
+Job <samtools idxstats /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_input_rep1.bam > /sc/arion/scratch/arayan01/projects/chipseq_tut/results/norm/input_rep.idxstats.txt> was submitted from host <li04e04> by user <arayan01> in cluster <chimera> at Tue Mar 25 14:02:44 2025
+Job was executed on host(s) <1*lh06c16>, in queue <premium>, as user <arayan01> in cluster <chimera> at Tue Mar 25 14:02:48 2025
+                            <1*lh06c14>
+</hpc/users/arayan01> was used as the home directory.
+</sc/arion/scratch/arayan01/projects/chipseq_tut/results> was used as the working directory.
+Started at Tue Mar 25 14:02:48 2025
+Terminated at Tue Mar 25 14:02:48 2025
+Results reported at Tue Mar 25 14:02:48 2025
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+samtools idxstats /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_input_rep1.bam > /sc/arion/scratch/arayan01/projects/chipseq_tut/results/norm/input_rep.idxstats.txt
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   0.03 sec.
+    Max Memory :                                 5 MB
+    Average Memory :                             5.00 MB
+    Total Requested Memory :                     16000.00 MB
+    Delta Memory :                               15995.00 MB
+    Max Swap :                                   -
+    Max Processes :                              3
+    Max Threads :                                4
+    Run time :                                   0 sec.
+    Turnaround time :                            4 sec.
+
+The output (if any) follows:
+

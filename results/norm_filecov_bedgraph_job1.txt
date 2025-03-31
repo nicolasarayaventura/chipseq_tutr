@@ -1,0 +1,304 @@
+Sender: LSF System <lsfadmin@lh06c09>
+Subject: Job 176309430: <bamCoverage -b /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K4me3_rep1.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_input_rep1.bam -bs 25 --normalizeUsing RPGC --effectiveGenomeSize 2308125349 -of bedgraph -r chrX -o /sc/arion/scratch/arayan01/projects/chipseq_tut/results/norm/wt_H3K4me3_rep1_chrX.bdg> in cluster <chimera> Exited
+
+Job <bamCoverage -b /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K4me3_rep1.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_input_rep1.bam -bs 25 --normalizeUsing RPGC --effectiveGenomeSize 2308125349 -of bedgraph -r chrX -o /sc/arion/scratch/arayan01/projects/chipseq_tut/results/norm/wt_H3K4me3_rep1_chrX.bdg> was submitted from host <li04e04> by user <arayan01> in cluster <chimera> at Thu Mar 27 15:22:16 2025
+Job was executed on host(s) <1*lh06c09>, in queue <premium>, as user <arayan01> in cluster <chimera> at Thu Mar 27 15:22:22 2025
+                            <1*lh06c28>
+</hpc/users/arayan01> was used as the home directory.
+</sc/arion/scratch/arayan01/projects/chipseq_tut/results> was used as the working directory.
+Started at Thu Mar 27 15:22:22 2025
+Terminated at Thu Mar 27 15:22:34 2025
+Results reported at Thu Mar 27 15:22:34 2025
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+bamCoverage -b /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K4me3_rep1.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_input_rep1.bam -bs 25 --normalizeUsing RPGC --effectiveGenomeSize 2308125349 -of bedgraph -r chrX -o /sc/arion/scratch/arayan01/projects/chipseq_tut/results/norm/wt_H3K4me3_rep1_chrX.bdg
+------------------------------------------------------------
+
+Exited with exit code 2.
+
+Resource usage summary:
+
+    CPU time :                                   0.29 sec.
+    Max Memory :                                 18 MB
+    Average Memory :                             13.67 MB
+    Total Requested Memory :                     16000.00 MB
+    Delta Memory :                               15982.00 MB
+    Max Swap :                                   -
+    Max Processes :                              3
+    Max Threads :                                4
+    Run time :                                   12 sec.
+    Turnaround time :                            18 sec.
+
+The output (if any) follows:
+
+usage: An example usage is:$ bamCoverage -b reads.bam -o coverage.bw
+bamCoverage: error: unrecognized arguments: /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_input_rep1.bam RPGC --effectiveGenomeSize 2308125349
+Sender: LSF System <lsfadmin@lc06e13>
+Subject: Job 176309433: <bamCoverage -b /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K4me3_rep1.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_input_rep1.bam -bs 25 --normalizeUsing RPGC --effectiveGenomeSize 2308125349 -of bigwig -r chrX -o /sc/arion/scratch/arayan01/projects/chipseq_tut/results/norm/wt_H3K4me3_rep1_chrX.bw> in cluster <chimera> Exited
+
+Job <bamCoverage -b /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K4me3_rep1.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_input_rep1.bam -bs 25 --normalizeUsing RPGC --effectiveGenomeSize 2308125349 -of bigwig -r chrX -o /sc/arion/scratch/arayan01/projects/chipseq_tut/results/norm/wt_H3K4me3_rep1_chrX.bw> was submitted from host <li04e04> by user <arayan01> in cluster <chimera> at Thu Mar 27 15:22:16 2025
+Job was executed on host(s) <1*lc06e13>, in queue <premium>, as user <arayan01> in cluster <chimera> at Thu Mar 27 15:22:22 2025
+                            <1*lc07e51>
+</hpc/users/arayan01> was used as the home directory.
+</sc/arion/scratch/arayan01/projects/chipseq_tut/results> was used as the working directory.
+Started at Thu Mar 27 15:22:22 2025
+Terminated at Thu Mar 27 15:22:34 2025
+Results reported at Thu Mar 27 15:22:34 2025
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+bamCoverage -b /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K4me3_rep1.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_input_rep1.bam -bs 25 --normalizeUsing RPGC --effectiveGenomeSize 2308125349 -of bigwig -r chrX -o /sc/arion/scratch/arayan01/projects/chipseq_tut/results/norm/wt_H3K4me3_rep1_chrX.bw
+------------------------------------------------------------
+
+Exited with exit code 2.
+
+Resource usage summary:
+
+    CPU time :                                   0.23 sec.
+    Max Memory :                                 21 MB
+    Average Memory :                             15.57 MB
+    Total Requested Memory :                     16000.00 MB
+    Delta Memory :                               15979.00 MB
+    Max Swap :                                   -
+    Max Processes :                              3
+    Max Threads :                                4
+    Run time :                                   12 sec.
+    Turnaround time :                            18 sec.
+
+The output (if any) follows:
+
+usage: An example usage is:$ bamCoverage -b reads.bam -o coverage.bw
+bamCoverage: error: unrecognized arguments: /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_input_rep1.bam RPGC --effectiveGenomeSize 2308125349
+Sender: LSF System <lsfadmin@lh06c09>
+Subject: Job 176311892: <bamCoverage -b /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K4me3_rep1.bam -bs 25 --normalizeUsing RPGC --effectiveGenomeSize 2308125349 -of bedgraph -r chrX -o /sc/arion/scratch/arayan01/projects/chipseq_tut/results/norm/wt_H3K4me3_rep1_chrX.bdg> in cluster <chimera> Exited
+
+Job <bamCoverage -b /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K4me3_rep1.bam -bs 25 --normalizeUsing RPGC --effectiveGenomeSize 2308125349 -of bedgraph -r chrX -o /sc/arion/scratch/arayan01/projects/chipseq_tut/results/norm/wt_H3K4me3_rep1_chrX.bdg> was submitted from host <li04e04> by user <arayan01> in cluster <chimera> at Thu Mar 27 15:27:32 2025
+Job was executed on host(s) <1*lh06c09>, in queue <premium>, as user <arayan01> in cluster <chimera> at Thu Mar 27 15:27:37 2025
+                            <1*lh06c18>
+</hpc/users/arayan01> was used as the home directory.
+</sc/arion/scratch/arayan01/projects/chipseq_tut/results> was used as the working directory.
+Started at Thu Mar 27 15:27:37 2025
+Terminated at Thu Mar 27 15:27:49 2025
+Results reported at Thu Mar 27 15:27:49 2025
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+bamCoverage -b /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K4me3_rep1.bam -bs 25 --normalizeUsing RPGC --effectiveGenomeSize 2308125349 -of bedgraph -r chrX -o /sc/arion/scratch/arayan01/projects/chipseq_tut/results/norm/wt_H3K4me3_rep1_chrX.bdg
+------------------------------------------------------------
+
+Exited with exit code 2.
+
+Resource usage summary:
+
+    CPU time :                                   0.31 sec.
+    Max Memory :                                 26 MB
+    Average Memory :                             18.00 MB
+    Total Requested Memory :                     16000.00 MB
+    Delta Memory :                               15974.00 MB
+    Max Swap :                                   -
+    Max Processes :                              3
+    Max Threads :                                4
+    Run time :                                   12 sec.
+    Turnaround time :                            17 sec.
+
+The output (if any) follows:
+
+usage: An example usage is:$ bamCoverage -b reads.bam -o coverage.bw
+bamCoverage: error: unrecognized arguments: RPGC --effectiveGenomeSize 2308125349
+Sender: LSF System <lsfadmin@lh06c05>
+Subject: Job 176313671: <bamCoverage -b /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K4me3_rep1.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_input_rep1.bam -o /sc/arion/scratch/arayan01/projects/chipseq_tut/results/norm/wt_H3K4me3_rep1_chrX.bdg -bs 25 --normalizeUsing RPGC --effectiveGenomeSize 2308125349 -of bedgraph -r chrX> in cluster <chimera> Exited
+
+Job <bamCoverage -b /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K4me3_rep1.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_input_rep1.bam -o /sc/arion/scratch/arayan01/projects/chipseq_tut/results/norm/wt_H3K4me3_rep1_chrX.bdg -bs 25 --normalizeUsing RPGC --effectiveGenomeSize 2308125349 -of bedgraph -r chrX> was submitted from host <li04e04> by user <arayan01> in cluster <chimera> at Thu Mar 27 15:30:45 2025
+Job was executed on host(s) <1*lh06c05>, in queue <premium>, as user <arayan01> in cluster <chimera> at Thu Mar 27 15:30:52 2025
+                            <1*lh06c21>
+</hpc/users/arayan01> was used as the home directory.
+</sc/arion/scratch/arayan01/projects/chipseq_tut/results> was used as the working directory.
+Started at Thu Mar 27 15:30:52 2025
+Terminated at Thu Mar 27 15:31:06 2025
+Results reported at Thu Mar 27 15:31:06 2025
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+bamCoverage -b /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K4me3_rep1.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_input_rep1.bam -o /sc/arion/scratch/arayan01/projects/chipseq_tut/results/norm/wt_H3K4me3_rep1_chrX.bdg -bs 25 --normalizeUsing RPGC --effectiveGenomeSize 2308125349 -of bedgraph -r chrX
+------------------------------------------------------------
+
+Exited with exit code 2.
+
+Resource usage summary:
+
+    CPU time :                                   0.30 sec.
+    Max Memory :                                 28 MB
+    Average Memory :                             19.62 MB
+    Total Requested Memory :                     16000.00 MB
+    Delta Memory :                               15972.00 MB
+    Max Swap :                                   -
+    Max Processes :                              3
+    Max Threads :                                4
+    Run time :                                   12 sec.
+    Turnaround time :                            21 sec.
+
+The output (if any) follows:
+
+usage: An example usage is:$ bamCoverage -b reads.bam -o coverage.bw
+bamCoverage: error: unrecognized arguments: /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_input_rep1.bam RPGC --effectiveGenomeSize 2308125349
+Sender: LSF System <lsfadmin@lc06e61>
+Subject: Job 176313808: <bamCoverage -b /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K4me3_rep1.bam -o /sc/arion/scratch/arayan01/projects/chipseq_tut/results/norm/wt_H3K4me3_rep1_chrX.bdg -bs 25 --normalizeUsing RPGC --effectiveGenomeSize 2308125349 -of bedgraph -r chrX> in cluster <chimera> Exited
+
+Job <bamCoverage -b /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K4me3_rep1.bam -o /sc/arion/scratch/arayan01/projects/chipseq_tut/results/norm/wt_H3K4me3_rep1_chrX.bdg -bs 25 --normalizeUsing RPGC --effectiveGenomeSize 2308125349 -of bedgraph -r chrX> was submitted from host <li04e04> by user <arayan01> in cluster <chimera> at Thu Mar 27 15:32:16 2025
+Job was executed on host(s) <1*lc06e61>, in queue <premium>, as user <arayan01> in cluster <chimera> at Thu Mar 27 15:32:23 2025
+                            <1*lc07e69>
+</hpc/users/arayan01> was used as the home directory.
+</sc/arion/scratch/arayan01/projects/chipseq_tut/results> was used as the working directory.
+Started at Thu Mar 27 15:32:23 2025
+Terminated at Thu Mar 27 15:32:33 2025
+Results reported at Thu Mar 27 15:32:33 2025
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+bamCoverage -b /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K4me3_rep1.bam -o /sc/arion/scratch/arayan01/projects/chipseq_tut/results/norm/wt_H3K4me3_rep1_chrX.bdg -bs 25 --normalizeUsing RPGC --effectiveGenomeSize 2308125349 -of bedgraph -r chrX
+------------------------------------------------------------
+
+Exited with exit code 2.
+
+Resource usage summary:
+
+    CPU time :                                   0.22 sec.
+    Max Memory :                                 21 MB
+    Average Memory :                             16.00 MB
+    Total Requested Memory :                     16000.00 MB
+    Delta Memory :                               15979.00 MB
+    Max Swap :                                   -
+    Max Processes :                              3
+    Max Threads :                                4
+    Run time :                                   10 sec.
+    Turnaround time :                            17 sec.
+
+The output (if any) follows:
+
+usage: An example usage is:$ bamCoverage -b reads.bam -o coverage.bw
+bamCoverage: error: unrecognized arguments: RPGC --effectiveGenomeSize 2308125349
+Sender: LSF System <lsfadmin@lc06e30>
+Subject: Job 176313878: <bamCoverage -b /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K4me3_rep1.bam -o /sc/arion/scratch/arayan01/projects/chipseq_tut/results/norm/wt_H3K4me3_rep1_chrX.bdg -bs 25 --normalizeUsing RPGC --effectiveGenomeSize 2308125349 -of bedgraph -r chrX> in cluster <chimera> Exited
+
+Job <bamCoverage -b /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K4me3_rep1.bam -o /sc/arion/scratch/arayan01/projects/chipseq_tut/results/norm/wt_H3K4me3_rep1_chrX.bdg -bs 25 --normalizeUsing RPGC --effectiveGenomeSize 2308125349 -of bedgraph -r chrX> was submitted from host <li04e04> by user <arayan01> in cluster <chimera> at Thu Mar 27 15:33:10 2025
+Job was executed on host(s) <1*lc06e30>, in queue <premium>, as user <arayan01> in cluster <chimera> at Thu Mar 27 15:33:18 2025
+                            <1*lc07e44>
+</hpc/users/arayan01> was used as the home directory.
+</sc/arion/scratch/arayan01/projects/chipseq_tut/results> was used as the working directory.
+Started at Thu Mar 27 15:33:18 2025
+Terminated at Thu Mar 27 15:33:30 2025
+Results reported at Thu Mar 27 15:33:30 2025
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+bamCoverage -b /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K4me3_rep1.bam -o /sc/arion/scratch/arayan01/projects/chipseq_tut/results/norm/wt_H3K4me3_rep1_chrX.bdg -bs 25 --normalizeUsing RPGC --effectiveGenomeSize 2308125349 -of bedgraph -r chrX
+------------------------------------------------------------
+
+Exited with exit code 2.
+
+Resource usage summary:
+
+    CPU time :                                   0.23 sec.
+    Max Memory :                                 23 MB
+    Average Memory :                             16.14 MB
+    Total Requested Memory :                     16000.00 MB
+    Delta Memory :                               15977.00 MB
+    Max Swap :                                   -
+    Max Processes :                              3
+    Max Threads :                                4
+    Run time :                                   12 sec.
+    Turnaround time :                            20 sec.
+
+The output (if any) follows:
+
+usage: An example usage is:$ bamCoverage -b reads.bam -o coverage.bw
+bamCoverage: error: unrecognized arguments: RPGC --effectiveGenomeSize 2308125349
+Sender: LSF System <lsfadmin@lh06c11>
+Subject: Job 176314210: <bamCoverage --bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K4me3_rep1.bam -o /sc/arion/scratch/arayan01/projects/chipseq_tut/results/norm/wt_H3K4me3_rep1.bw --binSize 25 --normalizeUsing RPGC --effectiveGenomeSize 2308125349 -r chrX> in cluster <chimera> Exited
+
+Job <bamCoverage --bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K4me3_rep1.bam -o /sc/arion/scratch/arayan01/projects/chipseq_tut/results/norm/wt_H3K4me3_rep1.bw --binSize 25 --normalizeUsing RPGC --effectiveGenomeSize 2308125349 -r chrX> was submitted from host <li04e04> by user <arayan01> in cluster <chimera> at Thu Mar 27 15:36:31 2025
+Job was executed on host(s) <1*lh06c11>, in queue <premium>, as user <arayan01> in cluster <chimera> at Thu Mar 27 15:36:39 2025
+                            <1*lh06c23>
+</hpc/users/arayan01> was used as the home directory.
+</sc/arion/scratch/arayan01/projects/chipseq_tut/results> was used as the working directory.
+Started at Thu Mar 27 15:36:39 2025
+Terminated at Thu Mar 27 15:36:49 2025
+Results reported at Thu Mar 27 15:36:49 2025
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+bamCoverage --bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K4me3_rep1.bam -o /sc/arion/scratch/arayan01/projects/chipseq_tut/results/norm/wt_H3K4me3_rep1.bw --binSize 25 --normalizeUsing RPGC --effectiveGenomeSize 2308125349 -r chrX
+------------------------------------------------------------
+
+Exited with exit code 2.
+
+Resource usage summary:
+
+    CPU time :                                   0.28 sec.
+    Max Memory :                                 23 MB
+    Average Memory :                             16.43 MB
+    Total Requested Memory :                     16000.00 MB
+    Delta Memory :                               15977.00 MB
+    Max Swap :                                   -
+    Max Processes :                              3
+    Max Threads :                                4
+    Run time :                                   10 sec.
+    Turnaround time :                            18 sec.
+
+The output (if any) follows:
+
+usage: An example usage is:$ bamCoverage -b reads.bam -o coverage.bw
+bamCoverage: error: unrecognized arguments: RPGC --effectiveGenomeSize 2308125349
+Sender: LSF System <lsfadmin@lc07e18>
+Subject: Job 176314283: <bamCoverage --bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K4me3_rep1.bam -o /sc/arion/scratch/arayan01/projects/chipseq_tut/results/norm/wt_H3K4me3_rep1.bw --binSize 25 --normalizeUsing RPGC --effectiveGenomeSize 2308125349 -r chrX> in cluster <chimera> Exited
+
+Job <bamCoverage --bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K4me3_rep1.bam -o /sc/arion/scratch/arayan01/projects/chipseq_tut/results/norm/wt_H3K4me3_rep1.bw --binSize 25 --normalizeUsing RPGC --effectiveGenomeSize 2308125349 -r chrX> was submitted from host <li04e04> by user <arayan01> in cluster <chimera> at Thu Mar 27 15:37:32 2025
+Job was executed on host(s) <1*lc07e18>, in queue <premium>, as user <arayan01> in cluster <chimera> at Thu Mar 27 15:37:39 2025
+                            <1*lc06e53>
+</hpc/users/arayan01> was used as the home directory.
+</sc/arion/scratch/arayan01/projects/chipseq_tut/results> was used as the working directory.
+Started at Thu Mar 27 15:37:39 2025
+Terminated at Thu Mar 27 15:37:51 2025
+Results reported at Thu Mar 27 15:37:51 2025
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+bamCoverage --bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K4me3_rep1.bam -o /sc/arion/scratch/arayan01/projects/chipseq_tut/results/norm/wt_H3K4me3_rep1.bw --binSize 25 --normalizeUsing RPGC --effectiveGenomeSize 2308125349 -r chrX
+------------------------------------------------------------
+
+Exited with exit code 2.
+
+Resource usage summary:
+
+    CPU time :                                   0.21 sec.
+    Max Memory :                                 21 MB
+    Average Memory :                             13.43 MB
+    Total Requested Memory :                     16000.00 MB
+    Delta Memory :                               15979.00 MB
+    Max Swap :                                   -
+    Max Processes :                              3
+    Max Threads :                                4
+    Run time :                                   12 sec.
+    Turnaround time :                            19 sec.
+
+The output (if any) follows:
+
+usage: An example usage is:$ bamCoverage -b reads.bam -o coverage.bw
+bamCoverage: error: unrecognized arguments: RPGC --effectiveGenomeSize 2308125349

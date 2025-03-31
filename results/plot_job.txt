@@ -1,0 +1,296 @@
+Sender: LSF System <lsfadmin@lh06c13>
+Subject: Job 175982804: <plotCorrelation --corData /sc/arion/scratch/arayan01/projects/chipseq_tut/results/chipqc/output_matrix.npz --corMethod pearson --plotTitle "Correlation of BAM Samples" --whatToPlot heatmap --outFileCorMatrix correlation_matrix.txt --outFileName correlation_plot.png> in cluster <chimera> Exited
+
+Job <plotCorrelation --corData /sc/arion/scratch/arayan01/projects/chipseq_tut/results/chipqc/output_matrix.npz --corMethod pearson --plotTitle "Correlation of BAM Samples" --whatToPlot heatmap --outFileCorMatrix correlation_matrix.txt --outFileName correlation_plot.png> was submitted from host <li04e04> by user <arayan01> in cluster <chimera> at Tue Mar 25 11:58:03 2025
+Job was executed on host(s) <1*lh06c13>, in queue <premium>, as user <arayan01> in cluster <chimera> at Tue Mar 25 11:58:05 2025
+                            <1*lh06c17>
+</hpc/users/arayan01> was used as the home directory.
+</sc/arion/scratch/arayan01/projects/chipseq_tut/results> was used as the working directory.
+Started at Tue Mar 25 11:58:05 2025
+Terminated at Tue Mar 25 11:58:19 2025
+Results reported at Tue Mar 25 11:58:19 2025
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+plotCorrelation --corData /sc/arion/scratch/arayan01/projects/chipseq_tut/results/chipqc/output_matrix.npz --corMethod pearson --plotTitle "Correlation of BAM Samples" --whatToPlot heatmap --outFileCorMatrix correlation_matrix.txt --outFileName correlation_plot.png
+------------------------------------------------------------
+
+Exited with exit code 2.
+
+Resource usage summary:
+
+    CPU time :                                   0.72 sec.
+    Max Memory :                                 53 MB
+    Average Memory :                             34.67 MB
+    Total Requested Memory :                     16000.00 MB
+    Delta Memory :                               15947.00 MB
+    Max Swap :                                   -
+    Max Processes :                              3
+    Max Threads :                                4
+    Run time :                                   13 sec.
+    Turnaround time :                            16 sec.
+
+The output (if any) follows:
+
+usage: plotCorrelation [-h] --corData FILE --plotFile FILE --corMethod
+                       {spearman,pearson} --whatToPlot {heatmap,scatterplot}
+                       [--skipZeros]
+                       [--labels sample1 sample2 [sample1 sample2 ...]]
+                       [--plotTitle PLOTTITLE] [--plotFileFormat FILETYPE]
+                       [--removeOutliers] [--version]
+                       [--outFileCorMatrix FILE] [--plotHeight PLOTHEIGHT]
+                       [--plotWidth PLOTWIDTH] [--zMin ZMIN] [--zMax ZMAX]
+                       [--colorMap] [--plotNumbers]
+plotCorrelation: error: argument --plotFile/-o is required
+Sender: LSF System <lsfadmin@lh06c28>
+Subject: Job 175985294: <plotCorrelation --corData results/chipqc/output_matrix.npz/output_matrix.npz -in pearson -T "Correlation of BAM Samples" -p heatmap --outFileCorMatrix correlation_matrix.txt -o correlation_plot.png> in cluster <chimera> Exited
+
+Job <plotCorrelation --corData results/chipqc/output_matrix.npz/output_matrix.npz -in pearson -T "Correlation of BAM Samples" -p heatmap --outFileCorMatrix correlation_matrix.txt -o correlation_plot.png> was submitted from host <li04e04> by user <arayan01> in cluster <chimera> at Tue Mar 25 12:20:25 2025
+Job was executed on host(s) <1*lh06c28>, in queue <premium>, as user <arayan01> in cluster <chimera> at Tue Mar 25 12:20:30 2025
+                            <1*lh06c19>
+</hpc/users/arayan01> was used as the home directory.
+</sc/arion/scratch/arayan01/projects/chipseq_tut/results> was used as the working directory.
+Started at Tue Mar 25 12:20:30 2025
+Terminated at Tue Mar 25 12:20:30 2025
+Results reported at Tue Mar 25 12:20:30 2025
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+plotCorrelation --corData results/chipqc/output_matrix.npz/output_matrix.npz -in pearson -T "Correlation of BAM Samples" -p heatmap --outFileCorMatrix correlation_matrix.txt -o correlation_plot.png
+------------------------------------------------------------
+
+Exited with exit code 127.
+
+Resource usage summary:
+
+    CPU time :                                   0.04 sec.
+    Max Memory :                                 -
+    Average Memory :                             -
+    Total Requested Memory :                     16000.00 MB
+    Delta Memory :                               -
+    Max Swap :                                   -
+    Max Processes :                              -
+    Max Threads :                                -
+    Run time :                                   0 sec.
+    Turnaround time :                            5 sec.
+
+The output (if any) follows:
+
+/local/JOBS/1742919625.175985294: line 8: plotCorrelation: command not found
+Sender: LSF System <lsfadmin@lh06c04>
+Subject: Job 175985606: <plotCorrelation --corData /sc/arion/scratch/arayan01/projects/chipseq_tut/results/chipqc/output_matrix.npz/output_matrix.npz -in pearson -T "Correlation of BAM Samples" -p heatmap --outFileCorMatrix correlation_matrix.txt -o correlation_plot.png> in cluster <chimera> Exited
+
+Job <plotCorrelation --corData /sc/arion/scratch/arayan01/projects/chipseq_tut/results/chipqc/output_matrix.npz/output_matrix.npz -in pearson -T "Correlation of BAM Samples" -p heatmap --outFileCorMatrix correlation_matrix.txt -o correlation_plot.png> was submitted from host <li04e04> by user <arayan01> in cluster <chimera> at Tue Mar 25 12:24:49 2025
+Job was executed on host(s) <2*lh06c04>, in queue <premium>, as user <arayan01> in cluster <chimera> at Tue Mar 25 12:24:55 2025
+</hpc/users/arayan01> was used as the home directory.
+</sc/arion/scratch/arayan01/projects/chipseq_tut/results> was used as the working directory.
+Started at Tue Mar 25 12:24:55 2025
+Terminated at Tue Mar 25 12:24:55 2025
+Results reported at Tue Mar 25 12:24:55 2025
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+plotCorrelation --corData /sc/arion/scratch/arayan01/projects/chipseq_tut/results/chipqc/output_matrix.npz/output_matrix.npz -in pearson -T "Correlation of BAM Samples" -p heatmap --outFileCorMatrix correlation_matrix.txt -o correlation_plot.png
+------------------------------------------------------------
+
+Exited with exit code 127.
+
+Resource usage summary:
+
+    CPU time :                                   0.02 sec.
+    Max Memory :                                 -
+    Average Memory :                             -
+    Total Requested Memory :                     16000.00 MB
+    Delta Memory :                               -
+    Max Swap :                                   -
+    Max Processes :                              -
+    Max Threads :                                -
+    Run time :                                   0 sec.
+    Turnaround time :                            6 sec.
+
+The output (if any) follows:
+
+/local/JOBS/1742919889.175985606: line 8: plotCorrelation: command not found
+Sender: LSF System <lsfadmin@lh06c04>
+Subject: Job 175985674: <plotCorrelation --corData /sc/arion/scratch/arayan01/projects/chipseq_tut/results/chipqc/output_matrix.npz/output_matrix.npz -in pearson -T "Correlation of BAM Samples" -p heatmap --outFileCorMatrix correlation_matrix.txt -o correlation_plot.png> in cluster <chimera> Exited
+
+Job <plotCorrelation --corData /sc/arion/scratch/arayan01/projects/chipseq_tut/results/chipqc/output_matrix.npz/output_matrix.npz -in pearson -T "Correlation of BAM Samples" -p heatmap --outFileCorMatrix correlation_matrix.txt -o correlation_plot.png> was submitted from host <li04e04> by user <arayan01> in cluster <chimera> at Tue Mar 25 12:25:41 2025
+Job was executed on host(s) <2*lh06c04>, in queue <premium>, as user <arayan01> in cluster <chimera> at Tue Mar 25 12:25:46 2025
+</hpc/users/arayan01> was used as the home directory.
+</sc/arion/scratch/arayan01/projects/chipseq_tut/results> was used as the working directory.
+Started at Tue Mar 25 12:25:46 2025
+Terminated at Tue Mar 25 12:25:59 2025
+Results reported at Tue Mar 25 12:25:59 2025
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+plotCorrelation --corData /sc/arion/scratch/arayan01/projects/chipseq_tut/results/chipqc/output_matrix.npz/output_matrix.npz -in pearson -T "Correlation of BAM Samples" -p heatmap --outFileCorMatrix correlation_matrix.txt -o correlation_plot.png
+------------------------------------------------------------
+
+Exited with exit code 2.
+
+Resource usage summary:
+
+    CPU time :                                   0.58 sec.
+    Max Memory :                                 55 MB
+    Average Memory :                             36.89 MB
+    Total Requested Memory :                     16000.00 MB
+    Delta Memory :                               15945.00 MB
+    Max Swap :                                   -
+    Max Processes :                              3
+    Max Threads :                                4
+    Run time :                                   13 sec.
+    Turnaround time :                            18 sec.
+
+The output (if any) follows:
+
+usage: plotCorrelation [-h] --corData FILE --plotFile FILE --corMethod
+                       {spearman,pearson} --whatToPlot {heatmap,scatterplot}
+                       [--skipZeros]
+                       [--labels sample1 sample2 [sample1 sample2 ...]]
+                       [--plotTitle PLOTTITLE] [--plotFileFormat FILETYPE]
+                       [--removeOutliers] [--version]
+                       [--outFileCorMatrix FILE] [--plotHeight PLOTHEIGHT]
+                       [--plotWidth PLOTWIDTH] [--zMin ZMIN] [--zMax ZMAX]
+                       [--colorMap] [--plotNumbers]
+plotCorrelation: error: argument --corMethod/-c is required
+Sender: LSF System <lsfadmin@lh06c04>
+Subject: Job 175985797: <plotCorrelation -in /sc/arion/scratch/arayan01/projects/chipseq_tut/results/chipqc/output_matrix.npz/output_matrix.npz -corMethod pearson -T "Correlation of BAM Samples" -p heatmap --outFileCorMatrix correlation_matrix.txt -o correlation_plot.png> in cluster <chimera> Exited
+
+Job <plotCorrelation -in /sc/arion/scratch/arayan01/projects/chipseq_tut/results/chipqc/output_matrix.npz/output_matrix.npz -corMethod pearson -T "Correlation of BAM Samples" -p heatmap --outFileCorMatrix correlation_matrix.txt -o correlation_plot.png> was submitted from host <li04e04> by user <arayan01> in cluster <chimera> at Tue Mar 25 12:27:29 2025
+Job was executed on host(s) <1*lh06c04>, in queue <premium>, as user <arayan01> in cluster <chimera> at Tue Mar 25 12:27:35 2025
+                            <1*lh06c29>
+</hpc/users/arayan01> was used as the home directory.
+</sc/arion/scratch/arayan01/projects/chipseq_tut/results> was used as the working directory.
+Started at Tue Mar 25 12:27:35 2025
+Terminated at Tue Mar 25 12:27:47 2025
+Results reported at Tue Mar 25 12:27:47 2025
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+plotCorrelation -in /sc/arion/scratch/arayan01/projects/chipseq_tut/results/chipqc/output_matrix.npz/output_matrix.npz -corMethod pearson -T "Correlation of BAM Samples" -p heatmap --outFileCorMatrix correlation_matrix.txt -o correlation_plot.png
+------------------------------------------------------------
+
+Exited with exit code 2.
+
+Resource usage summary:
+
+    CPU time :                                   0.57 sec.
+    Max Memory :                                 60 MB
+    Average Memory :                             38.78 MB
+    Total Requested Memory :                     16000.00 MB
+    Delta Memory :                               15940.00 MB
+    Max Swap :                                   -
+    Max Processes :                              3
+    Max Threads :                                4
+    Run time :                                   12 sec.
+    Turnaround time :                            18 sec.
+
+The output (if any) follows:
+
+usage: plotCorrelation [-h] --corData FILE --plotFile FILE --corMethod
+                       {spearman,pearson} --whatToPlot {heatmap,scatterplot}
+                       [--skipZeros]
+                       [--labels sample1 sample2 [sample1 sample2 ...]]
+                       [--plotTitle PLOTTITLE] [--plotFileFormat FILETYPE]
+                       [--removeOutliers] [--version]
+                       [--outFileCorMatrix FILE] [--plotHeight PLOTHEIGHT]
+                       [--plotWidth PLOTWIDTH] [--zMin ZMIN] [--zMax ZMAX]
+                       [--colorMap] [--plotNumbers]
+plotCorrelation: error: argument --corMethod/-c: invalid choice: 'orMethod' (choose from 'spearman', 'pearson')
+Sender: LSF System <lsfadmin@lh06c28>
+Subject: Job 175987363: <plotCorrelation -in /sc/arion/scratch/arayan01/projects/chipseq_tut/results/chipqc/output_matrix.npz -corMethod pearson -p heatmap -o /sc/arion/scratch/arayan01/projects/chipseq_tut/results/plot/correlationplot.png> in cluster <chimera> Exited
+
+Job <plotCorrelation -in /sc/arion/scratch/arayan01/projects/chipseq_tut/results/chipqc/output_matrix.npz -corMethod pearson -p heatmap -o /sc/arion/scratch/arayan01/projects/chipseq_tut/results/plot/correlationplot.png> was submitted from host <li04e04> by user <arayan01> in cluster <chimera> at Tue Mar 25 12:47:57 2025
+Job was executed on host(s) <1*lh06c28>, in queue <premium>, as user <arayan01> in cluster <chimera> at Tue Mar 25 12:48:00 2025
+                            <1*lh06c11>
+</hpc/users/arayan01> was used as the home directory.
+</sc/arion/scratch/arayan01/projects/chipseq_tut/results> was used as the working directory.
+Started at Tue Mar 25 12:48:00 2025
+Terminated at Tue Mar 25 12:48:13 2025
+Results reported at Tue Mar 25 12:48:13 2025
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+plotCorrelation -in /sc/arion/scratch/arayan01/projects/chipseq_tut/results/chipqc/output_matrix.npz -corMethod pearson -p heatmap -o /sc/arion/scratch/arayan01/projects/chipseq_tut/results/plot/correlationplot.png
+------------------------------------------------------------
+
+Exited with exit code 2.
+
+Resource usage summary:
+
+    CPU time :                                   1.10 sec.
+    Max Memory :                                 57 MB
+    Average Memory :                             36.89 MB
+    Total Requested Memory :                     16000.00 MB
+    Delta Memory :                               15943.00 MB
+    Max Swap :                                   -
+    Max Processes :                              3
+    Max Threads :                                4
+    Run time :                                   13 sec.
+    Turnaround time :                            16 sec.
+
+The output (if any) follows:
+
+usage: plotCorrelation [-h] --corData FILE --plotFile FILE --corMethod
+                       {spearman,pearson} --whatToPlot {heatmap,scatterplot}
+                       [--skipZeros]
+                       [--labels sample1 sample2 [sample1 sample2 ...]]
+                       [--plotTitle PLOTTITLE] [--plotFileFormat FILETYPE]
+                       [--removeOutliers] [--version]
+                       [--outFileCorMatrix FILE] [--plotHeight PLOTHEIGHT]
+                       [--plotWidth PLOTWIDTH] [--zMin ZMIN] [--zMax ZMAX]
+                       [--colorMap] [--plotNumbers]
+plotCorrelation: error: argument --corMethod/-c: invalid choice: 'orMethod' (choose from 'spearman', 'pearson')
+Sender: LSF System <lsfadmin@lc07e21>
+Subject: Job 175987551: <plotCorrelation -in /sc/arion/scratch/arayan01/projects/chipseq_tut/results/chipqc/output_matrix.npz -c pearson -p heatmap -o /sc/arion/scratch/arayan01/projects/chipseq_tut/results/plot/correlationplot.png> in cluster <chimera> Done
+
+Job <plotCorrelation -in /sc/arion/scratch/arayan01/projects/chipseq_tut/results/chipqc/output_matrix.npz -c pearson -p heatmap -o /sc/arion/scratch/arayan01/projects/chipseq_tut/results/plot/correlationplot.png> was submitted from host <li04e04> by user <arayan01> in cluster <chimera> at Tue Mar 25 12:49:58 2025
+Job was executed on host(s) <1*lc07e21>, in queue <premium>, as user <arayan01> in cluster <chimera> at Tue Mar 25 12:50:00 2025
+                            <1*lc07e33>
+</hpc/users/arayan01> was used as the home directory.
+</sc/arion/scratch/arayan01/projects/chipseq_tut/results> was used as the working directory.
+Started at Tue Mar 25 12:50:00 2025
+Terminated at Tue Mar 25 12:50:13 2025
+Results reported at Tue Mar 25 12:50:13 2025
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+plotCorrelation -in /sc/arion/scratch/arayan01/projects/chipseq_tut/results/chipqc/output_matrix.npz -c pearson -p heatmap -o /sc/arion/scratch/arayan01/projects/chipseq_tut/results/plot/correlationplot.png
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   0.69 sec.
+    Max Memory :                                 59 MB
+    Average Memory :                             40.00 MB
+    Total Requested Memory :                     16000.00 MB
+    Delta Memory :                               15941.00 MB
+    Max Swap :                                   -
+    Max Processes :                              3
+    Max Threads :                                4
+    Run time :                                   13 sec.
+    Turnaround time :                            15 sec.
+
+The output (if any) follows:
+
+
+Outliers were detected in the data. Consider using the --removeOutliers parameter to avoid a bias in the pearson correlation.
+/sc/arion/work/arayan01/test-env/envs/chipseq/lib/python2.7/site-packages/matplotlib/cbook/deprecation.py:107: MatplotlibDeprecationWarning: Passing one of 'on', 'true', 'off', 'false' as a boolean is deprecated; use an actual boolean (True/False) instead.
+  warnings.warn(message, mplDeprecation, stacklevel=1)

@@ -1,0 +1,852 @@
+Sender: LSF System <lsfadmin@lh06c16>
+Subject: Job 175838168: <multiBamSummary bins -b /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_CTCF_rep1.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_CTCF_rep2.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K27me3_rep1.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K27me3_rep2.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K4me3_rep1.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K4me3_rep2.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_input_rep1.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_input_rep2.bam --binSize 1000 --stepSize 500 -r chrX -o /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/output_matrix.npz> in cluster <chimera> Exited
+
+Job <multiBamSummary bins -b /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_CTCF_rep1.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_CTCF_rep2.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K27me3_rep1.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K27me3_rep2.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K4me3_rep1.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K4me3_rep2.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_input_rep1.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_input_rep2.bam --binSize 1000 --stepSize 500 -r chrX -o /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/output_matrix.npz> was submitted from host <li04e04> by user <arayan01> in cluster <chimera> at Mon Mar 24 14:09:42 2025
+Job was executed on host(s) <1*lh06c16>, in queue <premium>, as user <arayan01> in cluster <chimera> at Mon Mar 24 14:09:46 2025
+                            <1*lh06c19>
+</hpc/users/arayan01> was used as the home directory.
+</sc/arion/scratch/arayan01/projects/chipseq_tut/results> was used as the working directory.
+Started at Mon Mar 24 14:09:46 2025
+Terminated at Mon Mar 24 14:10:12 2025
+Results reported at Mon Mar 24 14:10:12 2025
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+multiBamSummary bins -b /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_CTCF_rep1.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_CTCF_rep2.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K27me3_rep1.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K27me3_rep2.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K4me3_rep1.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K4me3_rep2.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_input_rep1.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_input_rep2.bam --binSize 1000 --stepSize 500 -r chrX -o /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/output_matrix.npz
+------------------------------------------------------------
+
+Exited with exit code 2.
+
+Resource usage summary:
+
+    CPU time :                                   0.29 sec.
+    Max Memory :                                 23 MB
+    Average Memory :                             18.20 MB
+    Total Requested Memory :                     16000.00 MB
+    Delta Memory :                               15977.00 MB
+    Max Swap :                                   -
+    Max Processes :                              3
+    Max Threads :                                4
+    Run time :                                   4 sec.
+    Turnaround time :                            30 sec.
+
+The output (if any) follows:
+
+usage: multiBamSummary [-h] [--version]  ...
+multiBamSummary: error: unrecognized arguments: --stepSize 500
+Sender: LSF System <lsfadmin@lh06c20>
+Subject: Job 175838369: <multiBamSummary bins -b /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_CTCF_rep1.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_CTCF_rep2.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K27me3_rep1.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K27me3_rep2.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K4me3_rep1.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K4me3_rep2.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_input_rep1.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_input_rep2.bam --binSize 1000 --distanceBetweenBins 500 -r chrX -o /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/output_matrix.npz> in cluster <chimera> Exited
+
+Job <multiBamSummary bins -b /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_CTCF_rep1.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_CTCF_rep2.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K27me3_rep1.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K27me3_rep2.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K4me3_rep1.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K4me3_rep2.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_input_rep1.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_input_rep2.bam --binSize 1000 --distanceBetweenBins 500 -r chrX -o /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/output_matrix.npz> was submitted from host <li04e04> by user <arayan01> in cluster <chimera> at Mon Mar 24 14:12:53 2025
+Job was executed on host(s) <2*lh06c20>, in queue <premium>, as user <arayan01> in cluster <chimera> at Mon Mar 24 14:12:56 2025
+</hpc/users/arayan01> was used as the home directory.
+</sc/arion/scratch/arayan01/projects/chipseq_tut/results> was used as the working directory.
+Started at Mon Mar 24 14:12:56 2025
+Terminated at Mon Mar 24 14:13:00 2025
+Results reported at Mon Mar 24 14:13:00 2025
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+multiBamSummary bins -b /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_CTCF_rep1.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_CTCF_rep2.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K27me3_rep1.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K27me3_rep2.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K4me3_rep1.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K4me3_rep2.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_input_rep1.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_input_rep2.bam --binSize 1000 --distanceBetweenBins 500 -r chrX -o /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/output_matrix.npz
+------------------------------------------------------------
+
+Exited with exit code 1.
+
+Resource usage summary:
+
+    CPU time :                                   0.27 sec.
+    Max Memory :                                 16 MB
+    Average Memory :                             13.50 MB
+    Total Requested Memory :                     16000.00 MB
+    Delta Memory :                               15984.00 MB
+    Max Swap :                                   -
+    Max Processes :                              3
+    Max Threads :                                4
+    Run time :                                   4 sec.
+    Turnaround time :                            7 sec.
+
+The output (if any) follows:
+
+[bwHdrRead] There was an error while reading in the header!
+[pyBwOpen] bw is NULL!
+Traceback (most recent call last):
+  File "/sc/arion/work/arayan01/test-env/envs/chipseq/bin/multiBamSummary", line 11, in <module>
+    main(args)
+  File "/sc/arion/work/arayan01/test-env/envs/chipseq/lib/python2.7/site-packages/deeptools/multiBamSummary.py", line 224, in main
+    num_reads_per_bin = c.run(allArgs=args)
+  File "/sc/arion/work/arayan01/test-env/envs/chipseq/lib/python2.7/site-packages/deeptools/countReadsPerBin.py", line 244, in run
+    y = pyBigWig.open(x)
+RuntimeError: Received an error during file opening!
+Sender: LSF System <lsfadmin@lh06c24>
+Subject: Job 175838773: <multiBamSummary bins --bamfiles /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_CTCF_rep1.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_CTCF_rep2.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K27me3_rep1.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K27me3_rep2.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K4me3_rep1.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K4me3_rep2.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_input_rep1.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_input_rep2.bam --binSize 1000 --distanceBetweenBins 500 -r chrX -o /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/output_matrix.npz> in cluster <chimera> Exited
+
+Job <multiBamSummary bins --bamfiles /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_CTCF_rep1.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_CTCF_rep2.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K27me3_rep1.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K27me3_rep2.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K4me3_rep1.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K4me3_rep2.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_input_rep1.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_input_rep2.bam --binSize 1000 --distanceBetweenBins 500 -r chrX -o /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/output_matrix.npz> was submitted from host <li04e04> by user <arayan01> in cluster <chimera> at Mon Mar 24 14:16:23 2025
+Job was executed on host(s) <1*lh06c24>, in queue <premium>, as user <arayan01> in cluster <chimera> at Mon Mar 24 14:16:27 2025
+                            <1*lh06c12>
+</hpc/users/arayan01> was used as the home directory.
+</sc/arion/scratch/arayan01/projects/chipseq_tut/results> was used as the working directory.
+Started at Mon Mar 24 14:16:27 2025
+Terminated at Mon Mar 24 14:16:36 2025
+Results reported at Mon Mar 24 14:16:36 2025
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+multiBamSummary bins --bamfiles /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_CTCF_rep1.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_CTCF_rep2.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K27me3_rep1.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K27me3_rep2.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K4me3_rep1.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K4me3_rep2.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_input_rep1.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_input_rep2.bam --binSize 1000 --distanceBetweenBins 500 -r chrX -o /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/output_matrix.npz
+------------------------------------------------------------
+
+Exited with exit code 1.
+
+Resource usage summary:
+
+    CPU time :                                   0.31 sec.
+    Max Memory :                                 25 MB
+    Average Memory :                             16.00 MB
+    Total Requested Memory :                     16000.00 MB
+    Delta Memory :                               15975.00 MB
+    Max Swap :                                   -
+    Max Processes :                              3
+    Max Threads :                                4
+    Run time :                                   9 sec.
+    Turnaround time :                            13 sec.
+
+The output (if any) follows:
+
+[bwHdrRead] There was an error while reading in the header!
+[pyBwOpen] bw is NULL!
+Traceback (most recent call last):
+  File "/sc/arion/work/arayan01/test-env/envs/chipseq/bin/multiBamSummary", line 11, in <module>
+    main(args)
+  File "/sc/arion/work/arayan01/test-env/envs/chipseq/lib/python2.7/site-packages/deeptools/multiBamSummary.py", line 224, in main
+    num_reads_per_bin = c.run(allArgs=args)
+  File "/sc/arion/work/arayan01/test-env/envs/chipseq/lib/python2.7/site-packages/deeptools/countReadsPerBin.py", line 244, in run
+    y = pyBigWig.open(x)
+RuntimeError: Received an error during file opening!
+Sender: LSF System <lsfadmin@lh06c10>
+Subject: Job 175839359: <multiBamSummary bins --bamfiles /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_CTCF_rep1.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_CTCF_rep2.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K27me3_rep1.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K27me3_rep2.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K4me3_rep1.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K4me3_rep2.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_input_rep1.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_input_rep2.bam -bs 1000 -n 500 -r chrX -o /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/> in cluster <chimera> Exited
+
+Job <multiBamSummary bins --bamfiles /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_CTCF_rep1.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_CTCF_rep2.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K27me3_rep1.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K27me3_rep2.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K4me3_rep1.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K4me3_rep2.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_input_rep1.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_input_rep2.bam -bs 1000 -n 500 -r chrX -o /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/> was submitted from host <li04e04> by user <arayan01> in cluster <chimera> at Mon Mar 24 14:23:37 2025
+Job was executed on host(s) <1*lh06c10>, in queue <premium>, as user <arayan01> in cluster <chimera> at Mon Mar 24 14:23:40 2025
+                            <1*lh06c07>
+</hpc/users/arayan01> was used as the home directory.
+</sc/arion/scratch/arayan01/projects/chipseq_tut/results> was used as the working directory.
+Started at Mon Mar 24 14:23:40 2025
+Terminated at Mon Mar 24 14:23:45 2025
+Results reported at Mon Mar 24 14:23:45 2025
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+multiBamSummary bins --bamfiles /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_CTCF_rep1.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_CTCF_rep2.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K27me3_rep1.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K27me3_rep2.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K4me3_rep1.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K4me3_rep2.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_input_rep1.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_input_rep2.bam -bs 1000 -n 500 -r chrX -o /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/
+------------------------------------------------------------
+
+Exited with exit code 1.
+
+Resource usage summary:
+
+    CPU time :                                   0.27 sec.
+    Max Memory :                                 22 MB
+    Average Memory :                             17.60 MB
+    Total Requested Memory :                     16000.00 MB
+    Delta Memory :                               15978.00 MB
+    Max Swap :                                   -
+    Max Processes :                              3
+    Max Threads :                                4
+    Run time :                                   5 sec.
+    Turnaround time :                            8 sec.
+
+The output (if any) follows:
+
+[bwHdrRead] There was an error while reading in the header!
+[pyBwOpen] bw is NULL!
+Traceback (most recent call last):
+  File "/sc/arion/work/arayan01/test-env/envs/chipseq/bin/multiBamSummary", line 11, in <module>
+    main(args)
+  File "/sc/arion/work/arayan01/test-env/envs/chipseq/lib/python2.7/site-packages/deeptools/multiBamSummary.py", line 224, in main
+    num_reads_per_bin = c.run(allArgs=args)
+  File "/sc/arion/work/arayan01/test-env/envs/chipseq/lib/python2.7/site-packages/deeptools/countReadsPerBin.py", line 244, in run
+    y = pyBigWig.open(x)
+RuntimeError: Received an error during file opening!
+Sender: LSF System <lsfadmin@lh06c28>
+Subject: Job 175839465: <multiBamSummary bins --bamfiles /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_CTCF_rep1.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_CTCF_rep2.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K27me3_rep1.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K27me3_rep2.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K4me3_rep1.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K4me3_rep2.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_input_rep1.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_input_rep2.bam --binSize 1000 --stepSize 500 -r chrX -o /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/output_matrix.npz> in cluster <chimera> Exited
+
+Job <multiBamSummary bins --bamfiles /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_CTCF_rep1.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_CTCF_rep2.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K27me3_rep1.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K27me3_rep2.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K4me3_rep1.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K4me3_rep2.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_input_rep1.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_input_rep2.bam --binSize 1000 --stepSize 500 -r chrX -o /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/output_matrix.npz> was submitted from host <li04e04> by user <arayan01> in cluster <chimera> at Mon Mar 24 14:25:09 2025
+Job was executed on host(s) <2*lh06c28>, in queue <premium>, as user <arayan01> in cluster <chimera> at Mon Mar 24 14:25:10 2025
+</hpc/users/arayan01> was used as the home directory.
+</sc/arion/scratch/arayan01/projects/chipseq_tut/results> was used as the working directory.
+Started at Mon Mar 24 14:25:10 2025
+Terminated at Mon Mar 24 14:25:13 2025
+Results reported at Mon Mar 24 14:25:13 2025
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+multiBamSummary bins --bamfiles /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_CTCF_rep1.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_CTCF_rep2.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K27me3_rep1.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K27me3_rep2.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K4me3_rep1.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K4me3_rep2.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_input_rep1.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_input_rep2.bam --binSize 1000 --stepSize 500 -r chrX -o /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/output_matrix.npz
+------------------------------------------------------------
+
+Exited with exit code 2.
+
+Resource usage summary:
+
+    CPU time :                                   0.50 sec.
+    Max Memory :                                 20 MB
+    Average Memory :                             16.75 MB
+    Total Requested Memory :                     16000.00 MB
+    Delta Memory :                               15980.00 MB
+    Max Swap :                                   -
+    Max Processes :                              3
+    Max Threads :                                4
+    Run time :                                   3 sec.
+    Turnaround time :                            4 sec.
+
+The output (if any) follows:
+
+usage: multiBamSummary [-h] [--version]  ...
+multiBamSummary: error: unrecognized arguments: --stepSize 500
+Sender: LSF System <lsfadmin@lh06c21>
+Subject: Job 175839569: <multiBamSummary bins --bamfiles /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_CTCF_rep1.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_CTCF_rep2.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K27me3_rep1.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K27me3_rep2.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K4me3_rep1.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K4me3_rep2.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_input_rep1.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_input_rep2.bam -bs 1000 -n 500 -r chrX -o /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/output_matrix.npz> in cluster <chimera> Exited
+
+Job <multiBamSummary bins --bamfiles /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_CTCF_rep1.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_CTCF_rep2.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K27me3_rep1.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K27me3_rep2.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K4me3_rep1.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K4me3_rep2.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_input_rep1.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_input_rep2.bam -bs 1000 -n 500 -r chrX -o /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/output_matrix.npz> was submitted from host <li04e04> by user <arayan01> in cluster <chimera> at Mon Mar 24 14:25:44 2025
+Job was executed on host(s) <1*lh06c21>, in queue <premium>, as user <arayan01> in cluster <chimera> at Mon Mar 24 14:25:45 2025
+                            <1*lh06c28>
+</hpc/users/arayan01> was used as the home directory.
+</sc/arion/scratch/arayan01/projects/chipseq_tut/results> was used as the working directory.
+Started at Mon Mar 24 14:25:45 2025
+Terminated at Mon Mar 24 14:25:48 2025
+Results reported at Mon Mar 24 14:25:48 2025
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+multiBamSummary bins --bamfiles /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_CTCF_rep1.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_CTCF_rep2.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K27me3_rep1.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K27me3_rep2.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K4me3_rep1.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K4me3_rep2.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_input_rep1.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_input_rep2.bam -bs 1000 -n 500 -r chrX -o /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/output_matrix.npz
+------------------------------------------------------------
+
+Exited with exit code 1.
+
+Resource usage summary:
+
+    CPU time :                                   0.29 sec.
+    Max Memory :                                 8 MB
+    Average Memory :                             8.00 MB
+    Total Requested Memory :                     16000.00 MB
+    Delta Memory :                               15992.00 MB
+    Max Swap :                                   -
+    Max Processes :                              3
+    Max Threads :                                4
+    Run time :                                   3 sec.
+    Turnaround time :                            4 sec.
+
+The output (if any) follows:
+
+[bwHdrRead] There was an error while reading in the header!
+[pyBwOpen] bw is NULL!
+Traceback (most recent call last):
+  File "/sc/arion/work/arayan01/test-env/envs/chipseq/bin/multiBamSummary", line 11, in <module>
+    main(args)
+  File "/sc/arion/work/arayan01/test-env/envs/chipseq/lib/python2.7/site-packages/deeptools/multiBamSummary.py", line 224, in main
+    num_reads_per_bin = c.run(allArgs=args)
+  File "/sc/arion/work/arayan01/test-env/envs/chipseq/lib/python2.7/site-packages/deeptools/countReadsPerBin.py", line 244, in run
+    y = pyBigWig.open(x)
+RuntimeError: Received an error during file opening!
+Sender: LSF System <lsfadmin@lh06c21>
+Subject: Job 175840118: <multiBamSummary bins --bamfiles /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_CTCF_rep1.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_CTCF_rep2.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K27me3_rep1.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K27me3_rep2.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K4me3_rep1.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K4me3_rep2.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_input_rep1.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_input_rep2.bam -bs 1000 -n 500 -r chrX -o /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/output_matrix.npz> in cluster <chimera> Exited
+
+Job <multiBamSummary bins --bamfiles /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_CTCF_rep1.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_CTCF_rep2.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K27me3_rep1.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K27me3_rep2.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K4me3_rep1.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K4me3_rep2.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_input_rep1.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_input_rep2.bam -bs 1000 -n 500 -r chrX -o /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/output_matrix.npz> was submitted from host <li04e04> by user <arayan01> in cluster <chimera> at Mon Mar 24 14:32:13 2025
+Job was executed on host(s) <1*lh06c21>, in queue <premium>, as user <arayan01> in cluster <chimera> at Mon Mar 24 14:32:16 2025
+                            <1*lh06c28>
+</hpc/users/arayan01> was used as the home directory.
+</sc/arion/scratch/arayan01/projects/chipseq_tut/results> was used as the working directory.
+Started at Mon Mar 24 14:32:16 2025
+Terminated at Mon Mar 24 14:32:21 2025
+Results reported at Mon Mar 24 14:32:21 2025
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+multiBamSummary bins --bamfiles /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_CTCF_rep1.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_CTCF_rep2.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K27me3_rep1.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K27me3_rep2.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K4me3_rep1.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K4me3_rep2.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_input_rep1.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_input_rep2.bam -bs 1000 -n 500 -r chrX -o /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/output_matrix.npz
+------------------------------------------------------------
+
+Exited with exit code 1.
+
+Resource usage summary:
+
+    CPU time :                                   0.30 sec.
+    Max Memory :                                 20 MB
+    Average Memory :                             16.00 MB
+    Total Requested Memory :                     16000.00 MB
+    Delta Memory :                               15980.00 MB
+    Max Swap :                                   -
+    Max Processes :                              3
+    Max Threads :                                4
+    Run time :                                   5 sec.
+    Turnaround time :                            8 sec.
+
+The output (if any) follows:
+
+[bwHdrRead] There was an error while reading in the header!
+[pyBwOpen] bw is NULL!
+Traceback (most recent call last):
+  File "/sc/arion/work/arayan01/test-env/envs/chipseq/bin/multiBamSummary", line 11, in <module>
+    main(args)
+  File "/sc/arion/work/arayan01/test-env/envs/chipseq/lib/python2.7/site-packages/deeptools/multiBamSummary.py", line 224, in main
+    num_reads_per_bin = c.run(allArgs=args)
+  File "/sc/arion/work/arayan01/test-env/envs/chipseq/lib/python2.7/site-packages/deeptools/countReadsPerBin.py", line 244, in run
+    y = pyBigWig.open(x)
+RuntimeError: Received an error during file opening!
+Sender: LSF System <lsfadmin@lh06c28>
+Subject: Job 175840222: <multiBamSummary bins --bamfiles /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_CTCF_rep1.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_CTCF_rep2.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K27me3_rep1.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K27me3_rep2.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K4me3_rep1.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K4me3_rep2.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_input_rep1.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_input_rep2.bam -bs 1000 -n 500 -r X -o /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/output_matrix.npz -v> in cluster <chimera> Exited
+
+Job <multiBamSummary bins --bamfiles /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_CTCF_rep1.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_CTCF_rep2.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K27me3_rep1.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K27me3_rep2.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K4me3_rep1.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K4me3_rep2.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_input_rep1.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_input_rep2.bam -bs 1000 -n 500 -r X -o /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/output_matrix.npz -v> was submitted from host <li04e04> by user <arayan01> in cluster <chimera> at Mon Mar 24 14:33:11 2025
+Job was executed on host(s) <2*lh06c28>, in queue <premium>, as user <arayan01> in cluster <chimera> at Mon Mar 24 14:33:16 2025
+</hpc/users/arayan01> was used as the home directory.
+</sc/arion/scratch/arayan01/projects/chipseq_tut/results> was used as the working directory.
+Started at Mon Mar 24 14:33:16 2025
+Terminated at Mon Mar 24 14:33:16 2025
+Results reported at Mon Mar 24 14:33:16 2025
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+multiBamSummary bins --bamfiles /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_CTCF_rep1.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_CTCF_rep2.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K27me3_rep1.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K27me3_rep2.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K4me3_rep1.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K4me3_rep2.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_input_rep1.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_input_rep2.bam -bs 1000 -n 500 -r X -o /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/output_matrix.npz -v
+------------------------------------------------------------
+
+Exited with exit code 1.
+
+Resource usage summary:
+
+    CPU time :                                   0.32 sec.
+    Max Memory :                                 12 MB
+    Average Memory :                             12.00 MB
+    Total Requested Memory :                     16000.00 MB
+    Delta Memory :                               15988.00 MB
+    Max Swap :                                   -
+    Max Processes :                              3
+    Max Threads :                                4
+    Run time :                                   0 sec.
+    Turnaround time :                            5 sec.
+
+The output (if any) follows:
+
+[bwHdrRead] There was an error while reading in the header!
+[pyBwOpen] bw is NULL!
+Traceback (most recent call last):
+  File "/sc/arion/work/arayan01/test-env/envs/chipseq/bin/multiBamSummary", line 11, in <module>
+    main(args)
+  File "/sc/arion/work/arayan01/test-env/envs/chipseq/lib/python2.7/site-packages/deeptools/multiBamSummary.py", line 224, in main
+    num_reads_per_bin = c.run(allArgs=args)
+  File "/sc/arion/work/arayan01/test-env/envs/chipseq/lib/python2.7/site-packages/deeptools/countReadsPerBin.py", line 244, in run
+    y = pyBigWig.open(x)
+RuntimeError: Received an error during file opening!
+Sender: LSF System <lsfadmin@lh06c10>
+Subject: Job 175840358: <multiBamSummary bins -b/sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/*.bam -bs 1000 -n 500 -r chrX -o /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/output_matrix.npz -v> in cluster <chimera> Exited
+
+Job <multiBamSummary bins -b/sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/*.bam -bs 1000 -n 500 -r chrX -o /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/output_matrix.npz -v> was submitted from host <li04e04> by user <arayan01> in cluster <chimera> at Mon Mar 24 14:34:46 2025
+Job was executed on host(s) <2*lh06c10>, in queue <premium>, as user <arayan01> in cluster <chimera> at Mon Mar 24 14:34:51 2025
+</hpc/users/arayan01> was used as the home directory.
+</sc/arion/scratch/arayan01/projects/chipseq_tut/results> was used as the working directory.
+Started at Mon Mar 24 14:34:51 2025
+Terminated at Mon Mar 24 14:34:55 2025
+Results reported at Mon Mar 24 14:34:55 2025
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+multiBamSummary bins -b/sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/*.bam -bs 1000 -n 500 -r chrX -o /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/output_matrix.npz -v
+------------------------------------------------------------
+
+Exited with exit code 1.
+
+Resource usage summary:
+
+    CPU time :                                   0.27 sec.
+    Max Memory :                                 18 MB
+    Average Memory :                             15.50 MB
+    Total Requested Memory :                     16000.00 MB
+    Delta Memory :                               15982.00 MB
+    Max Swap :                                   -
+    Max Processes :                              3
+    Max Threads :                                4
+    Run time :                                   4 sec.
+    Turnaround time :                            9 sec.
+
+The output (if any) follows:
+
+You've input a single BAM file and not specified --outRawCounts. The resulting output will NOT be useful with any deepTools program!
+[urlOpen] Couldn't open /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/*.bam for reading
+[urlOpen] Couldn't open /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/*.bam for reading
+[pyBwOpen] bw is NULL!
+Traceback (most recent call last):
+  File "/sc/arion/work/arayan01/test-env/envs/chipseq/bin/multiBamSummary", line 11, in <module>
+    main(args)
+  File "/sc/arion/work/arayan01/test-env/envs/chipseq/lib/python2.7/site-packages/deeptools/multiBamSummary.py", line 224, in main
+    num_reads_per_bin = c.run(allArgs=args)
+  File "/sc/arion/work/arayan01/test-env/envs/chipseq/lib/python2.7/site-packages/deeptools/countReadsPerBin.py", line 244, in run
+    y = pyBigWig.open(x)
+RuntimeError: Received an error during file opening!
+Sender: LSF System <lsfadmin@lh06c16>
+Subject: Job 175840370: <multiBamSummary bins -b/sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/*.bam -bs 1000 -n 500 -r chrX -o /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/output_matrix.npz -v> in cluster <chimera> Exited
+
+Job <multiBamSummary bins -b/sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/*.bam -bs 1000 -n 500 -r chrX -o /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/output_matrix.npz -v> was submitted from host <li04e04> by user <arayan01> in cluster <chimera> at Mon Mar 24 14:35:11 2025
+Job was executed on host(s) <1*lh06c16>, in queue <premium>, as user <arayan01> in cluster <chimera> at Mon Mar 24 14:35:15 2025
+                            <1*lh06c10>
+</hpc/users/arayan01> was used as the home directory.
+</sc/arion/scratch/arayan01/projects/chipseq_tut/results> was used as the working directory.
+Started at Mon Mar 24 14:35:15 2025
+Terminated at Mon Mar 24 14:35:17 2025
+Results reported at Mon Mar 24 14:35:17 2025
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+multiBamSummary bins -b/sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/*.bam -bs 1000 -n 500 -r chrX -o /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/output_matrix.npz -v
+------------------------------------------------------------
+
+Exited with exit code 1.
+
+Resource usage summary:
+
+    CPU time :                                   0.27 sec.
+    Max Memory :                                 8 MB
+    Average Memory :                             8.00 MB
+    Total Requested Memory :                     16000.00 MB
+    Delta Memory :                               15992.00 MB
+    Max Swap :                                   -
+    Max Processes :                              3
+    Max Threads :                                4
+    Run time :                                   1 sec.
+    Turnaround time :                            6 sec.
+
+The output (if any) follows:
+
+You've input a single BAM file and not specified --outRawCounts. The resulting output will NOT be useful with any deepTools program!
+[urlOpen] Couldn't open /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/*.bam for reading
+[urlOpen] Couldn't open /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/*.bam for reading
+[pyBwOpen] bw is NULL!
+Traceback (most recent call last):
+  File "/sc/arion/work/arayan01/test-env/envs/chipseq/bin/multiBamSummary", line 11, in <module>
+    main(args)
+  File "/sc/arion/work/arayan01/test-env/envs/chipseq/lib/python2.7/site-packages/deeptools/multiBamSummary.py", line 224, in main
+    num_reads_per_bin = c.run(allArgs=args)
+  File "/sc/arion/work/arayan01/test-env/envs/chipseq/lib/python2.7/site-packages/deeptools/countReadsPerBin.py", line 244, in run
+    y = pyBigWig.open(x)
+RuntimeError: Received an error during file opening!
+Sender: LSF System <lsfadmin@lh06c16>
+Subject: Job 175840447: <multiBamSummary bins -b/sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/*.bam -n 500 -r chrX -o /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/output_matrix.npz -v> in cluster <chimera> Exited
+
+Job <multiBamSummary bins -b/sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/*.bam -n 500 -r chrX -o /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/output_matrix.npz -v> was submitted from host <li04e04> by user <arayan01> in cluster <chimera> at Mon Mar 24 14:36:11 2025
+Job was executed on host(s) <1*lh06c16>, in queue <premium>, as user <arayan01> in cluster <chimera> at Mon Mar 24 14:36:15 2025
+                            <1*lh06c29>
+</hpc/users/arayan01> was used as the home directory.
+</sc/arion/scratch/arayan01/projects/chipseq_tut/results> was used as the working directory.
+Started at Mon Mar 24 14:36:15 2025
+Terminated at Mon Mar 24 14:36:40 2025
+Results reported at Mon Mar 24 14:36:40 2025
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+multiBamSummary bins -b/sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/*.bam -n 500 -r chrX -o /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/output_matrix.npz -v
+------------------------------------------------------------
+
+Exited with exit code 1.
+
+Resource usage summary:
+
+    CPU time :                                   0.29 sec.
+    Max Memory :                                 21 MB
+    Average Memory :                             17.50 MB
+    Total Requested Memory :                     16000.00 MB
+    Delta Memory :                               15979.00 MB
+    Max Swap :                                   -
+    Max Processes :                              3
+    Max Threads :                                4
+    Run time :                                   2 sec.
+    Turnaround time :                            29 sec.
+
+The output (if any) follows:
+
+You've input a single BAM file and not specified --outRawCounts. The resulting output will NOT be useful with any deepTools program!
+[urlOpen] Couldn't open /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/*.bam for reading
+[urlOpen] Couldn't open /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/*.bam for reading
+[pyBwOpen] bw is NULL!
+Traceback (most recent call last):
+  File "/sc/arion/work/arayan01/test-env/envs/chipseq/bin/multiBamSummary", line 11, in <module>
+    main(args)
+  File "/sc/arion/work/arayan01/test-env/envs/chipseq/lib/python2.7/site-packages/deeptools/multiBamSummary.py", line 224, in main
+    num_reads_per_bin = c.run(allArgs=args)
+  File "/sc/arion/work/arayan01/test-env/envs/chipseq/lib/python2.7/site-packages/deeptools/countReadsPerBin.py", line 244, in run
+    y = pyBigWig.open(x)
+RuntimeError: Received an error during file opening!
+Sender: LSF System <lsfadmin@lh06c20>
+Subject: Job 175840862: <multiBamSummary bins -b /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_CTCF_rep1.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_CTCF_rep2.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K27me3_rep1.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K27me3_rep2.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K4me3_rep1.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K4me3_rep2.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_input_rep1.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_input_rep2.bam -bs 1000 -n 500 -r chrX -o /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/output_matrix.npz -v> in cluster <chimera> Exited
+
+Job <multiBamSummary bins -b /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_CTCF_rep1.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_CTCF_rep2.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K27me3_rep1.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K27me3_rep2.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K4me3_rep1.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K4me3_rep2.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_input_rep1.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_input_rep2.bam -bs 1000 -n 500 -r chrX -o /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/output_matrix.npz -v> was submitted from host <li04e04> by user <arayan01> in cluster <chimera> at Mon Mar 24 14:41:12 2025
+Job was executed on host(s) <1*lh06c20>, in queue <premium>, as user <arayan01> in cluster <chimera> at Mon Mar 24 14:41:16 2025
+                            <1*lh06c16>
+</hpc/users/arayan01> was used as the home directory.
+</sc/arion/scratch/arayan01/projects/chipseq_tut/results> was used as the working directory.
+Started at Mon Mar 24 14:41:16 2025
+Terminated at Mon Mar 24 14:41:21 2025
+Results reported at Mon Mar 24 14:41:21 2025
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+multiBamSummary bins -b /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_CTCF_rep1.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_CTCF_rep2.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K27me3_rep1.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K27me3_rep2.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K4me3_rep1.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K4me3_rep2.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_input_rep1.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_input_rep2.bam -bs 1000 -n 500 -r chrX -o /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/output_matrix.npz -v
+------------------------------------------------------------
+
+Exited with exit code 1.
+
+Resource usage summary:
+
+    CPU time :                                   0.27 sec.
+    Max Memory :                                 26 MB
+    Average Memory :                             20.00 MB
+    Total Requested Memory :                     16000.00 MB
+    Delta Memory :                               15974.00 MB
+    Max Swap :                                   -
+    Max Processes :                              3
+    Max Threads :                                4
+    Run time :                                   5 sec.
+    Turnaround time :                            9 sec.
+
+The output (if any) follows:
+
+[bwHdrRead] There was an error while reading in the header!
+[pyBwOpen] bw is NULL!
+Traceback (most recent call last):
+  File "/sc/arion/work/arayan01/test-env/envs/chipseq/bin/multiBamSummary", line 11, in <module>
+    main(args)
+  File "/sc/arion/work/arayan01/test-env/envs/chipseq/lib/python2.7/site-packages/deeptools/multiBamSummary.py", line 224, in main
+    num_reads_per_bin = c.run(allArgs=args)
+  File "/sc/arion/work/arayan01/test-env/envs/chipseq/lib/python2.7/site-packages/deeptools/countReadsPerBin.py", line 244, in run
+    y = pyBigWig.open(x)
+RuntimeError: Received an error during file opening!
+Sender: LSF System <lsfadmin@lh06c20>
+Subject: Job 175840979: <multiBamSummary bins -b /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_CTCF_rep1.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_CTCF_rep2.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K27me3_rep1.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K27me3_rep2.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K4me3_rep1.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K4me3_rep2.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_input_rep1.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_input_rep2.bam -bs 1000 -n 500 -r chrX -o /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/output_matrix.npz -v> in cluster <chimera> Exited
+
+Job <multiBamSummary bins -b /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_CTCF_rep1.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_CTCF_rep2.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K27me3_rep1.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K27me3_rep2.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K4me3_rep1.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K4me3_rep2.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_input_rep1.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_input_rep2.bam -bs 1000 -n 500 -r chrX -o /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/output_matrix.npz -v> was submitted from host <li04e04> by user <arayan01> in cluster <chimera> at Mon Mar 24 14:42:35 2025
+Job was executed on host(s) <1*lh06c20>, in queue <premium>, as user <arayan01> in cluster <chimera> at Mon Mar 24 14:42:36 2025
+                            <1*lh06c16>
+</hpc/users/arayan01> was used as the home directory.
+</sc/arion/scratch/arayan01/projects/chipseq_tut/results> was used as the working directory.
+Started at Mon Mar 24 14:42:36 2025
+Terminated at Mon Mar 24 14:42:37 2025
+Results reported at Mon Mar 24 14:42:37 2025
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+multiBamSummary bins -b /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_CTCF_rep1.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_CTCF_rep2.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K27me3_rep1.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K27me3_rep2.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K4me3_rep1.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K4me3_rep2.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_input_rep1.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_input_rep2.bam -bs 1000 -n 500 -r chrX -o /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/output_matrix.npz -v
+------------------------------------------------------------
+
+Exited with exit code 1.
+
+Resource usage summary:
+
+    CPU time :                                   0.22 sec.
+    Max Memory :                                 8 MB
+    Average Memory :                             8.00 MB
+    Total Requested Memory :                     16000.00 MB
+    Delta Memory :                               15992.00 MB
+    Max Swap :                                   -
+    Max Processes :                              3
+    Max Threads :                                4
+    Run time :                                   1 sec.
+    Turnaround time :                            2 sec.
+
+The output (if any) follows:
+
+[bwHdrRead] There was an error while reading in the header!
+[pyBwOpen] bw is NULL!
+Traceback (most recent call last):
+  File "/sc/arion/work/arayan01/test-env/envs/chipseq/bin/multiBamSummary", line 11, in <module>
+    main(args)
+  File "/sc/arion/work/arayan01/test-env/envs/chipseq/lib/python2.7/site-packages/deeptools/multiBamSummary.py", line 224, in main
+    num_reads_per_bin = c.run(allArgs=args)
+  File "/sc/arion/work/arayan01/test-env/envs/chipseq/lib/python2.7/site-packages/deeptools/countReadsPerBin.py", line 244, in run
+    y = pyBigWig.open(x)
+RuntimeError: Received an error during file opening!
+Sender: LSF System <lsfadmin@lh06c17>
+Subject: Job 175841024: <multiBamSummary bins -b /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_CTCF_rep1.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_CTCF_rep2.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K27me3_rep1.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K27me3_rep2.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K4me3_rep1.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K4me3_rep2.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_input_rep1.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_input_rep2.bam -bs 1000 -n 500 -r chrX -o /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/output_matrix.npz -v> in cluster <chimera> Exited
+
+Job <multiBamSummary bins -b /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_CTCF_rep1.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_CTCF_rep2.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K27me3_rep1.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K27me3_rep2.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K4me3_rep1.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K4me3_rep2.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_input_rep1.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_input_rep2.bam -bs 1000 -n 500 -r chrX -o /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/output_matrix.npz -v> was submitted from host <li04e04> by user <arayan01> in cluster <chimera> at Mon Mar 24 14:43:02 2025
+Job was executed on host(s) <1*lh06c17>, in queue <premium>, as user <arayan01> in cluster <chimera> at Mon Mar 24 14:43:05 2025
+                            <1*lh06c12>
+</hpc/users/arayan01> was used as the home directory.
+</sc/arion/scratch/arayan01/projects/chipseq_tut/results> was used as the working directory.
+Started at Mon Mar 24 14:43:05 2025
+Terminated at Mon Mar 24 14:43:09 2025
+Results reported at Mon Mar 24 14:43:09 2025
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+multiBamSummary bins -b /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_CTCF_rep1.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_CTCF_rep2.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K27me3_rep1.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K27me3_rep2.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K4me3_rep1.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K4me3_rep2.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_input_rep1.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_input_rep2.bam -bs 1000 -n 500 -r chrX -o /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/output_matrix.npz -v
+------------------------------------------------------------
+
+Exited with exit code 1.
+
+Resource usage summary:
+
+    CPU time :                                   0.50 sec.
+    Max Memory :                                 20 MB
+    Average Memory :                             15.50 MB
+    Total Requested Memory :                     16000.00 MB
+    Delta Memory :                               15980.00 MB
+    Max Swap :                                   -
+    Max Processes :                              3
+    Max Threads :                                4
+    Run time :                                   4 sec.
+    Turnaround time :                            7 sec.
+
+The output (if any) follows:
+
+[bwHdrRead] There was an error while reading in the header!
+[pyBwOpen] bw is NULL!
+Traceback (most recent call last):
+  File "/sc/arion/work/arayan01/test-env/envs/chipseq/bin/multiBamSummary", line 11, in <module>
+    main(args)
+  File "/sc/arion/work/arayan01/test-env/envs/chipseq/lib/python2.7/site-packages/deeptools/multiBamSummary.py", line 224, in main
+    num_reads_per_bin = c.run(allArgs=args)
+  File "/sc/arion/work/arayan01/test-env/envs/chipseq/lib/python2.7/site-packages/deeptools/countReadsPerBin.py", line 244, in run
+    y = pyBigWig.open(x)
+RuntimeError: Received an error during file opening!
+Sender: LSF System <lsfadmin@lh06c08>
+Subject: Job 175842184: <multiBamSummary bins -b /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_CTCF_rep1.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_CTCF_rep2.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K27me3_rep1.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K27me3_rep2.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K4me3_rep1.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K4me3_rep2.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_input_rep1.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_input_rep2.bam -bs 1000 -n 500 -r chrX -o /sc/arion/scratch/arayan01/projects/chipseq_tut/results/chipqc/output_matrix.npz> in cluster <chimera> Exited
+
+Job <multiBamSummary bins -b /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_CTCF_rep1.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_CTCF_rep2.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K27me3_rep1.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K27me3_rep2.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K4me3_rep1.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K4me3_rep2.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_input_rep1.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_input_rep2.bam -bs 1000 -n 500 -r chrX -o /sc/arion/scratch/arayan01/projects/chipseq_tut/results/chipqc/output_matrix.npz> was submitted from host <li04e04> by user <arayan01> in cluster <chimera> at Mon Mar 24 14:55:22 2025
+Job was executed on host(s) <1*lh06c08>, in queue <premium>, as user <arayan01> in cluster <chimera> at Mon Mar 24 14:55:27 2025
+                            <1*lh06c26>
+</hpc/users/arayan01> was used as the home directory.
+</sc/arion/scratch/arayan01/projects/chipseq_tut/results> was used as the working directory.
+Started at Mon Mar 24 14:55:27 2025
+Terminated at Mon Mar 24 14:55:33 2025
+Results reported at Mon Mar 24 14:55:33 2025
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+multiBamSummary bins -b /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_CTCF_rep1.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_CTCF_rep2.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K27me3_rep1.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K27me3_rep2.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K4me3_rep1.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K4me3_rep2.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_input_rep1.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_input_rep2.bam -bs 1000 -n 500 -r chrX -o /sc/arion/scratch/arayan01/projects/chipseq_tut/results/chipqc/output_matrix.npz
+------------------------------------------------------------
+
+Exited with exit code 1.
+
+Resource usage summary:
+
+    CPU time :                                   0.27 sec.
+    Max Memory :                                 23 MB
+    Average Memory :                             17.00 MB
+    Total Requested Memory :                     16000.00 MB
+    Delta Memory :                               15977.00 MB
+    Max Swap :                                   -
+    Max Processes :                              3
+    Max Threads :                                4
+    Run time :                                   6 sec.
+    Turnaround time :                            11 sec.
+
+The output (if any) follows:
+
+[bwHdrRead] There was an error while reading in the header!
+[pyBwOpen] bw is NULL!
+Traceback (most recent call last):
+  File "/sc/arion/work/arayan01/test-env/envs/chipseq/bin/multiBamSummary", line 11, in <module>
+    main(args)
+  File "/sc/arion/work/arayan01/test-env/envs/chipseq/lib/python2.7/site-packages/deeptools/multiBamSummary.py", line 224, in main
+    num_reads_per_bin = c.run(allArgs=args)
+  File "/sc/arion/work/arayan01/test-env/envs/chipseq/lib/python2.7/site-packages/deeptools/countReadsPerBin.py", line 244, in run
+    y = pyBigWig.open(x)
+RuntimeError: Received an error during file opening!
+Sender: LSF System <lsfadmin@lh06c18>
+Subject: Job 175842426: <multiBamSummary bins -b /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_CTCF_rep1.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_CTCF_rep2.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K27me3_rep1.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K27me3_rep2.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K4me3_rep1.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K4me3_rep2.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_input_rep1.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_input_rep2.bam -bs 1000 -n 500 -r chrX -o /sc/arion/scratch/arayan01/projects/chipseq_tut/results/chipqc/output_matrix.npz> in cluster <chimera> Exited
+
+Job <multiBamSummary bins -b /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_CTCF_rep1.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_CTCF_rep2.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K27me3_rep1.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K27me3_rep2.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K4me3_rep1.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K4me3_rep2.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_input_rep1.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_input_rep2.bam -bs 1000 -n 500 -r chrX -o /sc/arion/scratch/arayan01/projects/chipseq_tut/results/chipqc/output_matrix.npz> was submitted from host <li04e04> by user <arayan01> in cluster <chimera> at Mon Mar 24 14:58:07 2025
+Job was executed on host(s) <1*lh06c18>, in queue <premium>, as user <arayan01> in cluster <chimera> at Mon Mar 24 14:58:11 2025
+                            <1*lh06c11>
+</hpc/users/arayan01> was used as the home directory.
+</sc/arion/scratch/arayan01/projects/chipseq_tut/results> was used as the working directory.
+Started at Mon Mar 24 14:58:11 2025
+Terminated at Mon Mar 24 14:58:18 2025
+Results reported at Mon Mar 24 14:58:18 2025
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+multiBamSummary bins -b /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_CTCF_rep1.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_CTCF_rep2.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K27me3_rep1.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K27me3_rep2.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K4me3_rep1.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K4me3_rep2.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_input_rep1.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_input_rep2.bam -bs 1000 -n 500 -r chrX -o /sc/arion/scratch/arayan01/projects/chipseq_tut/results/chipqc/output_matrix.npz
+------------------------------------------------------------
+
+Exited with exit code 1.
+
+Resource usage summary:
+
+    CPU time :                                   0.37 sec.
+    Max Memory :                                 19 MB
+    Average Memory :                             12.40 MB
+    Total Requested Memory :                     16000.00 MB
+    Delta Memory :                               15981.00 MB
+    Max Swap :                                   -
+    Max Processes :                              3
+    Max Threads :                                4
+    Run time :                                   6 sec.
+    Turnaround time :                            11 sec.
+
+The output (if any) follows:
+
+[bwHdrRead] There was an error while reading in the header!
+[pyBwOpen] bw is NULL!
+Traceback (most recent call last):
+  File "/sc/arion/work/arayan01/test-env/envs/chipseq/bin/multiBamSummary", line 11, in <module>
+    main(args)
+  File "/sc/arion/work/arayan01/test-env/envs/chipseq/lib/python2.7/site-packages/deeptools/multiBamSummary.py", line 224, in main
+    num_reads_per_bin = c.run(allArgs=args)
+  File "/sc/arion/work/arayan01/test-env/envs/chipseq/lib/python2.7/site-packages/deeptools/countReadsPerBin.py", line 244, in run
+    y = pyBigWig.open(x)
+RuntimeError: Received an error during file opening!
+Sender: LSF System <lsfadmin@lh06c18>
+Subject: Job 175842537: <multiBamSummary bins -b /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_CTCF_rep1.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_CTCF_rep2.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K27me3_rep1.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K27me3_rep2.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K4me3_rep1.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K4me3_rep2.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_input_rep1.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_input_rep2.bam -o /sc/arion/scratch/arayan01/projects/chipseq_tut/results/chipqc/output_matrix.npz -bs 1000 -n 500 -r chrX> in cluster <chimera> Exited
+
+Job <multiBamSummary bins -b /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_CTCF_rep1.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_CTCF_rep2.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K27me3_rep1.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K27me3_rep2.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K4me3_rep1.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K4me3_rep2.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_input_rep1.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_input_rep2.bam -o /sc/arion/scratch/arayan01/projects/chipseq_tut/results/chipqc/output_matrix.npz -bs 1000 -n 500 -r chrX> was submitted from host <li04e04> by user <arayan01> in cluster <chimera> at Mon Mar 24 14:59:34 2025
+Job was executed on host(s) <1*lh06c18>, in queue <premium>, as user <arayan01> in cluster <chimera> at Mon Mar 24 14:59:37 2025
+                            <1*lh06c11>
+</hpc/users/arayan01> was used as the home directory.
+</sc/arion/scratch/arayan01/projects/chipseq_tut/results> was used as the working directory.
+Started at Mon Mar 24 14:59:37 2025
+Terminated at Mon Mar 24 14:59:43 2025
+Results reported at Mon Mar 24 14:59:43 2025
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+multiBamSummary bins -b /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_CTCF_rep1.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_CTCF_rep2.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K27me3_rep1.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K27me3_rep2.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K4me3_rep1.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K4me3_rep2.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_input_rep1.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_input_rep2.bam -o /sc/arion/scratch/arayan01/projects/chipseq_tut/results/chipqc/output_matrix.npz -bs 1000 -n 500 -r chrX
+------------------------------------------------------------
+
+Exited with exit code 1.
+
+Resource usage summary:
+
+    CPU time :                                   0.35 sec.
+    Max Memory :                                 19 MB
+    Average Memory :                             12.40 MB
+    Total Requested Memory :                     16000.00 MB
+    Delta Memory :                               15981.00 MB
+    Max Swap :                                   -
+    Max Processes :                              3
+    Max Threads :                                4
+    Run time :                                   5 sec.
+    Turnaround time :                            9 sec.
+
+The output (if any) follows:
+
+[bwHdrRead] There was an error while reading in the header!
+[pyBwOpen] bw is NULL!
+Traceback (most recent call last):
+  File "/sc/arion/work/arayan01/test-env/envs/chipseq/bin/multiBamSummary", line 11, in <module>
+    main(args)
+  File "/sc/arion/work/arayan01/test-env/envs/chipseq/lib/python2.7/site-packages/deeptools/multiBamSummary.py", line 224, in main
+    num_reads_per_bin = c.run(allArgs=args)
+  File "/sc/arion/work/arayan01/test-env/envs/chipseq/lib/python2.7/site-packages/deeptools/countReadsPerBin.py", line 244, in run
+    y = pyBigWig.open(x)
+RuntimeError: Received an error during file opening!
+Sender: LSF System <lsfadmin@lc06e19>
+Subject: Job 175977837: <multiBamSummary bins -b /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_CTCF_rep1.bam.bai /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_CTCF_rep2.bam.bai /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K27me3_rep1.bam.bai /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K27me3_rep2.bam.bai /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K4me3_rep1.bam.bai /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K4me3_rep2.bam.bai /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_input_rep1.bam.bai /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_input_rep2.bam.bai -o /sc/arion/scratch/arayan01/projects/chipseq_tut/results/chipqc/output_matrix.npz -bs 1000 -n 500 -r chrX> in cluster <chimera> Exited
+
+Job <multiBamSummary bins -b /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_CTCF_rep1.bam.bai /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_CTCF_rep2.bam.bai /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K27me3_rep1.bam.bai /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K27me3_rep2.bam.bai /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K4me3_rep1.bam.bai /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K4me3_rep2.bam.bai /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_input_rep1.bam.bai /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_input_rep2.bam.bai -o /sc/arion/scratch/arayan01/projects/chipseq_tut/results/chipqc/output_matrix.npz -bs 1000 -n 500 -r chrX> was submitted from host <li04e04> by user <arayan01> in cluster <chimera> at Tue Mar 25 11:34:41 2025
+Job was executed on host(s) <2*lc06e19>, in queue <premium>, as user <arayan01> in cluster <chimera> at Tue Mar 25 11:34:45 2025
+</hpc/users/arayan01> was used as the home directory.
+</sc/arion/scratch/arayan01/projects/chipseq_tut/results> was used as the working directory.
+Started at Tue Mar 25 11:34:45 2025
+Terminated at Tue Mar 25 11:34:51 2025
+Results reported at Tue Mar 25 11:34:51 2025
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+multiBamSummary bins -b /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_CTCF_rep1.bam.bai /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_CTCF_rep2.bam.bai /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K27me3_rep1.bam.bai /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K27me3_rep2.bam.bai /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K4me3_rep1.bam.bai /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K4me3_rep2.bam.bai /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_input_rep1.bam.bai /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_input_rep2.bam.bai -o /sc/arion/scratch/arayan01/projects/chipseq_tut/results/chipqc/output_matrix.npz -bs 1000 -n 500 -r chrX
+------------------------------------------------------------
+
+Exited with exit code 1.
+
+Resource usage summary:
+
+    CPU time :                                   0.21 sec.
+    Max Memory :                                 20 MB
+    Average Memory :                             15.80 MB
+    Total Requested Memory :                     16000.00 MB
+    Delta Memory :                               15980.00 MB
+    Max Swap :                                   -
+    Max Processes :                              3
+    Max Threads :                                4
+    Run time :                                   6 sec.
+    Turnaround time :                            10 sec.
+
+The output (if any) follows:
+
+[E::hts_hopen] fail to open file '/sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_CTCF_rep1.bam.bai'
+[E::hts_open] fail to open file '/sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_CTCF_rep1.bam.bai'
+[bwHdrRead] There was an error while reading in the header!
+[pyBwOpen] bw is NULL!
+Traceback (most recent call last):
+  File "/sc/arion/work/arayan01/test-env/envs/chipseq/bin/multiBamSummary", line 11, in <module>
+    main(args)
+  File "/sc/arion/work/arayan01/test-env/envs/chipseq/lib/python2.7/site-packages/deeptools/multiBamSummary.py", line 224, in main
+    num_reads_per_bin = c.run(allArgs=args)
+  File "/sc/arion/work/arayan01/test-env/envs/chipseq/lib/python2.7/site-packages/deeptools/countReadsPerBin.py", line 244, in run
+    y = pyBigWig.open(x)
+RuntimeError: Received an error during file opening!
+Sender: LSF System <lsfadmin@lh06c28>
+Subject: Job 175977909: <multiBamSummary bins -b /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_CTCF_rep1.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_CTCF_rep2.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K27me3_rep1.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K27me3_rep2.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K4me3_rep1.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K4me3_rep2.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_input_rep1.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_input_rep2.bam -o /sc/arion/scratch/arayan01/projects/chipseq_tut/results/chipqc/output_matrix.npz -bs 1000 -n 500 -r chrX> in cluster <chimera> Done
+
+Job <multiBamSummary bins -b /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_CTCF_rep1.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_CTCF_rep2.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K27me3_rep1.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K27me3_rep2.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K4me3_rep1.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K4me3_rep2.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_input_rep1.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_input_rep2.bam -o /sc/arion/scratch/arayan01/projects/chipseq_tut/results/chipqc/output_matrix.npz -bs 1000 -n 500 -r chrX> was submitted from host <li04e04> by user <arayan01> in cluster <chimera> at Tue Mar 25 11:35:16 2025
+Job was executed on host(s) <1*lh06c28>, in queue <premium>, as user <arayan01> in cluster <chimera> at Tue Mar 25 11:35:19 2025
+                            <1*lh06c06>
+</hpc/users/arayan01> was used as the home directory.
+</sc/arion/scratch/arayan01/projects/chipseq_tut/results> was used as the working directory.
+Started at Tue Mar 25 11:35:19 2025
+Terminated at Tue Mar 25 11:50:43 2025
+Results reported at Tue Mar 25 11:50:43 2025
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+multiBamSummary bins -b /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_CTCF_rep1.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_CTCF_rep2.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K27me3_rep1.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K27me3_rep2.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K4me3_rep1.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K4me3_rep2.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_input_rep1.bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_input_rep2.bam -o /sc/arion/scratch/arayan01/projects/chipseq_tut/results/chipqc/output_matrix.npz -bs 1000 -n 500 -r chrX
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   914.96 sec.
+    Max Memory :                                 278 MB
+    Average Memory :                             242.64 MB
+    Total Requested Memory :                     16000.00 MB
+    Delta Memory :                               15722.00 MB
+    Max Swap :                                   -
+    Max Processes :                              27
+    Max Threads :                                31
+    Run time :                                   924 sec.
+    Turnaround time :                            927 sec.
+
+The output (if any) follows:
+
+Number of bins found: 114077

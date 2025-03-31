@@ -1,0 +1,3 @@
+wt_H3K4me3_read1 https://zenodo.org/record/1324070/files/wt_H3K4me3_read1.fastq.gz
+wt_H3K4me3_read2 https://zenodo.org/record/1324070/files/wt_H3K4me3_read2.fastq.gz
+mm10 https://genome-idx.s3.amazonaws.com/bt/mm10.zip

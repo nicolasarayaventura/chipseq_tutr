@@ -2,7 +2,7 @@
 set -x -e
 
 
-scratch="/sc/arion/scratch/arayan01/projects/chipseq_tut"
+scratch="/sc/arion/scratch/arayan01/projects/chipseqtut"
 sampledir="${scratch}/data/samples"
 adapter_path="/sc/arion/work/arayan01/test-env/envs/atacseq/share/trimmomatic-0.39-2/adapters/NexteraPE-PE.fa"
 
@@ -79,8 +79,8 @@ function ipplot {
     data="${scratch}/data/chipseqdata"
     output="${scratch}/results/plot/ip_plot.png"
 
-    experiment="${data}/wt_input_rep1.bam"
-    control="${data}/wt_H3K4me3_rep1.bam"
+    control="${data}/wt_input_rep1.bam"
+    experiment="${data}/wt_H3K4me3_rep1.bam"
 
     bsub -P acc_oscarlr -q premium -n 2 -W 24:00 -R "rusage[mem=8000]" -o "ipplot_job.txt" \
         plotFingerprint -b ${experiment} ${control} \
@@ -96,25 +96,115 @@ function norm_stats {
 
     data="${scratch}/data/chipseqdata"
     
-    experiment="${data}/wt_input_rep1.bam"
-    control="${data}/wt_H3K4me3_rep1.bam"
+    control="${data}/wt_input_rep1.bam"
+    experiment="${data}/wt_H3K4me3_rep1.bam"
     outdir="${scratch}/results/norm"
     
     bsub -P acc_oscarlr -q premium -n 2 -W 24:00 -R "rusage[mem=8000]" -o "norm_job1.txt" \
-        "samtools idxstats "$experiment" > ${outdir}/input_rep.idxstats.txt"
+        "samtools idxstats "$control" > ${outdir}/input_rep.idxstats.txt"
     bsub -P acc_oscarlr -q premium -n 2 -W 24:00 -R "rusage[mem=8000]" -o "norm_job2.txt" \
-        "samtools idxstats "$control" > ${outdir}/4me3_rep1.idxstats.txt"
+        "samtools idxstats "$experiment" > ${outdir}/4me3_rep1.idxstats.txt"
 }
-function norm_filecov {
+function bamcov {
     data="${scratch}/data/chipseqdata"
 
-    experiment="${data}/wt_input_rep1.bam"
-    control="${data}/wt_H3K4me3_rep1"
+    control="${data}/wt_input_rep1.bam"
+    experiment="${data}/wt_H3K4me3_rep1.bam"
     outdir="${scratch}/results/norm"
 
     bsub -P acc_oscarlr -q premium -n 2 -W 24:00 -R "rusage[mem=8000]" -o "norm_filecov_bedgraph_job1.txt" \
-        bamCoverage --bam ${control}.bam -o ${outdir}/wt_H3K4me3_rep1.bw --binSize 25 --normalizeUsing RPGC --effectiveGenomeSize 2308125349 -r chrX 
+        "bamCoverage -b ${experiment} -o ${outdir}/wt_H3K4me3_rep1.bw \
+        --outFileFormat bigwig \
+        --binSize 25 \
+        --normalizeUsing RPGC \
+        --effectiveGenomeSize 2308125349 \
+        --region chrX \
+        --verbose"
 }
+
+function bamcomp {
+    data="${scratch}/data/chipseqdata"
+
+    control="${data}/wt_input_rep1.bam"
+    experiment="${data}/wt_H3K4me3_rep1.bam"
+    outdir="${scratch}/results/norm"
+
+    bsub -P acc_oscarlr -q premium -n 2 -W 24:00 -R "rusage[mem=8000]" -o "norm_comp_job1.txt" \
+        bamCompare -b1 ${experiment} -b2 ${control} -o ${outdir}/comp.bw \
+        -bs 50 \
+        -of bigwig \
+        -r chrX \
+        --operation log2
+}
+
+function peakcalling {
+    rm -rf ${scratch}/results/peakcalling
+    mkdir "${scratch}/results/peakcalling"
+    
+    data="${scratch}/data/chipseqdata"
+
+    control="${data}/wt_input_rep1.bam"
+    experiment="${data}/wt_H3K4me3_rep1.bam"
+    outdir="${scratch}/results/norm"
+    
+    bsub -P acc_oscarlr -q premium -n 2 -W 24:00 -R "rusage[mem=8000]" -o "peakcalling_job1.txt" \
+        macs2 callpeak -t ${experiment} \
+        -c ${control} \
+        -f BAMPE \
+        --g mm \
+        --name wt_H3K4me3_rep1_peak \
+        --format BAM \
+        --tsize 75 \
+        --outdir ${scratch}/results/peakcalling
+
+}
+
+function prepcalling {
+    rm -rf ${scratch}/results/signalcomp_plots
+    mkdir "${scratch}/results/signalcomp_plots"
+
+    data="${scratch}/data/chipseqdata"
+    experiment="${data}/wt_CTCF_rep1.bam"
+    control="${data}/wt_input_rep1.bam"
+
+    
+    outdir="${scratch}/results/signalcomp_plots"
+
+    bsub -P acc_oscarlr -q premium -n 2 -W 24:00 -R "rusage[mem=8000]" -o "${outdir}/signalcomp_job1.txt" \
+        bamCompare -b1 ${experiment} -b2 ${control} -o ${outdir}/wt_CTCF_rep1.bw \
+            -bs 50 \
+            -of bigwig \
+            -r chrX \
+            --operation log2
+
+    # Run macs2 peak calling for wt_CTCF_rep1
+    job1_id=$(bsub -P acc_oscarlr -q premium -n 2 -W 24:00 -R "rusage[mem=8000]" -o "${outdir}/macs2_job_ctcf.txt" \
+        macs2 callpeak -t ${experiment} -c ${control} -f BAMPE --g mm --format BAM --outdir ${outdir})
+
+    job1_id=$(echo $job1_id | awk '{print $2}' | tr -d '<>')
+
+    # Run macs2 peak calling for wt_H3K4me3_rep1
+    job2_id=$(bsub -P acc_oscarlr -q premium -n 2 -W 24:00 -R "rusage[mem=8000]" -o "${outdir}/macs2_job_h3k4me3.txt" \
+        macs2 callpeak -t ${experiment} -c ${data}/wt_H3K4me3_rep1.bam -f BAMPE --g mm --format BAM --outdir ${outdir})
+
+    job2_id=$(echo $job2_id | awk '{print $2}' | tr -d '<>')
+
+    # Concatenate the datasets after both macs2 jobs are done
+    bsub -P acc_oscarlr -q premium -n 2 -W 24:00 -R "rusage[mem=8000]" -o "${outdir}/concatenate_job.txt" \
+        -w "done(${job1_id}) && done(${job2_id})" \
+        bash -c "cat ${outdir}/wt_CTCF_rep1_peaks.narrowPeak ${outdir}/wt_H3K4me3_rep1_peaks.narrowPeak > ${outdir}/concatenated_peaks.bed"
+
+    # Sort the concatenated dataset
+    bsub -P acc_oscarlr -q premium -n 2 -W 24:00 -R "rusage[mem=8000]" -o "${outdir}/sortbed_job.txt" \
+        -w "done(${job1_id}) && done(${job2_id})" \
+        bedtools sort -i ${outdir}/concatenated_peaks.bed > ${outdir}/sorted_peaks.bed
+
+    # Merge the sorted dataset
+    bsub -P acc_oscarlr -q premium -n 2 -W 24:00 -R "rusage[mem=8000]" -o "${outdir}/mergebed_job.txt" \
+        -w "done(${job1_id}) && done(${job2_id})" \
+        bedtools merge -i ${outdir}/sorted_peaks.bed > ${outdir}/merged_peaks.bed
+}
+
 #fastqc
 #trimming
 #mapping
@@ -122,4 +212,8 @@ function norm_filecov {
 #corplot
 #ipplot
 #norm_stats
-norm_filecov
+#bamcov
+#bamcomp
+#peakcalling
+prepcalling
+#heatmap

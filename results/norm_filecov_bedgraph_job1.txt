@@ -302,3 +302,1960 @@ The output (if any) follows:
 
 usage: An example usage is:$ bamCoverage -b reads.bam -o coverage.bw
 bamCoverage: error: unrecognized arguments: RPGC --effectiveGenomeSize 2308125349
+Sender: LSF System <lsfadmin@lc07e05>
+Subject: Job 177099611: <bamCoverage --bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K4me3_rep1.bam -o /sc/arion/scratch/arayan01/projects/chipseq_tut/results/norm/wt_H3K4me3_rep1.bw --binSize 25 --normalizeUsing RPGC --effectiveGenomeSize 2308125349 -r chrX> in cluster <chimera> Exited
+
+Job <bamCoverage --bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K4me3_rep1.bam -o /sc/arion/scratch/arayan01/projects/chipseq_tut/results/norm/wt_H3K4me3_rep1.bw --binSize 25 --normalizeUsing RPGC --effectiveGenomeSize 2308125349 -r chrX> was submitted from host <li04e04> by user <arayan01> in cluster <chimera> at Wed Apr  2 12:06:57 2025
+Job was executed on host(s) <1*lc07e05>, in queue <premium>, as user <arayan01> in cluster <chimera> at Wed Apr  2 12:08:58 2025
+                            <1*lc07e02>
+</hpc/users/arayan01> was used as the home directory.
+</sc/arion/scratch/arayan01/projects/chipseqtut/results> was used as the working directory.
+Started at Wed Apr  2 12:08:58 2025
+Terminated at Wed Apr  2 12:09:02 2025
+Results reported at Wed Apr  2 12:09:02 2025
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+bamCoverage --bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K4me3_rep1.bam -o /sc/arion/scratch/arayan01/projects/chipseq_tut/results/norm/wt_H3K4me3_rep1.bw --binSize 25 --normalizeUsing RPGC --effectiveGenomeSize 2308125349 -r chrX
+------------------------------------------------------------
+
+Exited with exit code 2.
+
+Resource usage summary:
+
+    CPU time :                                   0.21 sec.
+    Max Memory :                                 18 MB
+    Average Memory :                             15.25 MB
+    Total Requested Memory :                     16000.00 MB
+    Delta Memory :                               15982.00 MB
+    Max Swap :                                   -
+    Max Processes :                              3
+    Max Threads :                                4
+    Run time :                                   4 sec.
+    Turnaround time :                            125 sec.
+
+The output (if any) follows:
+
+usage: An example usage is:$ bamCoverage -b reads.bam -o coverage.bw
+bamCoverage: error: argument --outFileName/-o: /sc/arion/scratch/arayan01/projects/chipseq_tut/results/norm/wt_H3K4me3_rep1.bw file can't be opened for writing
+Sender: LSF System <lsfadmin@lc07e54>
+Subject: Job 177099944: <bamCoverage --bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K4me3_rep1.bam -o /sc/arion/scratch/arayan01/projects/chipseq_tut/results/norm/wt_H3K4me3_rep1 --binSize 25 --normalizeUsing RPGC --effectiveGenomeSize 2308125349 -r chrX> in cluster <chimera> Exited
+
+Job <bamCoverage --bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K4me3_rep1.bam -o /sc/arion/scratch/arayan01/projects/chipseq_tut/results/norm/wt_H3K4me3_rep1 --binSize 25 --normalizeUsing RPGC --effectiveGenomeSize 2308125349 -r chrX> was submitted from host <li04e04> by user <arayan01> in cluster <chimera> at Wed Apr  2 12:11:51 2025
+Job was executed on host(s) <2*lc07e54>, in queue <premium>, as user <arayan01> in cluster <chimera> at Wed Apr  2 12:13:34 2025
+</hpc/users/arayan01> was used as the home directory.
+</sc/arion/scratch/arayan01/projects/chipseqtut/results> was used as the working directory.
+Started at Wed Apr  2 12:13:34 2025
+Terminated at Wed Apr  2 12:13:37 2025
+Results reported at Wed Apr  2 12:13:37 2025
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+bamCoverage --bam /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K4me3_rep1.bam -o /sc/arion/scratch/arayan01/projects/chipseq_tut/results/norm/wt_H3K4me3_rep1 --binSize 25 --normalizeUsing RPGC --effectiveGenomeSize 2308125349 -r chrX
+------------------------------------------------------------
+
+Exited with exit code 2.
+
+Resource usage summary:
+
+    CPU time :                                   0.21 sec.
+    Max Memory :                                 20 MB
+    Average Memory :                             16.75 MB
+    Total Requested Memory :                     16000.00 MB
+    Delta Memory :                               15980.00 MB
+    Max Swap :                                   -
+    Max Processes :                              3
+    Max Threads :                                4
+    Run time :                                   3 sec.
+    Turnaround time :                            106 sec.
+
+The output (if any) follows:
+
+usage: An example usage is:$ bamCoverage -b reads.bam -o coverage.bw
+bamCoverage: error: argument --outFileName/-o: /sc/arion/scratch/arayan01/projects/chipseq_tut/results/norm/wt_H3K4me3_rep1 file can't be opened for writing
+Sender: LSF System <lsfadmin@lc07e02>
+Subject: Job 177100891: <bamCoverage -b /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K4me3_rep1.bam -o /sc/arion/scratch/arayan01/projects/chipseq_tut/results/norm/wt_H3K4me3_rep1 -of bedgraph -bs 25 --normalizeUsing RPGC --effectiveGenomeSize 2308125349 -r chrX> in cluster <chimera> Exited
+
+Job <bamCoverage -b /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K4me3_rep1.bam -o /sc/arion/scratch/arayan01/projects/chipseq_tut/results/norm/wt_H3K4me3_rep1 -of bedgraph -bs 25 --normalizeUsing RPGC --effectiveGenomeSize 2308125349 -r chrX> was submitted from host <li04e04> by user <arayan01> in cluster <chimera> at Wed Apr  2 12:20:10 2025
+Job was executed on host(s) <1*lc07e02>, in queue <premium>, as user <arayan01> in cluster <chimera> at Wed Apr  2 12:20:13 2025
+                            <1*lc06e08>
+</hpc/users/arayan01> was used as the home directory.
+</sc/arion/scratch/arayan01/projects/chipseqtut/results> was used as the working directory.
+Started at Wed Apr  2 12:20:13 2025
+Terminated at Wed Apr  2 12:20:17 2025
+Results reported at Wed Apr  2 12:20:17 2025
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+bamCoverage -b /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K4me3_rep1.bam -o /sc/arion/scratch/arayan01/projects/chipseq_tut/results/norm/wt_H3K4me3_rep1 -of bedgraph -bs 25 --normalizeUsing RPGC --effectiveGenomeSize 2308125349 -r chrX
+------------------------------------------------------------
+
+Exited with exit code 2.
+
+Resource usage summary:
+
+    CPU time :                                   0.21 sec.
+    Max Memory :                                 18 MB
+    Average Memory :                             15.25 MB
+    Total Requested Memory :                     16000.00 MB
+    Delta Memory :                               15982.00 MB
+    Max Swap :                                   -
+    Max Processes :                              3
+    Max Threads :                                4
+    Run time :                                   4 sec.
+    Turnaround time :                            7 sec.
+
+The output (if any) follows:
+
+usage: An example usage is:$ bamCoverage -b reads.bam -o coverage.bw
+bamCoverage: error: argument --outFileName/-o: /sc/arion/scratch/arayan01/projects/chipseq_tut/results/norm/wt_H3K4me3_rep1 file can't be opened for writing
+Sender: LSF System <lsfadmin@lc06e14>
+Subject: Job 177101196: <bamCoverage -b /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K4me3_rep1.bam -o /sc/arion/scratch/arayan01/projects/chipseq_tut/results/norm/wt_H3K4me3_rep1.bedgraph -of bedgraph -bs 25 --normalizeUsing RPGC --effectiveGenomeSize 2308125349 -r chrX> in cluster <chimera> Exited
+
+Job <bamCoverage -b /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K4me3_rep1.bam -o /sc/arion/scratch/arayan01/projects/chipseq_tut/results/norm/wt_H3K4me3_rep1.bedgraph -of bedgraph -bs 25 --normalizeUsing RPGC --effectiveGenomeSize 2308125349 -r chrX> was submitted from host <li04e04> by user <arayan01> in cluster <chimera> at Wed Apr  2 12:22:29 2025
+Job was executed on host(s) <1*lc06e14>, in queue <premium>, as user <arayan01> in cluster <chimera> at Wed Apr  2 12:22:33 2025
+                            <1*lc07e25>
+</hpc/users/arayan01> was used as the home directory.
+</sc/arion/scratch/arayan01/projects/chipseqtut/results> was used as the working directory.
+Started at Wed Apr  2 12:22:33 2025
+Terminated at Wed Apr  2 12:22:35 2025
+Results reported at Wed Apr  2 12:22:35 2025
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+bamCoverage -b /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K4me3_rep1.bam -o /sc/arion/scratch/arayan01/projects/chipseq_tut/results/norm/wt_H3K4me3_rep1.bedgraph -of bedgraph -bs 25 --normalizeUsing RPGC --effectiveGenomeSize 2308125349 -r chrX
+------------------------------------------------------------
+
+Exited with exit code 2.
+
+Resource usage summary:
+
+    CPU time :                                   0.20 sec.
+    Max Memory :                                 8 MB
+    Average Memory :                             8.00 MB
+    Total Requested Memory :                     16000.00 MB
+    Delta Memory :                               15992.00 MB
+    Max Swap :                                   -
+    Max Processes :                              3
+    Max Threads :                                4
+    Run time :                                   2 sec.
+    Turnaround time :                            6 sec.
+
+The output (if any) follows:
+
+usage: An example usage is:$ bamCoverage -b reads.bam -o coverage.bw
+bamCoverage: error: argument --outFileName/-o: /sc/arion/scratch/arayan01/projects/chipseq_tut/results/norm/wt_H3K4me3_rep1.bedgraph file can't be opened for writing
+Sender: LSF System <lsfadmin@lh06c04>
+Subject: Job 177101423: <bamCoverage -b /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K4me3_rep1.bam -o /sc/arion/scratch/arayan01/projects/chipseq_tut/results/norm/wt_H3K4me3_rep1.bedgraph -of bedgraph -bs 25 --normalizeUsing RPGC --effectiveGenomeSize 2308125349 -r chrX> in cluster <chimera> Exited
+
+Job <bamCoverage -b /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K4me3_rep1.bam -o /sc/arion/scratch/arayan01/projects/chipseq_tut/results/norm/wt_H3K4me3_rep1.bedgraph -of bedgraph -bs 25 --normalizeUsing RPGC --effectiveGenomeSize 2308125349 -r chrX> was submitted from host <li04e04> by user <arayan01> in cluster <chimera> at Wed Apr  2 12:24:01 2025
+Job was executed on host(s) <2*lh06c04>, in queue <premium>, as user <arayan01> in cluster <chimera> at Wed Apr  2 12:24:03 2025
+</hpc/users/arayan01> was used as the home directory.
+</sc/arion/scratch/arayan01/projects/chipseqtut/results> was used as the working directory.
+Started at Wed Apr  2 12:24:03 2025
+Terminated at Wed Apr  2 12:24:04 2025
+Results reported at Wed Apr  2 12:24:04 2025
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+bamCoverage -b /sc/arion/scratch/arayan01/projects/chipseq_tut/data/chipseqdata/wt_H3K4me3_rep1.bam -o /sc/arion/scratch/arayan01/projects/chipseq_tut/results/norm/wt_H3K4me3_rep1.bedgraph -of bedgraph -bs 25 --normalizeUsing RPGC --effectiveGenomeSize 2308125349 -r chrX
+------------------------------------------------------------
+
+Exited with exit code 2.
+
+Resource usage summary:
+
+    CPU time :                                   0.28 sec.
+    Max Memory :                                 12 MB
+    Average Memory :                             12.00 MB
+    Total Requested Memory :                     16000.00 MB
+    Delta Memory :                               15988.00 MB
+    Max Swap :                                   -
+    Max Processes :                              3
+    Max Threads :                                4
+    Run time :                                   1 sec.
+    Turnaround time :                            3 sec.
+
+The output (if any) follows:
+
+usage: An example usage is:$ bamCoverage -b reads.bam -o coverage.bw
+bamCoverage: error: argument --outFileName/-o: /sc/arion/scratch/arayan01/projects/chipseq_tut/results/norm/wt_H3K4me3_rep1.bedgraph file can't be opened for writing
+Sender: LSF System <lsfadmin@lh06c04>
+Subject: Job 177101540: <bamCoverage -b /sc/arion/scratch/arayan01/projects/chipseqtut/data/chipseqdata/wt_H3K4me3_rep1.bam -o /sc/arion/scratch/arayan01/projects/chipseqtut/results/norm/wt_H3K4me3_rep1.bedgraph -of bedgraph -bs 25 --normalizeUsing RPGC --effectiveGenomeSize 2308125349 -r chrX> in cluster <chimera> Exited
+
+Job <bamCoverage -b /sc/arion/scratch/arayan01/projects/chipseqtut/data/chipseqdata/wt_H3K4me3_rep1.bam -o /sc/arion/scratch/arayan01/projects/chipseqtut/results/norm/wt_H3K4me3_rep1.bedgraph -of bedgraph -bs 25 --normalizeUsing RPGC --effectiveGenomeSize 2308125349 -r chrX> was submitted from host <li04e04> by user <arayan01> in cluster <chimera> at Wed Apr  2 12:25:25 2025
+Job was executed on host(s) <2*lh06c04>, in queue <premium>, as user <arayan01> in cluster <chimera> at Wed Apr  2 12:25:28 2025
+</hpc/users/arayan01> was used as the home directory.
+</sc/arion/scratch/arayan01/projects/chipseqtut/results> was used as the working directory.
+Started at Wed Apr  2 12:25:28 2025
+Terminated at Wed Apr  2 12:25:29 2025
+Results reported at Wed Apr  2 12:25:29 2025
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+bamCoverage -b /sc/arion/scratch/arayan01/projects/chipseqtut/data/chipseqdata/wt_H3K4me3_rep1.bam -o /sc/arion/scratch/arayan01/projects/chipseqtut/results/norm/wt_H3K4me3_rep1.bedgraph -of bedgraph -bs 25 --normalizeUsing RPGC --effectiveGenomeSize 2308125349 -r chrX
+------------------------------------------------------------
+
+Exited with exit code 2.
+
+Resource usage summary:
+
+    CPU time :                                   0.22 sec.
+    Max Memory :                                 26 MB
+    Average Memory :                             26.00 MB
+    Total Requested Memory :                     16000.00 MB
+    Delta Memory :                               15974.00 MB
+    Max Swap :                                   -
+    Max Processes :                              3
+    Max Threads :                                4
+    Run time :                                   1 sec.
+    Turnaround time :                            4 sec.
+
+The output (if any) follows:
+
+usage: An example usage is:$ bamCoverage -b reads.bam -o coverage.bw
+bamCoverage: error: unrecognized arguments: RPGC --effectiveGenomeSize 2308125349
+Sender: LSF System <lsfadmin@lc06e54>
+Subject: Job 177101728: <bamCoverage -b /sc/arion/scratch/arayan01/projects/chipseqtut/data/chipseqdata/wt_H3K4me3_rep1.bam -o /sc/arion/scratch/arayan01/projects/chipseqtut/results/norm/wt_H3K4me3_rep1.bedgraph -of bedgraph -bs 25 --normalizeUsing RPGC --effectiveGenomeSize 2308125349 -r chrX> in cluster <chimera> Exited
+
+Job <bamCoverage -b /sc/arion/scratch/arayan01/projects/chipseqtut/data/chipseqdata/wt_H3K4me3_rep1.bam -o /sc/arion/scratch/arayan01/projects/chipseqtut/results/norm/wt_H3K4me3_rep1.bedgraph -of bedgraph -bs 25 --normalizeUsing RPGC --effectiveGenomeSize 2308125349 -r chrX> was submitted from host <li04e04> by user <arayan01> in cluster <chimera> at Wed Apr  2 12:27:20 2025
+Job was executed on host(s) <1*lc06e54>, in queue <premium>, as user <arayan01> in cluster <chimera> at Wed Apr  2 12:27:24 2025
+                            <1*lc07e65>
+</hpc/users/arayan01> was used as the home directory.
+</sc/arion/scratch/arayan01/projects/chipseqtut/results> was used as the working directory.
+Started at Wed Apr  2 12:27:24 2025
+Terminated at Wed Apr  2 12:27:26 2025
+Results reported at Wed Apr  2 12:27:26 2025
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+bamCoverage -b /sc/arion/scratch/arayan01/projects/chipseqtut/data/chipseqdata/wt_H3K4me3_rep1.bam -o /sc/arion/scratch/arayan01/projects/chipseqtut/results/norm/wt_H3K4me3_rep1.bedgraph -of bedgraph -bs 25 --normalizeUsing RPGC --effectiveGenomeSize 2308125349 -r chrX
+------------------------------------------------------------
+
+Exited with exit code 2.
+
+Resource usage summary:
+
+    CPU time :                                   0.22 sec.
+    Max Memory :                                 23 MB
+    Average Memory :                             19.25 MB
+    Total Requested Memory :                     16000.00 MB
+    Delta Memory :                               15977.00 MB
+    Max Swap :                                   -
+    Max Processes :                              3
+    Max Threads :                                4
+    Run time :                                   3 sec.
+    Turnaround time :                            6 sec.
+
+The output (if any) follows:
+
+usage: An example usage is:$ bamCoverage -b reads.bam -o coverage.bw
+bamCoverage: error: unrecognized arguments: RPGC --effectiveGenomeSize 2308125349
+Sender: LSF System <lsfadmin@lc07e25>
+Subject: Job 177101910: <bamCoverage -b /sc/arion/scratch/arayan01/projects/chipseqtut/data/chipseqdata/wt_H3K4me3_rep1.bam -o /sc/arion/scratch/arayan01/projects/chipseqtut/results/norm/wt_H3K4me3_rep1.bedgraph -of bedgraph -bs 25 --normalizeUsing RPKM --effectiveGenomeSize 2308125349 -r chrX> in cluster <chimera> Exited
+
+Job <bamCoverage -b /sc/arion/scratch/arayan01/projects/chipseqtut/data/chipseqdata/wt_H3K4me3_rep1.bam -o /sc/arion/scratch/arayan01/projects/chipseqtut/results/norm/wt_H3K4me3_rep1.bedgraph -of bedgraph -bs 25 --normalizeUsing RPKM --effectiveGenomeSize 2308125349 -r chrX> was submitted from host <li04e04> by user <arayan01> in cluster <chimera> at Wed Apr  2 12:30:32 2025
+Job was executed on host(s) <1*lc07e25>, in queue <premium>, as user <arayan01> in cluster <chimera> at Wed Apr  2 12:30:35 2025
+                            <1*lc07e60>
+</hpc/users/arayan01> was used as the home directory.
+</sc/arion/scratch/arayan01/projects/chipseqtut/results> was used as the working directory.
+Started at Wed Apr  2 12:30:35 2025
+Terminated at Wed Apr  2 12:30:37 2025
+Results reported at Wed Apr  2 12:30:37 2025
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+bamCoverage -b /sc/arion/scratch/arayan01/projects/chipseqtut/data/chipseqdata/wt_H3K4me3_rep1.bam -o /sc/arion/scratch/arayan01/projects/chipseqtut/results/norm/wt_H3K4me3_rep1.bedgraph -of bedgraph -bs 25 --normalizeUsing RPKM --effectiveGenomeSize 2308125349 -r chrX
+------------------------------------------------------------
+
+Exited with exit code 2.
+
+Resource usage summary:
+
+    CPU time :                                   0.21 sec.
+    Max Memory :                                 28 MB
+    Average Memory :                             23.00 MB
+    Total Requested Memory :                     16000.00 MB
+    Delta Memory :                               15972.00 MB
+    Max Swap :                                   -
+    Max Processes :                              3
+    Max Threads :                                4
+    Run time :                                   2 sec.
+    Turnaround time :                            5 sec.
+
+The output (if any) follows:
+
+usage: An example usage is:$ bamCoverage -b reads.bam -o coverage.bw
+bamCoverage: error: unrecognized arguments: RPKM --effectiveGenomeSize 2308125349
+Sender: LSF System <lsfadmin@lh06c04>
+Subject: Job 177101957: <bamCoverage -b /sc/arion/scratch/arayan01/projects/chipseqtut/data/chipseqdata/wt_H3K4me3_rep1.bam -o /sc/arion/scratch/arayan01/projects/chipseqtut/results/norm/wt_H3K4me3_rep1.bw -of bigwig -bs 25 --normalizeUsing RPKM --effectiveGenomeSize 2308125349 -r chrX> in cluster <chimera> Exited
+
+Job <bamCoverage -b /sc/arion/scratch/arayan01/projects/chipseqtut/data/chipseqdata/wt_H3K4me3_rep1.bam -o /sc/arion/scratch/arayan01/projects/chipseqtut/results/norm/wt_H3K4me3_rep1.bw -of bigwig -bs 25 --normalizeUsing RPKM --effectiveGenomeSize 2308125349 -r chrX> was submitted from host <li04e04> by user <arayan01> in cluster <chimera> at Wed Apr  2 12:31:29 2025
+Job was executed on host(s) <2*lh06c04>, in queue <premium>, as user <arayan01> in cluster <chimera> at Wed Apr  2 12:31:33 2025
+</hpc/users/arayan01> was used as the home directory.
+</sc/arion/scratch/arayan01/projects/chipseqtut/results> was used as the working directory.
+Started at Wed Apr  2 12:31:33 2025
+Terminated at Wed Apr  2 12:31:34 2025
+Results reported at Wed Apr  2 12:31:34 2025
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+bamCoverage -b /sc/arion/scratch/arayan01/projects/chipseqtut/data/chipseqdata/wt_H3K4me3_rep1.bam -o /sc/arion/scratch/arayan01/projects/chipseqtut/results/norm/wt_H3K4me3_rep1.bw -of bigwig -bs 25 --normalizeUsing RPKM --effectiveGenomeSize 2308125349 -r chrX
+------------------------------------------------------------
+
+Exited with exit code 2.
+
+Resource usage summary:
+
+    CPU time :                                   0.22 sec.
+    Max Memory :                                 -
+    Average Memory :                             -
+    Total Requested Memory :                     16000.00 MB
+    Delta Memory :                               -
+    Max Swap :                                   -
+    Max Processes :                              -
+    Max Threads :                                -
+    Run time :                                   1 sec.
+    Turnaround time :                            5 sec.
+
+The output (if any) follows:
+
+usage: An example usage is:$ bamCoverage -b reads.bam -o coverage.bw
+bamCoverage: error: unrecognized arguments: RPKM --effectiveGenomeSize 2308125349
+Sender: LSF System <lsfadmin@lc06e26>
+Subject: Job 177102014: <bamCoverage -b /sc/arion/scratch/arayan01/projects/chipseqtut/data/chipseqdata/wt_H3K4me3_rep1.bam -o /sc/arion/scratch/arayan01/projects/chipseqtut/results/norm/wt_H3K4me3_rep1.bw -of bigwig -bs 25 --normalizeUsing RPGC --effectiveGenomeSize 2308125349 -r chrX> in cluster <chimera> Exited
+
+Job <bamCoverage -b /sc/arion/scratch/arayan01/projects/chipseqtut/data/chipseqdata/wt_H3K4me3_rep1.bam -o /sc/arion/scratch/arayan01/projects/chipseqtut/results/norm/wt_H3K4me3_rep1.bw -of bigwig -bs 25 --normalizeUsing RPGC --effectiveGenomeSize 2308125349 -r chrX> was submitted from host <li04e04> by user <arayan01> in cluster <chimera> at Wed Apr  2 12:32:38 2025
+Job was executed on host(s) <1*lc06e26>, in queue <premium>, as user <arayan01> in cluster <chimera> at Wed Apr  2 12:32:43 2025
+                            <1*lc06e31>
+</hpc/users/arayan01> was used as the home directory.
+</sc/arion/scratch/arayan01/projects/chipseqtut/results> was used as the working directory.
+Started at Wed Apr  2 12:32:43 2025
+Terminated at Wed Apr  2 12:32:45 2025
+Results reported at Wed Apr  2 12:32:45 2025
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+bamCoverage -b /sc/arion/scratch/arayan01/projects/chipseqtut/data/chipseqdata/wt_H3K4me3_rep1.bam -o /sc/arion/scratch/arayan01/projects/chipseqtut/results/norm/wt_H3K4me3_rep1.bw -of bigwig -bs 25 --normalizeUsing RPGC --effectiveGenomeSize 2308125349 -r chrX
+------------------------------------------------------------
+
+Exited with exit code 2.
+
+Resource usage summary:
+
+    CPU time :                                   0.21 sec.
+    Max Memory :                                 10 MB
+    Average Memory :                             10.00 MB
+    Total Requested Memory :                     16000.00 MB
+    Delta Memory :                               15990.00 MB
+    Max Swap :                                   -
+    Max Processes :                              3
+    Max Threads :                                4
+    Run time :                                   2 sec.
+    Turnaround time :                            7 sec.
+
+The output (if any) follows:
+
+usage: An example usage is:$ bamCoverage -b reads.bam -o coverage.bw
+bamCoverage: error: unrecognized arguments: RPGC --effectiveGenomeSize 2308125349
+Sender: LSF System <lsfadmin@lc07e21>
+Subject: Job 177102082: <bamCoverage -b /sc/arion/scratch/arayan01/projects/chipseqtut/data/chipseqdata/wt_H3K4me3_rep1.bam -o /sc/arion/scratch/arayan01/projects/chipseqtut/results/norm/wt_H3K4me3_rep1.bw --outFileFormat bigwig --binSize 25 --normalizeUsing RPGC --effectiveGenomeSize 2308125349 --region chrX> in cluster <chimera> Exited
+
+Job <bamCoverage -b /sc/arion/scratch/arayan01/projects/chipseqtut/data/chipseqdata/wt_H3K4me3_rep1.bam -o /sc/arion/scratch/arayan01/projects/chipseqtut/results/norm/wt_H3K4me3_rep1.bw --outFileFormat bigwig --binSize 25 --normalizeUsing RPGC --effectiveGenomeSize 2308125349 --region chrX> was submitted from host <li04e04> by user <arayan01> in cluster <chimera> at Wed Apr  2 12:34:34 2025
+Job was executed on host(s) <1*lc07e21>, in queue <premium>, as user <arayan01> in cluster <chimera> at Wed Apr  2 12:34:38 2025
+                            <1*lc07e49>
+</hpc/users/arayan01> was used as the home directory.
+</sc/arion/scratch/arayan01/projects/chipseqtut/results> was used as the working directory.
+Started at Wed Apr  2 12:34:38 2025
+Terminated at Wed Apr  2 12:34:40 2025
+Results reported at Wed Apr  2 12:34:40 2025
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+bamCoverage -b /sc/arion/scratch/arayan01/projects/chipseqtut/data/chipseqdata/wt_H3K4me3_rep1.bam -o /sc/arion/scratch/arayan01/projects/chipseqtut/results/norm/wt_H3K4me3_rep1.bw --outFileFormat bigwig --binSize 25 --normalizeUsing RPGC --effectiveGenomeSize 2308125349 --region chrX
+------------------------------------------------------------
+
+Exited with exit code 2.
+
+Resource usage summary:
+
+    CPU time :                                   0.20 sec.
+    Max Memory :                                 10 MB
+    Average Memory :                             10.00 MB
+    Total Requested Memory :                     16000.00 MB
+    Delta Memory :                               15990.00 MB
+    Max Swap :                                   -
+    Max Processes :                              3
+    Max Threads :                                4
+    Run time :                                   2 sec.
+    Turnaround time :                            6 sec.
+
+The output (if any) follows:
+
+usage: An example usage is:$ bamCoverage -b reads.bam -o coverage.bw
+bamCoverage: error: unrecognized arguments: RPGC --effectiveGenomeSize 2308125349
+Sender: LSF System <lsfadmin@lh06c04>
+Subject: Job 177102136: <bamCoverage -b /sc/arion/scratch/arayan01/projects/chipseqtut/data/chipseqdata/wt_H3K4me3_rep1.bam -o /sc/arion/scratch/arayan01/projects/chipseqtut/results/norm/wt_H3K4me3_rep1.bw --outFileFormat bigwig --binSize 25 --normalizeUsing RPGC --effectiveGenomeSize 2308125349 --region chrX --verbose> in cluster <chimera> Exited
+
+Job <bamCoverage -b /sc/arion/scratch/arayan01/projects/chipseqtut/data/chipseqdata/wt_H3K4me3_rep1.bam -o /sc/arion/scratch/arayan01/projects/chipseqtut/results/norm/wt_H3K4me3_rep1.bw --outFileFormat bigwig --binSize 25 --normalizeUsing RPGC --effectiveGenomeSize 2308125349 --region chrX --verbose> was submitted from host <li04e04> by user <arayan01> in cluster <chimera> at Wed Apr  2 12:35:30 2025
+Job was executed on host(s) <2*lh06c04>, in queue <premium>, as user <arayan01> in cluster <chimera> at Wed Apr  2 12:35:34 2025
+</hpc/users/arayan01> was used as the home directory.
+</sc/arion/scratch/arayan01/projects/chipseqtut/results> was used as the working directory.
+Started at Wed Apr  2 12:35:34 2025
+Terminated at Wed Apr  2 12:35:34 2025
+Results reported at Wed Apr  2 12:35:34 2025
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+bamCoverage -b /sc/arion/scratch/arayan01/projects/chipseqtut/data/chipseqdata/wt_H3K4me3_rep1.bam -o /sc/arion/scratch/arayan01/projects/chipseqtut/results/norm/wt_H3K4me3_rep1.bw --outFileFormat bigwig --binSize 25 --normalizeUsing RPGC --effectiveGenomeSize 2308125349 --region chrX --verbose
+------------------------------------------------------------
+
+Exited with exit code 2.
+
+Resource usage summary:
+
+    CPU time :                                   0.22 sec.
+    Max Memory :                                 26 MB
+    Average Memory :                             26.00 MB
+    Total Requested Memory :                     16000.00 MB
+    Delta Memory :                               15974.00 MB
+    Max Swap :                                   -
+    Max Processes :                              3
+    Max Threads :                                4
+    Run time :                                   0 sec.
+    Turnaround time :                            4 sec.
+
+The output (if any) follows:
+
+usage: An example usage is:$ bamCoverage -b reads.bam -o coverage.bw
+bamCoverage: error: unrecognized arguments: RPGC --effectiveGenomeSize 2308125349
+Sender: LSF System <lsfadmin@lc06e36>
+Subject: Job 177102208: <bamCoverage -b /sc/arion/scratch/arayan01/projects/chipseqtut/data/chipseqdata/wt_H3K4me3_rep1.bam -o /sc/arion/scratch/arayan01/projects/chipseqtut/results/norm/wt_H3K4me3_rep1.bw         --outFileFormat bigwig         --binSize 25         --normalizeUsing RPGC         --effectiveGenomeSize 2308125349         --region chrX         --verbose> in cluster <chimera> Exited
+
+Job <bamCoverage -b /sc/arion/scratch/arayan01/projects/chipseqtut/data/chipseqdata/wt_H3K4me3_rep1.bam -o /sc/arion/scratch/arayan01/projects/chipseqtut/results/norm/wt_H3K4me3_rep1.bw         --outFileFormat bigwig         --binSize 25         --normalizeUsing RPGC         --effectiveGenomeSize 2308125349         --region chrX         --verbose> was submitted from host <li04e04> by user <arayan01> in cluster <chimera> at Wed Apr  2 12:36:43 2025
+Job was executed on host(s) <1*lc06e36>, in queue <premium>, as user <arayan01> in cluster <chimera> at Wed Apr  2 12:36:48 2025
+                            <1*lc07e45>
+</hpc/users/arayan01> was used as the home directory.
+</sc/arion/scratch/arayan01/projects/chipseqtut/results> was used as the working directory.
+Started at Wed Apr  2 12:36:48 2025
+Terminated at Wed Apr  2 12:36:50 2025
+Results reported at Wed Apr  2 12:36:50 2025
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+bamCoverage -b /sc/arion/scratch/arayan01/projects/chipseqtut/data/chipseqdata/wt_H3K4me3_rep1.bam -o /sc/arion/scratch/arayan01/projects/chipseqtut/results/norm/wt_H3K4me3_rep1.bw         --outFileFormat bigwig         --binSize 25         --normalizeUsing RPGC         --effectiveGenomeSize 2308125349         --region chrX         --verbose
+------------------------------------------------------------
+
+Exited with exit code 2.
+
+Resource usage summary:
+
+    CPU time :                                   0.21 sec.
+    Max Memory :                                 10 MB
+    Average Memory :                             10.00 MB
+    Total Requested Memory :                     16000.00 MB
+    Delta Memory :                               15990.00 MB
+    Max Swap :                                   -
+    Max Processes :                              3
+    Max Threads :                                4
+    Run time :                                   2 sec.
+    Turnaround time :                            7 sec.
+
+The output (if any) follows:
+
+usage: An example usage is:$ bamCoverage -b reads.bam -o coverage.bw
+bamCoverage: error: unrecognized arguments: RPGC --effectiveGenomeSize 2308125349
+Sender: LSF System <lsfadmin@lc07e03>
+Subject: Job 177102303: <bamCoverage -b /sc/arion/scratch/arayan01/projects/chipseqtut/data/chipseqdata/wt_H3K4me3_rep1.bam -o /sc/arion/scratch/arayan01/projects/chipseqtut/results/norm/wt_H3K4me3_rep1.bw         --outFileFormat bigwig         --binSize 25         --normalizeUsing RPGC         --region chrX         --verbose> in cluster <chimera> Exited
+
+Job <bamCoverage -b /sc/arion/scratch/arayan01/projects/chipseqtut/data/chipseqdata/wt_H3K4me3_rep1.bam -o /sc/arion/scratch/arayan01/projects/chipseqtut/results/norm/wt_H3K4me3_rep1.bw         --outFileFormat bigwig         --binSize 25         --normalizeUsing RPGC         --region chrX         --verbose> was submitted from host <li04e04> by user <arayan01> in cluster <chimera> at Wed Apr  2 12:38:14 2025
+Job was executed on host(s) <1*lc07e03>, in queue <premium>, as user <arayan01> in cluster <chimera> at Wed Apr  2 12:38:18 2025
+                            <1*lc06e65>
+</hpc/users/arayan01> was used as the home directory.
+</sc/arion/scratch/arayan01/projects/chipseqtut/results> was used as the working directory.
+Started at Wed Apr  2 12:38:18 2025
+Terminated at Wed Apr  2 12:38:19 2025
+Results reported at Wed Apr  2 12:38:19 2025
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+bamCoverage -b /sc/arion/scratch/arayan01/projects/chipseqtut/data/chipseqdata/wt_H3K4me3_rep1.bam -o /sc/arion/scratch/arayan01/projects/chipseqtut/results/norm/wt_H3K4me3_rep1.bw         --outFileFormat bigwig         --binSize 25         --normalizeUsing RPGC         --region chrX         --verbose
+------------------------------------------------------------
+
+Exited with exit code 2.
+
+Resource usage summary:
+
+    CPU time :                                   0.21 sec.
+    Max Memory :                                 11 MB
+    Average Memory :                             11.00 MB
+    Total Requested Memory :                     16000.00 MB
+    Delta Memory :                               15989.00 MB
+    Max Swap :                                   -
+    Max Processes :                              3
+    Max Threads :                                4
+    Run time :                                   1 sec.
+    Turnaround time :                            5 sec.
+
+The output (if any) follows:
+
+usage: An example usage is:$ bamCoverage -b reads.bam -o coverage.bw
+bamCoverage: error: unrecognized arguments: RPGC
+Sender: LSF System <lsfadmin@lc07e56>
+Subject: Job 177102581: <bamCoverage -b /sc/arion/scratch/arayan01/projects/chipseqtut/data/chipseqdata/wt_H3K4me3_rep1.bam -o /sc/arion/scratch/arayan01/projects/chipseqtut/results/norm/wt_H3K4me3_rep1.bw         --outFileFormat bigwig ;        --binSize 25 ;        --normalizeUsing RPGC ;        --effectiveGenomeSize 2308125349 ;        --region chrX ;        --verbose> in cluster <chimera> Exited
+
+Job <bamCoverage -b /sc/arion/scratch/arayan01/projects/chipseqtut/data/chipseqdata/wt_H3K4me3_rep1.bam -o /sc/arion/scratch/arayan01/projects/chipseqtut/results/norm/wt_H3K4me3_rep1.bw         --outFileFormat bigwig ;        --binSize 25 ;        --normalizeUsing RPGC ;        --effectiveGenomeSize 2308125349 ;        --region chrX ;        --verbose> was submitted from host <li04e04> by user <arayan01> in cluster <chimera> at Wed Apr  2 12:41:56 2025
+Job was executed on host(s) <1*lc07e56>, in queue <premium>, as user <arayan01> in cluster <chimera> at Wed Apr  2 12:41:58 2025
+                            <1*lc06e44>
+</hpc/users/arayan01> was used as the home directory.
+</sc/arion/scratch/arayan01/projects/chipseqtut/results> was used as the working directory.
+Started at Wed Apr  2 12:41:58 2025
+Terminated at Wed Apr  2 12:42:44 2025
+Results reported at Wed Apr  2 12:42:44 2025
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+bamCoverage -b /sc/arion/scratch/arayan01/projects/chipseqtut/data/chipseqdata/wt_H3K4me3_rep1.bam -o /sc/arion/scratch/arayan01/projects/chipseqtut/results/norm/wt_H3K4me3_rep1.bw         --outFileFormat bigwig 
+        --binSize 25 
+        --normalizeUsing RPGC 
+        --effectiveGenomeSize 2308125349 
+        --region chrX 
+        --verbose
+------------------------------------------------------------
+
+Exited with exit code 127.
+
+Resource usage summary:
+
+    CPU time :                                   42.72 sec.
+    Max Memory :                                 900 MB
+    Average Memory :                             662.00 MB
+    Total Requested Memory :                     16000.00 MB
+    Delta Memory :                               15100.00 MB
+    Max Swap :                                   -
+    Max Processes :                              51
+    Max Threads :                                55
+    Run time :                                   46 sec.
+    Turnaround time :                            48 sec.
+
+The output (if any) follows:
+
+minFragmentLength: 0
+verbose: False
+out_file_for_raw_data: None
+numberOfSamples: None
+bedFile: None
+bamFilesList: ['/sc/arion/scratch/arayan01/projects/chipseqtut/data/chipseqdata/wt_H3K4me3_rep1.bam']
+ignoreDuplicates: False
+numberOfProcessors: 48
+samFlag_exclude: None
+save_data: False
+stepSize: 50
+smoothLength: None
+center_read: False
+defaultFragmentLength: read length
+chrsToSkip: []
+region: None
+maxPairedFragmentLength: 1000
+samFlag_include: None
+binLength: 50
+blackListFileName: None
+maxFragmentLength: 0
+minMappingQuality: None
+zerosToNans: False
+/local/JOBS/1743612116.177102581: line 9: --binSize: command not found
+/local/JOBS/1743612116.177102581: line 10: --normalizeUsing: command not found
+/local/JOBS/1743612116.177102581: line 11: --effectiveGenomeSize: command not found
+/local/JOBS/1743612116.177102581: line 12: --region: command not found
+/local/JOBS/1743612116.177102581: line 13: --verbose: command not found
+Sender: LSF System <lsfadmin@lc07e09>
+Subject: Job 177102665: <bamCoverage -b /sc/arion/scratch/arayan01/projects/chipseqtut/data/chipseqdata/wt_H3K4me3_rep1.bam -o /sc/arion/scratch/arayan01/projects/chipseqtut/results/norm/wt_H3K4me3_rep1.bedgraph         --outFileFormat bedgraph ;        --binSize 25 ;        --normalizeUsing RPGC ;        --effectiveGenomeSize 2308125349 ;        --region chrX ;        --verbose> in cluster <chimera> Exited
+
+Job <bamCoverage -b /sc/arion/scratch/arayan01/projects/chipseqtut/data/chipseqdata/wt_H3K4me3_rep1.bam -o /sc/arion/scratch/arayan01/projects/chipseqtut/results/norm/wt_H3K4me3_rep1.bedgraph         --outFileFormat bedgraph ;        --binSize 25 ;        --normalizeUsing RPGC ;        --effectiveGenomeSize 2308125349 ;        --region chrX ;        --verbose> was submitted from host <li04e04> by user <arayan01> in cluster <chimera> at Wed Apr  2 12:43:09 2025
+Job was executed on host(s) <1*lc07e09>, in queue <premium>, as user <arayan01> in cluster <chimera> at Wed Apr  2 12:43:13 2025
+                            <1*lc07e38>
+</hpc/users/arayan01> was used as the home directory.
+</sc/arion/scratch/arayan01/projects/chipseqtut/results> was used as the working directory.
+Started at Wed Apr  2 12:43:13 2025
+Terminated at Wed Apr  2 12:43:57 2025
+Results reported at Wed Apr  2 12:43:57 2025
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+bamCoverage -b /sc/arion/scratch/arayan01/projects/chipseqtut/data/chipseqdata/wt_H3K4me3_rep1.bam -o /sc/arion/scratch/arayan01/projects/chipseqtut/results/norm/wt_H3K4me3_rep1.bedgraph         --outFileFormat bedgraph 
+        --binSize 25 
+        --normalizeUsing RPGC 
+        --effectiveGenomeSize 2308125349 
+        --region chrX 
+        --verbose
+------------------------------------------------------------
+
+Exited with exit code 127.
+
+Resource usage summary:
+
+    CPU time :                                   42.71 sec.
+    Max Memory :                                 915 MB
+    Average Memory :                             755.46 MB
+    Total Requested Memory :                     16000.00 MB
+    Delta Memory :                               15085.00 MB
+    Max Swap :                                   -
+    Max Processes :                              51
+    Max Threads :                                55
+    Run time :                                   44 sec.
+    Turnaround time :                            48 sec.
+
+The output (if any) follows:
+
+minFragmentLength: 0
+verbose: False
+out_file_for_raw_data: None
+numberOfSamples: None
+bedFile: None
+bamFilesList: ['/sc/arion/scratch/arayan01/projects/chipseqtut/data/chipseqdata/wt_H3K4me3_rep1.bam']
+ignoreDuplicates: False
+numberOfProcessors: 48
+samFlag_exclude: None
+save_data: False
+stepSize: 50
+smoothLength: None
+center_read: False
+defaultFragmentLength: read length
+chrsToSkip: []
+region: None
+maxPairedFragmentLength: 1000
+samFlag_include: None
+binLength: 50
+blackListFileName: None
+maxFragmentLength: 0
+minMappingQuality: None
+zerosToNans: False
+/local/JOBS/1743612189.177102665: line 9: --binSize: command not found
+/local/JOBS/1743612189.177102665: line 10: --normalizeUsing: command not found
+/local/JOBS/1743612189.177102665: line 11: --effectiveGenomeSize: command not found
+/local/JOBS/1743612189.177102665: line 12: --region: command not found
+/local/JOBS/1743612189.177102665: line 13: --verbose: command not found
+Sender: LSF System <lsfadmin@lh06c04>
+Subject: Job 177103671: <bamCoverage -b /sc/arion/scratch/arayan01/projects/chipseqtut/data/chipseqdata/wt_H3K4me3_rep1.bam -o /sc/arion/scratch/arayan01/projects/chipseqtut/results/norm/wt_H3K4me3_rep1.bedgraph         --outFileFormat bedgraph ;        --binSize 25 ;        --normalizeUsing RPGC ;        --effectiveGenomeSize 2308125349 ;        --region chrX ;        --verbose> in cluster <chimera> Exited
+
+Job <bamCoverage -b /sc/arion/scratch/arayan01/projects/chipseqtut/data/chipseqdata/wt_H3K4me3_rep1.bam -o /sc/arion/scratch/arayan01/projects/chipseqtut/results/norm/wt_H3K4me3_rep1.bedgraph         --outFileFormat bedgraph ;        --binSize 25 ;        --normalizeUsing RPGC ;        --effectiveGenomeSize 2308125349 ;        --region chrX ;        --verbose> was submitted from host <li04e04> by user <arayan01> in cluster <chimera> at Wed Apr  2 12:52:06 2025
+Job was executed on host(s) <2*lh06c04>, in queue <premium>, as user <arayan01> in cluster <chimera> at Wed Apr  2 12:52:08 2025
+</hpc/users/arayan01> was used as the home directory.
+</sc/arion/scratch/arayan01/projects/chipseqtut/results> was used as the working directory.
+Started at Wed Apr  2 12:52:08 2025
+Terminated at Wed Apr  2 12:53:03 2025
+Results reported at Wed Apr  2 12:53:03 2025
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+bamCoverage -b /sc/arion/scratch/arayan01/projects/chipseqtut/data/chipseqdata/wt_H3K4me3_rep1.bam -o /sc/arion/scratch/arayan01/projects/chipseqtut/results/norm/wt_H3K4me3_rep1.bedgraph         --outFileFormat bedgraph 
+        --binSize 25 
+        --normalizeUsing RPGC 
+        --effectiveGenomeSize 2308125349 
+        --region chrX 
+        --verbose
+------------------------------------------------------------
+
+Exited with exit code 127.
+
+Resource usage summary:
+
+    CPU time :                                   53.81 sec.
+    Max Memory :                                 65 MB
+    Average Memory :                             51.00 MB
+    Total Requested Memory :                     16000.00 MB
+    Delta Memory :                               15935.00 MB
+    Max Swap :                                   -
+    Max Processes :                              3
+    Max Threads :                                4
+    Run time :                                   55 sec.
+    Turnaround time :                            57 sec.
+
+The output (if any) follows:
+
+minFragmentLength: 0
+verbose: False
+out_file_for_raw_data: None
+numberOfSamples: None
+bedFile: None
+bamFilesList: ['/sc/arion/scratch/arayan01/projects/chipseqtut/data/chipseqdata/wt_H3K4me3_rep1.bam']
+numberOfProcessors: 1
+samFlag_exclude: None
+save_data: False
+stepSize: 50
+smoothLength: None
+blackListFileName: None
+center_read: False
+ignoreDuplicates: False
+defaultFragmentLength: read length
+chrsToSkip: []
+region: None
+maxPairedFragmentLength: 1000
+samFlag_include: None
+binLength: 50
+maxFragmentLength: 0
+minMappingQuality: None
+zerosToNans: False
+/local/JOBS/1743612726.177103671: line 9: --binSize: command not found
+/local/JOBS/1743612726.177103671: line 10: --normalizeUsing: command not found
+/local/JOBS/1743612726.177103671: line 11: --effectiveGenomeSize: command not found
+/local/JOBS/1743612726.177103671: line 12: --region: command not found
+/local/JOBS/1743612726.177103671: line 13: --verbose: command not found
+Sender: LSF System <lsfadmin@lc06e53>
+Subject: Job 177103839: <bamCoverage -b /sc/arion/scratch/arayan01/projects/chipseqtut/data/chipseqdata/wt_H3K4me3_rep1.bam -o /sc/arion/scratch/arayan01/projects/chipseqtut/results/norm/wt_H3K4me3_rep1.bedgraph         --outFileFormat bedgraph         --binSize 25         --normalizeUsing RPGC         --effectiveGenomeSize 2308125349         --region chrX         --verbose> in cluster <chimera> Done
+
+Job <bamCoverage -b /sc/arion/scratch/arayan01/projects/chipseqtut/data/chipseqdata/wt_H3K4me3_rep1.bam -o /sc/arion/scratch/arayan01/projects/chipseqtut/results/norm/wt_H3K4me3_rep1.bedgraph         --outFileFormat bedgraph         --binSize 25         --normalizeUsing RPGC         --effectiveGenomeSize 2308125349         --region chrX         --verbose> was submitted from host <li04e04> by user <arayan01> in cluster <chimera> at Wed Apr  2 12:54:13 2025
+Job was executed on host(s) <1*lc06e53>, in queue <premium>, as user <arayan01> in cluster <chimera> at Wed Apr  2 12:54:18 2025
+                            <1*lc06e30>
+</hpc/users/arayan01> was used as the home directory.
+</sc/arion/scratch/arayan01/projects/chipseqtut/results> was used as the working directory.
+Started at Wed Apr  2 12:54:18 2025
+Terminated at Wed Apr  2 12:54:33 2025
+Results reported at Wed Apr  2 12:54:33 2025
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+bamCoverage -b /sc/arion/scratch/arayan01/projects/chipseqtut/data/chipseqdata/wt_H3K4me3_rep1.bam -o /sc/arion/scratch/arayan01/projects/chipseqtut/results/norm/wt_H3K4me3_rep1.bedgraph         --outFileFormat bedgraph         --binSize 25         --normalizeUsing RPGC         --effectiveGenomeSize 2308125349         --region chrX         --verbose
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   12.93 sec.
+    Max Memory :                                 44 MB
+    Average Memory :                             37.78 MB
+    Total Requested Memory :                     16000.00 MB
+    Delta Memory :                               15956.00 MB
+    Max Swap :                                   -
+    Max Processes :                              3
+    Max Threads :                                4
+    Run time :                                   15 sec.
+    Turnaround time :                            20 sec.
+
+The output (if any) follows:
+
+Specified --scaleFactor: 1.0
+normalization: 1x (effective genome size 2308125349)
+minFragmentLength: 0
+verbose: True
+out_file_for_raw_data: None
+numberOfSamples: None
+bedFile: None
+bamFilesList: ['/sc/arion/scratch/arayan01/projects/chipseqtut/data/chipseqdata/wt_H3K4me3_rep1.bam']
+numberOfProcessors: 1
+samFlag_exclude: None
+save_data: False
+stepSize: 25
+smoothLength: None
+blackListFileName: None
+center_read: False
+ignoreDuplicates: False
+defaultFragmentLength: read length
+chrsToSkip: []
+region: chrX:25
+maxPairedFragmentLength: 1000
+samFlag_include: None
+binLength: 25
+maxFragmentLength: 0
+minMappingQuality: None
+zerosToNans: False
+genome partition size for multiprocessing: 1050000
+Estimated read length is 51
+Final scaling factor: 37.5635549051
+MainProcess,  processing 0 (0.0 per sec) reads @ X:25-1000025
+MainProcess countReadsInRegions_worker: processing 40000 (9775223.4 per sec) @ X:25-1000025
+MainProcess,  processing 0 (0.0 per sec) reads @ X:1000025-2000025
+MainProcess countReadsInRegions_worker: processing 40000 (9438658.8 per sec) @ X:1000025-2000025
+MainProcess,  processing 0 (0.0 per sec) reads @ X:2000025-3000025
+MainProcess countReadsInRegions_worker: processing 40000 (9763277.5 per sec) @ X:2000025-3000025
+MainProcess,  processing 275 (188223.5 per sec) reads @ X:3000025-4000025
+MainProcess countReadsInRegions_worker: processing 40000 (7079591.5 per sec) @ X:3000025-4000025
+MainProcess,  processing 227 (174346.6 per sec) reads @ X:4000025-5000025
+MainProcess countReadsInRegions_worker: processing 40000 (7457203.3 per sec) @ X:4000025-5000025
+MainProcess,  processing 1650 (216566.6 per sec) reads @ X:5000025-6000025
+MainProcess countReadsInRegions_worker: processing 40000 (3384345.5 per sec) @ X:5000025-6000025
+MainProcess,  processing 6442 (215243.3 per sec) reads @ X:6000025-7000025
+MainProcess countReadsInRegions_worker: processing 40000 (1159223.9 per sec) @ X:6000025-7000025
+MainProcess,  processing 37514 (203842.6 per sec) reads @ X:7000025-8000025
+MainProcess countReadsInRegions_worker: processing 40000 (208724.5 per sec) @ X:7000025-8000025
+MainProcess,  processing 19616 (222418.4 per sec) reads @ X:8000025-9000025
+MainProcess countReadsInRegions_worker: processing 40000 (426507.2 per sec) @ X:8000025-9000025
+MainProcess,  processing 6723 (223103.7 per sec) reads @ X:9000025-10000025
+MainProcess countReadsInRegions_worker: processing 40000 (1141944.2 per sec) @ X:9000025-10000025
+MainProcess,  processing 5517 (213837.3 per sec) reads @ X:10000025-11000025
+MainProcess countReadsInRegions_worker: processing 40000 (1326702.6 per sec) @ X:10000025-11000025
+MainProcess,  processing 5022 (209155.0 per sec) reads @ X:11000025-12000025
+MainProcess countReadsInRegions_worker: processing 40000 (1415774.9 per sec) @ X:11000025-12000025
+MainProcess,  processing 22772 (217568.3 per sec) reads @ X:12000025-13000025
+MainProcess countReadsInRegions_worker: processing 40000 (360555.3 per sec) @ X:12000025-13000025
+MainProcess,  processing 22849 (219649.4 per sec) reads @ X:13000025-14000025
+MainProcess countReadsInRegions_worker: processing 40000 (362546.0 per sec) @ X:13000025-14000025
+MainProcess,  processing 2557 (212655.1 per sec) reads @ X:14000025-15000025
+MainProcess countReadsInRegions_worker: processing 40000 (2464736.7 per sec) @ X:14000025-15000025
+MainProcess,  processing 2358 (212833.7 per sec) reads @ X:15000025-16000025
+MainProcess countReadsInRegions_worker: processing 40000 (2636434.7 per sec) @ X:15000025-16000025
+MainProcess,  processing 5615 (174775.6 per sec) reads @ X:16000025-17000025
+MainProcess countReadsInRegions_worker: processing 40000 (1098208.1 per sec) @ X:16000025-17000025
+MainProcess,  processing 3332 (213783.0 per sec) reads @ X:17000025-18000025
+MainProcess countReadsInRegions_worker: processing 40000 (1997596.8 per sec) @ X:17000025-18000025
+MainProcess,  processing 7947 (221921.3 per sec) reads @ X:18000025-19000025
+MainProcess countReadsInRegions_worker: processing 40000 (992288.4 per sec) @ X:18000025-19000025
+MainProcess,  processing 3166 (218360.7 per sec) reads @ X:19000025-20000025
+MainProcess countReadsInRegions_worker: processing 40000 (2143642.2 per sec) @ X:19000025-20000025
+MainProcess,  processing 34277 (219948.7 per sec) reads @ X:20000025-21000025
+MainProcess countReadsInRegions_worker: processing 40000 (245299.2 per sec) @ X:20000025-21000025
+MainProcess,  processing 4750 (219268.4 per sec) reads @ X:21000025-22000025
+MainProcess countReadsInRegions_worker: processing 40000 (1546729.1 per sec) @ X:21000025-22000025
+MainProcess,  processing 1999 (216293.8 per sec) reads @ X:22000025-23000025
+MainProcess countReadsInRegions_worker: processing 40000 (3019331.2 per sec) @ X:22000025-23000025
+MainProcess,  processing 7651 (219938.9 per sec) reads @ X:23000025-24000025
+MainProcess countReadsInRegions_worker: processing 40000 (1014716.2 per sec) @ X:23000025-24000025
+MainProcess,  processing 854 (195509.8 per sec) reads @ X:24000025-25000025
+MainProcess countReadsInRegions_worker: processing 40000 (4757334.5 per sec) @ X:24000025-25000025
+MainProcess,  processing 675 (199644.3 per sec) reads @ X:25000025-26000025
+MainProcess countReadsInRegions_worker: processing 40000 (5375589.9 per sec) @ X:25000025-26000025
+MainProcess,  processing 689 (207471.9 per sec) reads @ X:26000025-27000025
+MainProcess countReadsInRegions_worker: processing 40000 (5483287.9 per sec) @ X:26000025-27000025
+MainProcess,  processing 11 (38705.8 per sec) reads @ X:27000025-28000025
+MainProcess countReadsInRegions_worker: processing 40000 (9298462.6 per sec) @ X:27000025-28000025
+MainProcess,  processing 22 (68554.7 per sec) reads @ X:28000025-29000025
+MainProcess countReadsInRegions_worker: processing 40000 (9057993.7 per sec) @ X:28000025-29000025
+MainProcess,  processing 118 (163234.8 per sec) reads @ X:29000025-30000025
+MainProcess countReadsInRegions_worker: processing 40000 (8303908.1 per sec) @ X:29000025-30000025
+MainProcess,  processing 24 (69759.7 per sec) reads @ X:30000025-31000025
+MainProcess countReadsInRegions_worker: processing 40000 (9321711.3 per sec) @ X:30000025-31000025
+MainProcess,  processing 728 (203522.8 per sec) reads @ X:31000025-32000025
+MainProcess countReadsInRegions_worker: processing 40000 (5284661.9 per sec) @ X:31000025-32000025
+MainProcess,  processing 322 (190086.7 per sec) reads @ X:32000025-33000025
+MainProcess countReadsInRegions_worker: processing 40000 (7054882.5 per sec) @ X:32000025-33000025
+MainProcess,  processing 374 (194986.9 per sec) reads @ X:33000025-34000025
+MainProcess countReadsInRegions_worker: processing 40000 (6571311.7 per sec) @ X:33000025-34000025
+MainProcess,  processing 133 (165433.7 per sec) reads @ X:34000025-35000025
+MainProcess countReadsInRegions_worker: processing 40000 (8431609.2 per sec) @ X:34000025-35000025
+MainProcess,  processing 3520 (225149.5 per sec) reads @ X:35000025-36000025
+MainProcess countReadsInRegions_worker: processing 40000 (2032025.6 per sec) @ X:35000025-36000025
+MainProcess,  processing 22653 (224935.3 per sec) reads @ X:36000025-37000025
+MainProcess countReadsInRegions_worker: processing 40000 (374861.3 per sec) @ X:36000025-37000025
+MainProcess,  processing 11628 (199777.0 per sec) reads @ X:37000025-38000025
+MainProcess countReadsInRegions_worker: processing 40000 (633272.2 per sec) @ X:37000025-38000025
+MainProcess,  processing 13618 (224319.5 per sec) reads @ X:38000025-39000025
+MainProcess countReadsInRegions_worker: processing 40000 (608659.6 per sec) @ X:38000025-39000025
+MainProcess,  processing 2126 (209582.1 per sec) reads @ X:39000025-40000025
+MainProcess countReadsInRegions_worker: processing 40000 (2806634.0 per sec) @ X:39000025-40000025
+MainProcess,  processing 2187 (218721.1 per sec) reads @ X:40000025-41000025
+MainProcess countReadsInRegions_worker: processing 40000 (2833702.0 per sec) @ X:40000025-41000025
+MainProcess,  processing 7777 (224224.8 per sec) reads @ X:41000025-42000025
+MainProcess countReadsInRegions_worker: processing 40000 (1021425.2 per sec) @ X:41000025-42000025
+MainProcess,  processing 9474 (222024.5 per sec) reads @ X:42000025-43000025
+MainProcess countReadsInRegions_worker: processing 40000 (842496.2 per sec) @ X:42000025-43000025
+MainProcess,  processing 3262 (218926.6 per sec) reads @ X:43000025-44000025
+MainProcess countReadsInRegions_worker: processing 40000 (2102276.3 per sec) @ X:43000025-44000025
+MainProcess,  processing 2105 (216875.7 per sec) reads @ X:44000025-45000025
+MainProcess countReadsInRegions_worker: processing 40000 (2902984.1 per sec) @ X:44000025-45000025
+MainProcess,  processing 2184 (205435.3 per sec) reads @ X:45000025-46000025
+MainProcess countReadsInRegions_worker: processing 40000 (2714101.1 per sec) @ X:45000025-46000025
+MainProcess,  processing 2339 (202474.1 per sec) reads @ X:46000025-47000025
+MainProcess countReadsInRegions_worker: processing 40000 (2558204.4 per sec) @ X:46000025-47000025
+MainProcess,  processing 5477 (224081.9 per sec) reads @ X:47000025-48000025
+MainProcess countReadsInRegions_worker: processing 40000 (1391203.3 per sec) @ X:47000025-48000025
+MainProcess,  processing 26859 (218609.7 per sec) reads @ X:48000025-49000025
+MainProcess countReadsInRegions_worker: processing 40000 (308553.9 per sec) @ X:48000025-49000025
+MainProcess,  processing 4034 (215951.8 per sec) reads @ X:49000025-50000025
+MainProcess countReadsInRegions_worker: processing 40000 (1743522.1 per sec) @ X:49000025-50000025
+MainProcess,  processing 9719 (191344.6 per sec) reads @ X:50000025-51000025
+MainProcess countReadsInRegions_worker: processing 40000 (721058.0 per sec) @ X:50000025-51000025
+MainProcess,  processing 8022 (219312.5 per sec) reads @ X:51000025-52000025
+MainProcess countReadsInRegions_worker: processing 40000 (971961.2 per sec) @ X:51000025-52000025
+MainProcess,  processing 11287 (213615.8 per sec) reads @ X:52000025-53000025
+MainProcess countReadsInRegions_worker: processing 40000 (692329.3 per sec) @ X:52000025-53000025
+MainProcess,  processing 8127 (217061.4 per sec) reads @ X:53000025-54000025
+MainProcess countReadsInRegions_worker: processing 40000 (951456.1 per sec) @ X:53000025-54000025
+MainProcess,  processing 552 (166961.5 per sec) reads @ X:54000025-55000025
+MainProcess countReadsInRegions_worker: processing 40000 (5517187.7 per sec) @ X:54000025-55000025
+MainProcess,  processing 1268 (214736.4 per sec) reads @ X:55000025-56000025
+MainProcess countReadsInRegions_worker: processing 40000 (4033081.6 per sec) @ X:55000025-56000025
+MainProcess,  processing 13214 (223500.0 per sec) reads @ X:56000025-57000025
+MainProcess countReadsInRegions_worker: processing 40000 (621928.9 per sec) @ X:56000025-57000025
+MainProcess,  processing 8162 (219543.8 per sec) reads @ X:57000025-58000025
+MainProcess countReadsInRegions_worker: processing 40000 (955563.8 per sec) @ X:57000025-58000025
+MainProcess,  processing 3636 (216401.9 per sec) reads @ X:58000025-59000025
+MainProcess countReadsInRegions_worker: processing 40000 (1896459.2 per sec) @ X:58000025-59000025
+MainProcess,  processing 3937 (217791.8 per sec) reads @ X:59000025-60000025
+MainProcess countReadsInRegions_worker: processing 40000 (1785874.1 per sec) @ X:59000025-60000025
+MainProcess,  processing 12907 (219903.7 per sec) reads @ X:60000025-61000025
+MainProcess countReadsInRegions_worker: processing 40000 (626939.6 per sec) @ X:60000025-61000025
+MainProcess,  processing 2435 (213708.5 per sec) reads @ X:61000025-62000025
+MainProcess countReadsInRegions_worker: processing 40000 (2591316.0 per sec) @ X:61000025-62000025
+MainProcess,  processing 2076 (215353.2 per sec) reads @ X:62000025-63000025
+MainProcess countReadsInRegions_worker: processing 40000 (2906554.9 per sec) @ X:62000025-63000025
+MainProcess,  processing 2102 (213576.2 per sec) reads @ X:63000025-64000025
+MainProcess countReadsInRegions_worker: processing 40000 (2860224.0 per sec) @ X:63000025-64000025
+MainProcess,  processing 2182 (213273.0 per sec) reads @ X:64000025-65000025
+MainProcess countReadsInRegions_worker: processing 40000 (2793688.3 per sec) @ X:64000025-65000025
+MainProcess,  processing 2037 (215035.7 per sec) reads @ X:65000025-66000025
+MainProcess countReadsInRegions_worker: processing 40000 (2958579.4 per sec) @ X:65000025-66000025
+MainProcess,  processing 3029 (203113.5 per sec) reads @ X:66000025-67000025
+MainProcess countReadsInRegions_worker: processing 40000 (2091061.8 per sec) @ X:66000025-67000025
+MainProcess,  processing 1956 (211892.6 per sec) reads @ X:67000025-68000025
+MainProcess countReadsInRegions_worker: processing 40000 (3013636.5 per sec) @ X:67000025-68000025
+MainProcess,  processing 5874 (217919.6 per sec) reads @ X:68000025-69000025
+MainProcess countReadsInRegions_worker: processing 40000 (1271251.6 per sec) @ X:68000025-69000025
+MainProcess,  processing 4321 (210626.7 per sec) reads @ X:69000025-70000025
+MainProcess countReadsInRegions_worker: processing 40000 (1608692.6 per sec) @ X:69000025-70000025
+MainProcess,  processing 6267 (181689.2 per sec) reads @ X:70000025-71000025
+MainProcess countReadsInRegions_worker: processing 40000 (1024875.7 per sec) @ X:70000025-71000025
+MainProcess,  processing 17599 (219608.8 per sec) reads @ X:71000025-72000025
+MainProcess countReadsInRegions_worker: processing 40000 (465983.3 per sec) @ X:71000025-72000025
+MainProcess,  processing 5297 (215887.8 per sec) reads @ X:72000025-73000025
+MainProcess countReadsInRegions_worker: processing 40000 (1379841.4 per sec) @ X:72000025-73000025
+MainProcess,  processing 30029 (219675.5 per sec) reads @ X:73000025-74000025
+MainProcess countReadsInRegions_worker: processing 40000 (278094.5 per sec) @ X:73000025-74000025
+MainProcess,  processing 31417 (220829.8 per sec) reads @ X:74000025-75000025
+MainProcess countReadsInRegions_worker: processing 40000 (267481.5 per sec) @ X:74000025-75000025
+MainProcess,  processing 17071 (200051.3 per sec) reads @ X:75000025-76000025
+MainProcess countReadsInRegions_worker: processing 40000 (439561.2 per sec) @ X:75000025-76000025
+MainProcess,  processing 2748 (218824.9 per sec) reads @ X:76000025-77000025
+MainProcess countReadsInRegions_worker: processing 40000 (2401513.9 per sec) @ X:76000025-77000025
+MainProcess,  processing 9330 (220734.2 per sec) reads @ X:77000025-78000025
+MainProcess countReadsInRegions_worker: processing 40000 (851695.9 per sec) @ X:77000025-78000025
+MainProcess,  processing 3233 (222535.2 per sec) reads @ X:78000025-79000025
+MainProcess countReadsInRegions_worker: processing 40000 (2138805.2 per sec) @ X:78000025-79000025
+MainProcess,  processing 2242 (216678.5 per sec) reads @ X:79000025-80000025
+MainProcess countReadsInRegions_worker: processing 40000 (2772177.1 per sec) @ X:79000025-80000025
+MainProcess,  processing 2289 (208948.4 per sec) reads @ X:80000025-81000025
+MainProcess countReadsInRegions_worker: processing 40000 (2646540.8 per sec) @ X:80000025-81000025
+MainProcess,  processing 4980 (214091.6 per sec) reads @ X:81000025-82000025
+MainProcess countReadsInRegions_worker: processing 40000 (1453390.7 per sec) @ X:81000025-82000025
+MainProcess,  processing 2347 (218528.0 per sec) reads @ X:82000025-83000025
+MainProcess countReadsInRegions_worker: processing 40000 (2696868.0 per sec) @ X:82000025-83000025
+MainProcess,  processing 2239 (215035.9 per sec) reads @ X:83000025-84000025
+MainProcess countReadsInRegions_worker: processing 40000 (2761090.8 per sec) @ X:83000025-84000025
+MainProcess,  processing 2328 (218139.0 per sec) reads @ X:84000025-85000025
+MainProcess countReadsInRegions_worker: processing 40000 (2709455.0 per sec) @ X:84000025-85000025
+MainProcess,  processing 8906 (223938.3 per sec) reads @ X:85000025-86000025
+MainProcess countReadsInRegions_worker: processing 40000 (900857.8 per sec) @ X:85000025-86000025
+MainProcess,  processing 2556 (218721.6 per sec) reads @ X:86000025-87000025
+MainProcess countReadsInRegions_worker: processing 40000 (2539193.9 per sec) @ X:86000025-87000025
+MainProcess,  processing 2130 (219090.8 per sec) reads @ X:87000025-88000025
+MainProcess countReadsInRegions_worker: processing 40000 (2899823.0 per sec) @ X:87000025-88000025
+MainProcess,  processing 2454 (202894.2 per sec) reads @ X:88000025-89000025
+MainProcess countReadsInRegions_worker: processing 40000 (2463216.8 per sec) @ X:88000025-89000025
+MainProcess,  processing 2093 (219439.5 per sec) reads @ X:89000025-90000025
+MainProcess countReadsInRegions_worker: processing 40000 (2944456.0 per sec) @ X:89000025-90000025
+MainProcess,  processing 2211 (218002.4 per sec) reads @ X:90000025-91000025
+MainProcess countReadsInRegions_worker: processing 40000 (2825636.4 per sec) @ X:90000025-91000025
+MainProcess,  processing 1608 (213824.1 per sec) reads @ X:91000025-92000025
+MainProcess countReadsInRegions_worker: processing 40000 (3432327.3 per sec) @ X:91000025-92000025
+MainProcess,  processing 2407 (212917.4 per sec) reads @ X:92000025-93000025
+MainProcess countReadsInRegions_worker: processing 40000 (2597212.9 per sec) @ X:92000025-93000025
+MainProcess,  processing 10759 (221074.0 per sec) reads @ X:93000025-94000025
+MainProcess countReadsInRegions_worker: processing 40000 (748531.7 per sec) @ X:93000025-94000025
+MainProcess,  processing 23660 (206367.2 per sec) reads @ X:94000025-95000025
+MainProcess countReadsInRegions_worker: processing 40000 (332612.7 per sec) @ X:94000025-95000025
+MainProcess,  processing 14222 (220632.8 per sec) reads @ X:95000025-96000025
+MainProcess countReadsInRegions_worker: processing 40000 (574564.2 per sec) @ X:95000025-96000025
+MainProcess,  processing 5538 (216904.2 per sec) reads @ X:96000025-97000025
+MainProcess countReadsInRegions_worker: processing 40000 (1341158.0 per sec) @ X:96000025-97000025
+MainProcess,  processing 3094 (214654.9 per sec) reads @ X:97000025-98000025
+MainProcess countReadsInRegions_worker: processing 40000 (2153409.8 per sec) @ X:97000025-98000025
+MainProcess,  processing 9066 (219276.2 per sec) reads @ X:98000025-99000025
+MainProcess countReadsInRegions_worker: processing 40000 (869128.2 per sec) @ X:98000025-99000025
+MainProcess,  processing 12424 (218002.6 per sec) reads @ X:99000025-100000025
+MainProcess countReadsInRegions_worker: processing 40000 (645861.3 per sec) @ X:99000025-100000025
+MainProcess,  processing 12035 (213250.2 per sec) reads @ X:100000025-101000025
+MainProcess countReadsInRegions_worker: processing 40000 (652571.3 per sec) @ X:100000025-101000025
+MainProcess,  processing 25177 (217026.3 per sec) reads @ X:101000025-102000025
+MainProcess countReadsInRegions_worker: processing 40000 (327235.8 per sec) @ X:101000025-102000025
+MainProcess,  processing 16111 (200938.0 per sec) reads @ X:102000025-103000025
+MainProcess countReadsInRegions_worker: processing 40000 (469379.4 per sec) @ X:102000025-103000025
+MainProcess,  processing 25168 (223872.7 per sec) reads @ X:103000025-104000025
+MainProcess countReadsInRegions_worker: processing 40000 (336683.7 per sec) @ X:103000025-104000025
+MainProcess,  processing 10221 (222544.0 per sec) reads @ X:104000025-105000025
+MainProcess countReadsInRegions_worker: processing 40000 (790714.2 per sec) @ X:104000025-105000025
+MainProcess,  processing 15147 (219738.1 per sec) reads @ X:105000025-106000025
+MainProcess countReadsInRegions_worker: processing 40000 (538727.6 per sec) @ X:105000025-106000025
+MainProcess,  processing 11750 (219077.7 per sec) reads @ X:106000025-107000025
+MainProcess countReadsInRegions_worker: processing 40000 (683854.8 per sec) @ X:106000025-107000025
+MainProcess,  processing 4433 (218395.9 per sec) reads @ X:107000025-108000025
+MainProcess countReadsInRegions_worker: processing 40000 (1631723.3 per sec) @ X:107000025-108000025
+MainProcess,  processing 4921 (219373.2 per sec) reads @ X:108000025-109000025
+MainProcess countReadsInRegions_worker: processing 40000 (1501048.2 per sec) @ X:108000025-109000025
+MainProcess,  processing 5967 (217821.0 per sec) reads @ X:109000025-110000025
+MainProcess countReadsInRegions_worker: processing 40000 (1250976.1 per sec) @ X:109000025-110000025
+MainProcess,  processing 2451 (218120.5 per sec) reads @ X:110000025-111000025
+MainProcess countReadsInRegions_worker: processing 40000 (2604349.0 per sec) @ X:110000025-111000025
+MainProcess,  processing 4882 (211883.1 per sec) reads @ X:111000025-112000025
+MainProcess countReadsInRegions_worker: processing 40000 (1465412.6 per sec) @ X:111000025-112000025
+MainProcess,  processing 4192 (221528.8 per sec) reads @ X:112000025-113000025
+MainProcess countReadsInRegions_worker: processing 40000 (1732736.0 per sec) @ X:112000025-113000025
+MainProcess,  processing 4454 (222790.5 per sec) reads @ X:113000025-114000025
+MainProcess countReadsInRegions_worker: processing 40000 (1654606.7 per sec) @ X:113000025-114000025
+MainProcess,  processing 2101 (132413.2 per sec) reads @ X:114000025-115000025
+MainProcess countReadsInRegions_worker: processing 40000 (1982068.2 per sec) @ X:114000025-115000025
+MainProcess,  processing 2109 (218479.2 per sec) reads @ X:115000025-116000025
+MainProcess countReadsInRegions_worker: processing 40000 (2889136.6 per sec) @ X:115000025-116000025
+MainProcess,  processing 2240 (219735.7 per sec) reads @ X:116000025-117000025
+MainProcess countReadsInRegions_worker: processing 40000 (2784970.0 per sec) @ X:116000025-117000025
+MainProcess,  processing 2053 (220752.8 per sec) reads @ X:117000025-118000025
+MainProcess countReadsInRegions_worker: processing 40000 (2951812.4 per sec) @ X:117000025-118000025
+MainProcess,  processing 2084 (220274.4 per sec) reads @ X:118000025-119000025
+MainProcess countReadsInRegions_worker: processing 40000 (2920366.9 per sec) @ X:118000025-119000025
+MainProcess,  processing 2270 (214313.0 per sec) reads @ X:119000025-120000025
+MainProcess countReadsInRegions_worker: processing 40000 (2703822.1 per sec) @ X:119000025-120000025
+MainProcess,  processing 6422 (220483.6 per sec) reads @ X:120000025-121000025
+MainProcess countReadsInRegions_worker: processing 40000 (1190506.7 per sec) @ X:120000025-121000025
+MainProcess,  processing 2267 (214232.3 per sec) reads @ X:121000025-122000025
+MainProcess countReadsInRegions_worker: processing 40000 (2708186.6 per sec) @ X:121000025-122000025
+MainProcess,  processing 3638 (212973.0 per sec) reads @ X:122000025-123000025
+MainProcess countReadsInRegions_worker: processing 40000 (1871955.7 per sec) @ X:122000025-123000025
+MainProcess,  processing 473 (174087.9 per sec) reads @ X:123000025-124000025
+MainProcess countReadsInRegions_worker: processing 40000 (5884884.1 per sec) @ X:123000025-124000025
+MainProcess,  processing 369 (192499.8 per sec) reads @ X:124000025-125000025
+MainProcess countReadsInRegions_worker: processing 40000 (6285484.8 per sec) @ X:124000025-125000025
+MainProcess,  processing 7 (27672.1 per sec) reads @ X:125000025-126000025
+MainProcess countReadsInRegions_worker: processing 40000 (8902741.3 per sec) @ X:125000025-126000025
+MainProcess,  processing 1696 (215908.6 per sec) reads @ X:126000025-127000025
+MainProcess countReadsInRegions_worker: processing 40000 (3328614.6 per sec) @ X:126000025-127000025
+MainProcess,  processing 2178 (212550.2 per sec) reads @ X:127000025-128000025
+MainProcess countReadsInRegions_worker: processing 40000 (2782060.5 per sec) @ X:127000025-128000025
+MainProcess,  processing 2175 (214498.3 per sec) reads @ X:128000025-129000025
+MainProcess countReadsInRegions_worker: processing 40000 (2795643.5 per sec) @ X:128000025-129000025
+MainProcess,  processing 4390 (222245.0 per sec) reads @ X:129000025-130000025
+MainProcess countReadsInRegions_worker: processing 40000 (1667069.0 per sec) @ X:129000025-130000025
+MainProcess,  processing 2398 (219816.9 per sec) reads @ X:130000025-131000025
+MainProcess countReadsInRegions_worker: processing 40000 (2636973.4 per sec) @ X:130000025-131000025
+MainProcess,  processing 2270 (216191.4 per sec) reads @ X:131000025-132000025
+MainProcess countReadsInRegions_worker: processing 40000 (2716078.4 per sec) @ X:131000025-132000025
+MainProcess,  processing 2208 (213910.1 per sec) reads @ X:132000025-133000025
+MainProcess countReadsInRegions_worker: processing 40000 (2745367.6 per sec) @ X:132000025-133000025
+MainProcess,  processing 8697 (218705.3 per sec) reads @ X:133000025-134000025
+MainProcess countReadsInRegions_worker: processing 40000 (898171.6 per sec) @ X:133000025-134000025
+MainProcess,  processing 21344 (221516.5 per sec) reads @ X:134000025-135000025
+MainProcess countReadsInRegions_worker: processing 40000 (390774.0 per sec) @ X:134000025-135000025
+MainProcess,  processing 10748 (218402.1 per sec) reads @ X:135000025-136000025
+MainProcess countReadsInRegions_worker: processing 40000 (736974.1 per sec) @ X:135000025-136000025
+MainProcess,  processing 15769 (198452.3 per sec) reads @ X:136000025-137000025
+MainProcess countReadsInRegions_worker: processing 40000 (471586.7 per sec) @ X:136000025-137000025
+MainProcess,  processing 8558 (215741.5 per sec) reads @ X:137000025-138000025
+MainProcess countReadsInRegions_worker: processing 40000 (902243.4 per sec) @ X:137000025-138000025
+MainProcess,  processing 3107 (207825.6 per sec) reads @ X:138000025-139000025
+MainProcess countReadsInRegions_worker: processing 40000 (2097624.0 per sec) @ X:138000025-139000025
+MainProcess,  processing 11109 (215826.3 per sec) reads @ X:139000025-140000025
+MainProcess countReadsInRegions_worker: processing 40000 (709321.0 per sec) @ X:139000025-140000025
+MainProcess,  processing 15063 (216777.0 per sec) reads @ X:140000025-141000025
+MainProcess countReadsInRegions_worker: processing 40000 (534851.3 per sec) @ X:140000025-141000025
+MainProcess,  processing 5473 (220517.5 per sec) reads @ X:141000025-142000025
+MainProcess countReadsInRegions_worker: processing 40000 (1373672.9 per sec) @ X:141000025-142000025
+MainProcess,  processing 11095 (215491.4 per sec) reads @ X:142000025-143000025
+MainProcess countReadsInRegions_worker: processing 40000 (710516.6 per sec) @ X:142000025-143000025
+MainProcess,  processing 4689 (216631.3 per sec) reads @ X:143000025-144000025
+MainProcess countReadsInRegions_worker: processing 40000 (1541726.0 per sec) @ X:143000025-144000025
+MainProcess,  processing 5534 (210426.3 per sec) reads @ X:144000025-145000025
+MainProcess countReadsInRegions_worker: processing 40000 (1305691.0 per sec) @ X:144000025-145000025
+MainProcess,  processing 3960 (217988.9 per sec) reads @ X:145000025-146000025
+MainProcess countReadsInRegions_worker: processing 40000 (1790276.3 per sec) @ X:145000025-146000025
+MainProcess,  processing 2707 (215269.9 per sec) reads @ X:146000025-147000025
+MainProcess countReadsInRegions_worker: processing 40000 (2393496.8 per sec) @ X:146000025-147000025
+MainProcess,  processing 3279 (213239.9 per sec) reads @ X:147000025-148000025
+MainProcess countReadsInRegions_worker: processing 40000 (2038940.3 per sec) @ X:147000025-148000025
+MainProcess,  processing 314 (184068.7 per sec) reads @ X:148000025-149000025
+MainProcess countReadsInRegions_worker: processing 40000 (7038603.8 per sec) @ X:148000025-149000025
+MainProcess,  processing 267 (180654.8 per sec) reads @ X:149000025-150000025
+MainProcess countReadsInRegions_worker: processing 40000 (7258151.0 per sec) @ X:149000025-150000025
+MainProcess,  processing 10043 (219255.6 per sec) reads @ X:150000025-151000025
+MainProcess countReadsInRegions_worker: processing 40000 (791811.4 per sec) @ X:150000025-151000025
+MainProcess,  processing 21932 (203876.5 per sec) reads @ X:151000025-152000025
+MainProcess countReadsInRegions_worker: processing 40000 (351651.4 per sec) @ X:151000025-152000025
+MainProcess,  processing 24252 (220771.5 per sec) reads @ X:152000025-153000025
+MainProcess countReadsInRegions_worker: processing 40000 (344833.4 per sec) @ X:152000025-153000025
+MainProcess,  processing 18569 (220267.7 per sec) reads @ X:153000025-154000025
+MainProcess countReadsInRegions_worker: processing 40000 (444310.7 per sec) @ X:153000025-154000025
+MainProcess,  processing 2187 (211670.3 per sec) reads @ X:154000025-155000025
+MainProcess countReadsInRegions_worker: processing 40000 (2756916.6 per sec) @ X:154000025-155000025
+MainProcess,  processing 7109 (218677.3 per sec) reads @ X:155000025-156000025
+MainProcess countReadsInRegions_worker: processing 40000 (1073075.7 per sec) @ X:155000025-156000025
+MainProcess,  processing 2030 (214113.5 per sec) reads @ X:156000025-157000025
+MainProcess countReadsInRegions_worker: processing 40000 (2958840.3 per sec) @ X:156000025-157000025
+MainProcess,  processing 7862 (217032.0 per sec) reads @ X:157000025-158000025
+MainProcess countReadsInRegions_worker: processing 40000 (984133.7 per sec) @ X:157000025-158000025
+MainProcess,  processing 5434 (217332.2 per sec) reads @ X:158000025-159000025
+MainProcess countReadsInRegions_worker: processing 40000 (1366912.9 per sec) @ X:158000025-159000025
+MainProcess,  processing 16008 (215494.3 per sec) reads @ X:159000025-160000025
+MainProcess countReadsInRegions_worker: processing 40000 (500043.7 per sec) @ X:159000025-160000025
+MainProcess,  processing 11855 (194334.8 per sec) reads @ X:160000025-161000025
+MainProcess countReadsInRegions_worker: processing 40000 (605968.8 per sec) @ X:160000025-161000025
+MainProcess,  processing 7228 (212600.7 per sec) reads @ X:161000025-162000025
+MainProcess countReadsInRegions_worker: processing 40000 (1037398.0 per sec) @ X:161000025-162000025
+MainProcess,  processing 15093 (217798.4 per sec) reads @ X:162000025-163000025
+MainProcess countReadsInRegions_worker: processing 40000 (535775.4 per sec) @ X:162000025-163000025
+MainProcess,  processing 7973 (216588.0 per sec) reads @ X:163000025-164000025
+MainProcess countReadsInRegions_worker: processing 40000 (968029.9 per sec) @ X:163000025-164000025
+MainProcess,  processing 8381 (215738.7 per sec) reads @ X:164000025-165000025
+MainProcess countReadsInRegions_worker: processing 40000 (918821.2 per sec) @ X:164000025-165000025
+MainProcess,  processing 2558 (216708.7 per sec) reads @ X:165000025-166000025
+MainProcess countReadsInRegions_worker: processing 40000 (2486802.9 per sec) @ X:165000025-166000025
+MainProcess,  processing 16370 (219331.2 per sec) reads @ X:166000025-167000025
+MainProcess countReadsInRegions_worker: processing 40000 (500163.0 per sec) @ X:166000025-167000025
+MainProcess,  processing 7040 (215100.3 per sec) reads @ X:167000025-168000025
+MainProcess countReadsInRegions_worker: processing 40000 (1078546.1 per sec) @ X:167000025-168000025
+MainProcess,  processing 8222 (220075.2 per sec) reads @ X:168000025-169000025
+MainProcess countReadsInRegions_worker: processing 40000 (948631.7 per sec) @ X:168000025-169000025
+MainProcess,  processing 7730 (213530.0 per sec) reads @ X:169000025-170000025
+MainProcess countReadsInRegions_worker: processing 40000 (984324.2 per sec) @ X:169000025-170000025
+MainProcess,  processing 157 (152431.9 per sec) reads @ X:170000025-171000025
+MainProcess countReadsInRegions_worker: processing 40000 (7987248.8 per sec) @ X:170000025-171000025
+MainProcess,  processing 0 (0.0 per sec) reads @ X:171000025-171031299
+MainProcess countReadsInRegions_worker: processing 1250 (1453126.4 per sec) @ X:171000025-171031299
+Sender: LSF System <lsfadmin@lc06e30>
+Subject: Job 177103876: <bamCoverage -b /sc/arion/scratch/arayan01/projects/chipseqtut/data/chipseqdata/wt_H3K4me3_rep1.bam -o /sc/arion/scratch/arayan01/projects/chipseqtut/results/norm/wt_H3K4me3_rep1.bigwig         --outFileFormat bigwig         --binSize 25         --normalizeUsing RPGC         --effectiveGenomeSize 2308125349         --region chrX         --verbose> in cluster <chimera> Done
+
+Job <bamCoverage -b /sc/arion/scratch/arayan01/projects/chipseqtut/data/chipseqdata/wt_H3K4me3_rep1.bam -o /sc/arion/scratch/arayan01/projects/chipseqtut/results/norm/wt_H3K4me3_rep1.bigwig         --outFileFormat bigwig         --binSize 25         --normalizeUsing RPGC         --effectiveGenomeSize 2308125349         --region chrX         --verbose> was submitted from host <li04e04> by user <arayan01> in cluster <chimera> at Wed Apr  2 12:55:06 2025
+Job was executed on host(s) <1*lc06e30>, in queue <premium>, as user <arayan01> in cluster <chimera> at Wed Apr  2 12:55:09 2025
+                            <1*lc07e10>
+</hpc/users/arayan01> was used as the home directory.
+</sc/arion/scratch/arayan01/projects/chipseqtut/results> was used as the working directory.
+Started at Wed Apr  2 12:55:09 2025
+Terminated at Wed Apr  2 12:55:25 2025
+Results reported at Wed Apr  2 12:55:25 2025
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+bamCoverage -b /sc/arion/scratch/arayan01/projects/chipseqtut/data/chipseqdata/wt_H3K4me3_rep1.bam -o /sc/arion/scratch/arayan01/projects/chipseqtut/results/norm/wt_H3K4me3_rep1.bigwig         --outFileFormat bigwig         --binSize 25         --normalizeUsing RPGC         --effectiveGenomeSize 2308125349         --region chrX         --verbose
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   14.30 sec.
+    Max Memory :                                 117 MB
+    Average Memory :                             60.80 MB
+    Total Requested Memory :                     16000.00 MB
+    Delta Memory :                               15883.00 MB
+    Max Swap :                                   -
+    Max Processes :                              3
+    Max Threads :                                4
+    Run time :                                   15 sec.
+    Turnaround time :                            19 sec.
+
+The output (if any) follows:
+
+Specified --scaleFactor: 1.0
+normalization: 1x (effective genome size 2308125349)
+minFragmentLength: 0
+verbose: True
+out_file_for_raw_data: None
+numberOfSamples: None
+bedFile: None
+bamFilesList: ['/sc/arion/scratch/arayan01/projects/chipseqtut/data/chipseqdata/wt_H3K4me3_rep1.bam']
+numberOfProcessors: 1
+samFlag_exclude: None
+save_data: False
+stepSize: 25
+smoothLength: None
+blackListFileName: None
+center_read: False
+ignoreDuplicates: False
+defaultFragmentLength: read length
+chrsToSkip: []
+region: chrX:25
+maxPairedFragmentLength: 1000
+samFlag_include: None
+binLength: 25
+maxFragmentLength: 0
+minMappingQuality: None
+zerosToNans: False
+genome partition size for multiprocessing: 1050000
+Estimated read length is 51
+Final scaling factor: 37.5635549051
+MainProcess,  processing 0 (0.0 per sec) reads @ X:25-1000025
+MainProcess countReadsInRegions_worker: processing 40000 (9214200.4 per sec) @ X:25-1000025
+MainProcess,  processing 0 (0.0 per sec) reads @ X:1000025-2000025
+MainProcess countReadsInRegions_worker: processing 40000 (9201566.4 per sec) @ X:1000025-2000025
+MainProcess,  processing 0 (0.0 per sec) reads @ X:2000025-3000025
+MainProcess countReadsInRegions_worker: processing 40000 (9354455.5 per sec) @ X:2000025-3000025
+MainProcess,  processing 275 (184667.6 per sec) reads @ X:3000025-4000025
+MainProcess countReadsInRegions_worker: processing 40000 (7080786.7 per sec) @ X:3000025-4000025
+MainProcess,  processing 227 (174602.4 per sec) reads @ X:4000025-5000025
+MainProcess countReadsInRegions_worker: processing 40000 (7260978.1 per sec) @ X:4000025-5000025
+MainProcess,  processing 1650 (212928.5 per sec) reads @ X:5000025-6000025
+MainProcess countReadsInRegions_worker: processing 40000 (3304683.3 per sec) @ X:5000025-6000025
+MainProcess,  processing 6442 (215776.2 per sec) reads @ X:6000025-7000025
+MainProcess countReadsInRegions_worker: processing 40000 (1160932.5 per sec) @ X:6000025-7000025
+MainProcess,  processing 37514 (202184.9 per sec) reads @ X:7000025-8000025
+MainProcess countReadsInRegions_worker: processing 40000 (206399.4 per sec) @ X:7000025-8000025
+MainProcess,  processing 19616 (219045.5 per sec) reads @ X:8000025-9000025
+MainProcess countReadsInRegions_worker: processing 40000 (419713.7 per sec) @ X:8000025-9000025
+MainProcess,  processing 6723 (219489.9 per sec) reads @ X:9000025-10000025
+MainProcess countReadsInRegions_worker: processing 40000 (1139307.6 per sec) @ X:9000025-10000025
+MainProcess,  processing 5517 (215458.0 per sec) reads @ X:10000025-11000025
+MainProcess countReadsInRegions_worker: processing 40000 (1336585.0 per sec) @ X:10000025-11000025
+MainProcess,  processing 5022 (208755.0 per sec) reads @ X:11000025-12000025
+MainProcess countReadsInRegions_worker: processing 40000 (1410893.4 per sec) @ X:11000025-12000025
+MainProcess,  processing 22772 (218552.0 per sec) reads @ X:12000025-13000025
+MainProcess countReadsInRegions_worker: processing 40000 (362387.8 per sec) @ X:12000025-13000025
+MainProcess,  processing 22849 (221951.2 per sec) reads @ X:13000025-14000025
+MainProcess countReadsInRegions_worker: processing 40000 (366521.2 per sec) @ X:13000025-14000025
+MainProcess,  processing 2557 (214586.8 per sec) reads @ X:14000025-15000025
+MainProcess countReadsInRegions_worker: processing 40000 (2490642.4 per sec) @ X:14000025-15000025
+MainProcess,  processing 2358 (211102.9 per sec) reads @ X:15000025-16000025
+MainProcess countReadsInRegions_worker: processing 40000 (2613029.3 per sec) @ X:15000025-16000025
+MainProcess,  processing 5615 (172982.3 per sec) reads @ X:16000025-17000025
+MainProcess countReadsInRegions_worker: processing 40000 (1087607.5 per sec) @ X:16000025-17000025
+MainProcess,  processing 3332 (210886.1 per sec) reads @ X:17000025-18000025
+MainProcess countReadsInRegions_worker: processing 40000 (2003010.5 per sec) @ X:17000025-18000025
+MainProcess,  processing 7947 (219226.9 per sec) reads @ X:18000025-19000025
+MainProcess countReadsInRegions_worker: processing 40000 (981887.4 per sec) @ X:18000025-19000025
+MainProcess,  processing 3166 (215417.0 per sec) reads @ X:19000025-20000025
+MainProcess countReadsInRegions_worker: processing 40000 (2125177.8 per sec) @ X:19000025-20000025
+MainProcess,  processing 34277 (219131.7 per sec) reads @ X:20000025-21000025
+MainProcess countReadsInRegions_worker: processing 40000 (243835.4 per sec) @ X:20000025-21000025
+MainProcess,  processing 4750 (217321.5 per sec) reads @ X:21000025-22000025
+MainProcess countReadsInRegions_worker: processing 40000 (1532459.7 per sec) @ X:21000025-22000025
+MainProcess,  processing 1999 (215876.1 per sec) reads @ X:22000025-23000025
+MainProcess countReadsInRegions_worker: processing 40000 (2993793.0 per sec) @ X:22000025-23000025
+MainProcess,  processing 7651 (216601.7 per sec) reads @ X:23000025-24000025
+MainProcess countReadsInRegions_worker: processing 40000 (1003410.0 per sec) @ X:23000025-24000025
+MainProcess,  processing 854 (196464.2 per sec) reads @ X:24000025-25000025
+MainProcess countReadsInRegions_worker: processing 40000 (4785286.9 per sec) @ X:24000025-25000025
+MainProcess,  processing 675 (200592.0 per sec) reads @ X:25000025-26000025
+MainProcess countReadsInRegions_worker: processing 40000 (5412703.6 per sec) @ X:25000025-26000025
+MainProcess,  processing 689 (207785.1 per sec) reads @ X:26000025-27000025
+MainProcess countReadsInRegions_worker: processing 40000 (5504336.0 per sec) @ X:26000025-27000025
+MainProcess,  processing 11 (38067.1 per sec) reads @ X:27000025-28000025
+MainProcess countReadsInRegions_worker: processing 40000 (9391634.6 per sec) @ X:27000025-28000025
+MainProcess,  processing 22 (68964.6 per sec) reads @ X:28000025-29000025
+MainProcess countReadsInRegions_worker: processing 40000 (9434412.6 per sec) @ X:28000025-29000025
+MainProcess,  processing 118 (162537.9 per sec) reads @ X:29000025-30000025
+MainProcess countReadsInRegions_worker: processing 40000 (8656080.9 per sec) @ X:29000025-30000025
+MainProcess,  processing 24 (68200.1 per sec) reads @ X:30000025-31000025
+MainProcess countReadsInRegions_worker: processing 40000 (9240081.5 per sec) @ X:30000025-31000025
+MainProcess,  processing 728 (201428.4 per sec) reads @ X:31000025-32000025
+MainProcess countReadsInRegions_worker: processing 40000 (5234210.8 per sec) @ X:31000025-32000025
+MainProcess,  processing 322 (186130.9 per sec) reads @ X:32000025-33000025
+MainProcess countReadsInRegions_worker: processing 40000 (7011541.3 per sec) @ X:32000025-33000025
+MainProcess,  processing 374 (193185.9 per sec) reads @ X:33000025-34000025
+MainProcess countReadsInRegions_worker: processing 40000 (6751123.1 per sec) @ X:33000025-34000025
+MainProcess,  processing 133 (163590.2 per sec) reads @ X:34000025-35000025
+MainProcess countReadsInRegions_worker: processing 40000 (8084236.5 per sec) @ X:34000025-35000025
+MainProcess,  processing 3520 (223236.2 per sec) reads @ X:35000025-36000025
+MainProcess countReadsInRegions_worker: processing 40000 (2008021.0 per sec) @ X:35000025-36000025
+MainProcess,  processing 22653 (222721.8 per sec) reads @ X:36000025-37000025
+MainProcess countReadsInRegions_worker: processing 40000 (370709.9 per sec) @ X:36000025-37000025
+MainProcess,  processing 11628 (196871.5 per sec) reads @ X:37000025-38000025
+MainProcess countReadsInRegions_worker: processing 40000 (624122.2 per sec) @ X:37000025-38000025
+MainProcess,  processing 13618 (219531.9 per sec) reads @ X:38000025-39000025
+MainProcess countReadsInRegions_worker: processing 40000 (594405.6 per sec) @ X:38000025-39000025
+MainProcess,  processing 2126 (215425.1 per sec) reads @ X:39000025-40000025
+MainProcess countReadsInRegions_worker: processing 40000 (2830642.1 per sec) @ X:39000025-40000025
+MainProcess,  processing 2187 (216195.1 per sec) reads @ X:40000025-41000025
+MainProcess countReadsInRegions_worker: processing 40000 (2808419.3 per sec) @ X:40000025-41000025
+MainProcess,  processing 7777 (222983.2 per sec) reads @ X:41000025-42000025
+MainProcess countReadsInRegions_worker: processing 40000 (1017473.1 per sec) @ X:41000025-42000025
+MainProcess,  processing 9474 (221452.9 per sec) reads @ X:42000025-43000025
+MainProcess countReadsInRegions_worker: processing 40000 (839948.5 per sec) @ X:42000025-43000025
+MainProcess,  processing 3262 (220198.6 per sec) reads @ X:43000025-44000025
+MainProcess countReadsInRegions_worker: processing 40000 (2109147.8 per sec) @ X:43000025-44000025
+MainProcess,  processing 2105 (215546.7 per sec) reads @ X:44000025-45000025
+MainProcess countReadsInRegions_worker: processing 40000 (2884963.4 per sec) @ X:44000025-45000025
+MainProcess,  processing 2184 (203333.1 per sec) reads @ X:45000025-46000025
+MainProcess countReadsInRegions_worker: processing 40000 (2702907.3 per sec) @ X:45000025-46000025
+MainProcess,  processing 2339 (201257.1 per sec) reads @ X:46000025-47000025
+MainProcess countReadsInRegions_worker: processing 40000 (2547599.4 per sec) @ X:46000025-47000025
+MainProcess,  processing 5477 (223013.8 per sec) reads @ X:47000025-48000025
+MainProcess countReadsInRegions_worker: processing 40000 (1384841.5 per sec) @ X:47000025-48000025
+MainProcess,  processing 26859 (218380.0 per sec) reads @ X:48000025-49000025
+MainProcess countReadsInRegions_worker: processing 40000 (308678.2 per sec) @ X:48000025-49000025
+MainProcess,  processing 4034 (215860.9 per sec) reads @ X:49000025-50000025
+MainProcess countReadsInRegions_worker: processing 40000 (1748792.5 per sec) @ X:49000025-50000025
+MainProcess,  processing 9719 (188851.0 per sec) reads @ X:50000025-51000025
+MainProcess countReadsInRegions_worker: processing 40000 (712175.5 per sec) @ X:50000025-51000025
+MainProcess,  processing 8022 (220245.6 per sec) reads @ X:51000025-52000025
+MainProcess countReadsInRegions_worker: processing 40000 (974920.7 per sec) @ X:51000025-52000025
+MainProcess,  processing 11287 (214068.8 per sec) reads @ X:52000025-53000025
+MainProcess countReadsInRegions_worker: processing 40000 (693912.8 per sec) @ X:52000025-53000025
+MainProcess,  processing 8127 (215108.1 per sec) reads @ X:53000025-54000025
+MainProcess countReadsInRegions_worker: processing 40000 (945381.7 per sec) @ X:53000025-54000025
+MainProcess,  processing 552 (167118.2 per sec) reads @ X:54000025-55000025
+MainProcess countReadsInRegions_worker: processing 40000 (5482392.0 per sec) @ X:54000025-55000025
+MainProcess,  processing 1268 (208310.6 per sec) reads @ X:55000025-56000025
+MainProcess countReadsInRegions_worker: processing 40000 (3952229.9 per sec) @ X:55000025-56000025
+MainProcess,  processing 13214 (221306.4 per sec) reads @ X:56000025-57000025
+MainProcess countReadsInRegions_worker: processing 40000 (617006.8 per sec) @ X:56000025-57000025
+MainProcess,  processing 8162 (218603.2 per sec) reads @ X:57000025-58000025
+MainProcess countReadsInRegions_worker: processing 40000 (955585.6 per sec) @ X:57000025-58000025
+MainProcess,  processing 3636 (216570.9 per sec) reads @ X:58000025-59000025
+MainProcess countReadsInRegions_worker: processing 40000 (1911780.9 per sec) @ X:58000025-59000025
+MainProcess,  processing 3937 (215892.6 per sec) reads @ X:59000025-60000025
+MainProcess countReadsInRegions_worker: processing 40000 (1785950.2 per sec) @ X:59000025-60000025
+MainProcess,  processing 12907 (218299.5 per sec) reads @ X:60000025-61000025
+MainProcess countReadsInRegions_worker: processing 40000 (622662.9 per sec) @ X:60000025-61000025
+MainProcess,  processing 2435 (210788.6 per sec) reads @ X:61000025-62000025
+MainProcess countReadsInRegions_worker: processing 40000 (2549690.1 per sec) @ X:61000025-62000025
+MainProcess,  processing 2076 (213405.6 per sec) reads @ X:62000025-63000025
+MainProcess countReadsInRegions_worker: processing 40000 (2810583.5 per sec) @ X:62000025-63000025
+MainProcess,  processing 2102 (211511.3 per sec) reads @ X:63000025-64000025
+MainProcess countReadsInRegions_worker: processing 40000 (2827636.6 per sec) @ X:63000025-64000025
+MainProcess,  processing 2182 (210637.1 per sec) reads @ X:64000025-65000025
+MainProcess countReadsInRegions_worker: processing 40000 (2773185.2 per sec) @ X:64000025-65000025
+MainProcess,  processing 2037 (210412.4 per sec) reads @ X:65000025-66000025
+MainProcess countReadsInRegions_worker: processing 40000 (2920366.9 per sec) @ X:65000025-66000025
+MainProcess,  processing 3029 (201250.6 per sec) reads @ X:66000025-67000025
+MainProcess countReadsInRegions_worker: processing 40000 (2087263.6 per sec) @ X:66000025-67000025
+MainProcess,  processing 1956 (210619.7 per sec) reads @ X:67000025-68000025
+MainProcess countReadsInRegions_worker: processing 40000 (2896468.8 per sec) @ X:67000025-68000025
+MainProcess,  processing 5874 (215455.5 per sec) reads @ X:68000025-69000025
+MainProcess countReadsInRegions_worker: processing 40000 (1268186.2 per sec) @ X:68000025-69000025
+MainProcess,  processing 4321 (206864.3 per sec) reads @ X:69000025-70000025
+MainProcess countReadsInRegions_worker: processing 40000 (1590076.6 per sec) @ X:69000025-70000025
+MainProcess,  processing 6267 (178628.4 per sec) reads @ X:70000025-71000025
+MainProcess countReadsInRegions_worker: processing 40000 (1005508.8 per sec) @ X:70000025-71000025
+MainProcess,  processing 17599 (215962.5 per sec) reads @ X:71000025-72000025
+MainProcess countReadsInRegions_worker: processing 40000 (458642.0 per sec) @ X:71000025-72000025
+MainProcess,  processing 5297 (215089.4 per sec) reads @ X:72000025-73000025
+MainProcess countReadsInRegions_worker: processing 40000 (1377643.3 per sec) @ X:72000025-73000025
+MainProcess,  processing 30029 (218828.6 per sec) reads @ X:73000025-74000025
+MainProcess countReadsInRegions_worker: processing 40000 (276603.9 per sec) @ X:73000025-74000025
+MainProcess,  processing 31417 (220842.0 per sec) reads @ X:74000025-75000025
+MainProcess countReadsInRegions_worker: processing 40000 (267117.4 per sec) @ X:74000025-75000025
+MainProcess,  processing 17071 (195539.7 per sec) reads @ X:75000025-76000025
+MainProcess countReadsInRegions_worker: processing 40000 (430579.2 per sec) @ X:75000025-76000025
+MainProcess,  processing 2748 (214252.9 per sec) reads @ X:76000025-77000025
+MainProcess countReadsInRegions_worker: processing 40000 (2352682.8 per sec) @ X:76000025-77000025
+MainProcess,  processing 9330 (219658.7 per sec) reads @ X:77000025-78000025
+MainProcess countReadsInRegions_worker: processing 40000 (848156.6 per sec) @ X:77000025-78000025
+MainProcess,  processing 3233 (216806.9 per sec) reads @ X:78000025-79000025
+MainProcess countReadsInRegions_worker: processing 40000 (2096654.0 per sec) @ X:78000025-79000025
+MainProcess,  processing 2242 (214753.6 per sec) reads @ X:79000025-80000025
+MainProcess countReadsInRegions_worker: processing 40000 (2748560.9 per sec) @ X:79000025-80000025
+MainProcess,  processing 2289 (207808.7 per sec) reads @ X:80000025-81000025
+MainProcess countReadsInRegions_worker: processing 40000 (2643913.3 per sec) @ X:80000025-81000025
+MainProcess,  processing 4980 (213817.7 per sec) reads @ X:81000025-82000025
+MainProcess countReadsInRegions_worker: processing 40000 (1443474.6 per sec) @ X:81000025-82000025
+MainProcess,  processing 2347 (214452.9 per sec) reads @ X:82000025-83000025
+MainProcess countReadsInRegions_worker: processing 40000 (2648295.4 per sec) @ X:82000025-83000025
+MainProcess,  processing 2239 (215312.0 per sec) reads @ X:83000025-84000025
+MainProcess countReadsInRegions_worker: processing 40000 (2641665.2 per sec) @ X:83000025-84000025
+MainProcess,  processing 2328 (211440.9 per sec) reads @ X:84000025-85000025
+MainProcess countReadsInRegions_worker: processing 40000 (2616085.2 per sec) @ X:84000025-85000025
+MainProcess,  processing 8906 (219360.6 per sec) reads @ X:85000025-86000025
+MainProcess countReadsInRegions_worker: processing 40000 (883490.3 per sec) @ X:85000025-86000025
+MainProcess,  processing 2556 (213282.4 per sec) reads @ X:86000025-87000025
+MainProcess countReadsInRegions_worker: processing 40000 (2482130.4 per sec) @ X:86000025-87000025
+MainProcess,  processing 2130 (215196.1 per sec) reads @ X:87000025-88000025
+MainProcess countReadsInRegions_worker: processing 40000 (2859590.3 per sec) @ X:87000025-88000025
+MainProcess,  processing 2454 (199903.3 per sec) reads @ X:88000025-89000025
+MainProcess countReadsInRegions_worker: processing 40000 (2441849.6 per sec) @ X:88000025-89000025
+MainProcess,  processing 2093 (215973.6 per sec) reads @ X:89000025-90000025
+MainProcess countReadsInRegions_worker: processing 40000 (2895169.2 per sec) @ X:89000025-90000025
+MainProcess,  processing 2211 (212721.8 per sec) reads @ X:90000025-91000025
+MainProcess countReadsInRegions_worker: processing 40000 (2741375.2 per sec) @ X:90000025-91000025
+MainProcess,  processing 1608 (211776.3 per sec) reads @ X:91000025-92000025
+MainProcess countReadsInRegions_worker: processing 40000 (3445862.6 per sec) @ X:91000025-92000025
+MainProcess,  processing 2407 (211751.8 per sec) reads @ X:92000025-93000025
+MainProcess countReadsInRegions_worker: processing 40000 (2602652.1 per sec) @ X:92000025-93000025
+MainProcess,  processing 10759 (216392.6 per sec) reads @ X:93000025-94000025
+MainProcess countReadsInRegions_worker: processing 40000 (733529.6 per sec) @ X:93000025-94000025
+MainProcess,  processing 23660 (201931.9 per sec) reads @ X:94000025-95000025
+MainProcess countReadsInRegions_worker: processing 40000 (325172.0 per sec) @ X:94000025-95000025
+MainProcess,  processing 14222 (213437.1 per sec) reads @ X:95000025-96000025
+MainProcess countReadsInRegions_worker: processing 40000 (556530.2 per sec) @ X:95000025-96000025
+MainProcess,  processing 5538 (216981.2 per sec) reads @ X:96000025-97000025
+MainProcess countReadsInRegions_worker: processing 40000 (1323928.3 per sec) @ X:96000025-97000025
+MainProcess,  processing 3094 (213542.3 per sec) reads @ X:97000025-98000025
+MainProcess countReadsInRegions_worker: processing 40000 (2150759.7 per sec) @ X:97000025-98000025
+MainProcess,  processing 9066 (219392.6 per sec) reads @ X:98000025-99000025
+MainProcess countReadsInRegions_worker: processing 40000 (868979.6 per sec) @ X:98000025-99000025
+MainProcess,  processing 12424 (216216.1 per sec) reads @ X:99000025-100000025
+MainProcess countReadsInRegions_worker: processing 40000 (641900.2 per sec) @ X:99000025-100000025
+MainProcess,  processing 12035 (214473.4 per sec) reads @ X:100000025-101000025
+MainProcess countReadsInRegions_worker: processing 40000 (654567.4 per sec) @ X:100000025-101000025
+MainProcess,  processing 25177 (218084.9 per sec) reads @ X:101000025-102000025
+MainProcess countReadsInRegions_worker: processing 40000 (328086.9 per sec) @ X:101000025-102000025
+MainProcess,  processing 16111 (196890.6 per sec) reads @ X:102000025-103000025
+MainProcess countReadsInRegions_worker: processing 40000 (459542.7 per sec) @ X:102000025-103000025
+MainProcess,  processing 25168 (220715.9 per sec) reads @ X:103000025-104000025
+MainProcess countReadsInRegions_worker: processing 40000 (332328.0 per sec) @ X:103000025-104000025
+MainProcess,  processing 10221 (220698.3 per sec) reads @ X:104000025-105000025
+MainProcess countReadsInRegions_worker: processing 40000 (780564.4 per sec) @ X:104000025-105000025
+MainProcess,  processing 15147 (219690.2 per sec) reads @ X:105000025-106000025
+MainProcess countReadsInRegions_worker: processing 40000 (539113.6 per sec) @ X:105000025-106000025
+MainProcess,  processing 11750 (216701.3 per sec) reads @ X:106000025-107000025
+MainProcess countReadsInRegions_worker: processing 40000 (674957.5 per sec) @ X:106000025-107000025
+MainProcess,  processing 4433 (216443.4 per sec) reads @ X:107000025-108000025
+MainProcess countReadsInRegions_worker: processing 40000 (1616411.1 per sec) @ X:107000025-108000025
+MainProcess,  processing 4921 (216678.8 per sec) reads @ X:108000025-109000025
+MainProcess countReadsInRegions_worker: processing 40000 (1476776.6 per sec) @ X:108000025-109000025
+MainProcess,  processing 5967 (211972.8 per sec) reads @ X:109000025-110000025
+MainProcess countReadsInRegions_worker: processing 40000 (1229109.1 per sec) @ X:109000025-110000025
+MainProcess,  processing 2451 (217194.3 per sec) reads @ X:110000025-111000025
+MainProcess countReadsInRegions_worker: processing 40000 (2588157.9 per sec) @ X:110000025-111000025
+MainProcess,  processing 4882 (207242.5 per sec) reads @ X:111000025-112000025
+MainProcess countReadsInRegions_worker: processing 40000 (1434256.6 per sec) @ X:111000025-112000025
+MainProcess,  processing 4192 (216851.3 per sec) reads @ X:112000025-113000025
+MainProcess countReadsInRegions_worker: processing 40000 (1692753.2 per sec) @ X:112000025-113000025
+MainProcess,  processing 4454 (220802.4 per sec) reads @ X:113000025-114000025
+MainProcess countReadsInRegions_worker: processing 40000 (1637728.3 per sec) @ X:113000025-114000025
+MainProcess,  processing 2101 (127573.0 per sec) reads @ X:114000025-115000025
+MainProcess countReadsInRegions_worker: processing 40000 (1926422.8 per sec) @ X:114000025-115000025
+MainProcess,  processing 2109 (212343.1 per sec) reads @ X:115000025-116000025
+MainProcess countReadsInRegions_worker: processing 40000 (2821454.7 per sec) @ X:115000025-116000025
+MainProcess,  processing 2240 (213863.6 per sec) reads @ X:116000025-117000025
+MainProcess countReadsInRegions_worker: processing 40000 (2707094.2 per sec) @ X:116000025-117000025
+MainProcess,  processing 2053 (215423.4 per sec) reads @ X:117000025-118000025
+MainProcess countReadsInRegions_worker: processing 40000 (2909276.5 per sec) @ X:117000025-118000025
+MainProcess,  processing 2084 (215288.5 per sec) reads @ X:118000025-119000025
+MainProcess countReadsInRegions_worker: processing 40000 (2858372.3 per sec) @ X:118000025-119000025
+MainProcess,  processing 2270 (215369.8 per sec) reads @ X:119000025-120000025
+MainProcess countReadsInRegions_worker: processing 40000 (2718322.7 per sec) @ X:119000025-120000025
+MainProcess,  processing 6422 (220801.7 per sec) reads @ X:120000025-121000025
+MainProcess countReadsInRegions_worker: processing 40000 (1190329.3 per sec) @ X:120000025-121000025
+MainProcess,  processing 2267 (214740.3 per sec) reads @ X:121000025-122000025
+MainProcess countReadsInRegions_worker: processing 40000 (2691978.2 per sec) @ X:121000025-122000025
+MainProcess,  processing 3638 (211696.6 per sec) reads @ X:122000025-123000025
+MainProcess countReadsInRegions_worker: processing 40000 (1855209.5 per sec) @ X:122000025-123000025
+MainProcess,  processing 473 (172874.3 per sec) reads @ X:123000025-124000025
+MainProcess countReadsInRegions_worker: processing 40000 (5751333.9 per sec) @ X:123000025-124000025
+MainProcess,  processing 369 (191879.3 per sec) reads @ X:124000025-125000025
+MainProcess countReadsInRegions_worker: processing 40000 (6682286.2 per sec) @ X:124000025-125000025
+MainProcess,  processing 7 (25180.2 per sec) reads @ X:125000025-126000025
+MainProcess countReadsInRegions_worker: processing 40000 (8820364.9 per sec) @ X:125000025-126000025
+MainProcess,  processing 1696 (215170.6 per sec) reads @ X:126000025-127000025
+MainProcess countReadsInRegions_worker: processing 40000 (3322813.2 per sec) @ X:126000025-127000025
+MainProcess,  processing 2178 (213548.9 per sec) reads @ X:127000025-128000025
+MainProcess countReadsInRegions_worker: processing 40000 (2737841.0 per sec) @ X:127000025-128000025
+MainProcess,  processing 2175 (216288.4 per sec) reads @ X:128000025-129000025
+MainProcess countReadsInRegions_worker: processing 40000 (2752168.0 per sec) @ X:128000025-129000025
+MainProcess,  processing 4390 (220803.1 per sec) reads @ X:129000025-130000025
+MainProcess countReadsInRegions_worker: processing 40000 (1645083.2 per sec) @ X:129000025-130000025
+MainProcess,  processing 2398 (216971.7 per sec) reads @ X:130000025-131000025
+MainProcess countReadsInRegions_worker: processing 40000 (2597896.6 per sec) @ X:130000025-131000025
+MainProcess,  processing 2270 (217162.8 per sec) reads @ X:131000025-132000025
+MainProcess countReadsInRegions_worker: processing 40000 (2670935.8 per sec) @ X:131000025-132000025
+MainProcess,  processing 2208 (215412.7 per sec) reads @ X:132000025-133000025
+MainProcess countReadsInRegions_worker: processing 40000 (2743661.5 per sec) @ X:132000025-133000025
+MainProcess,  processing 8697 (220484.6 per sec) reads @ X:133000025-134000025
+MainProcess countReadsInRegions_worker: processing 40000 (905369.2 per sec) @ X:133000025-134000025
+MainProcess,  processing 21344 (218933.0 per sec) reads @ X:134000025-135000025
+MainProcess countReadsInRegions_worker: processing 40000 (385420.0 per sec) @ X:134000025-135000025
+MainProcess,  processing 10748 (217562.0 per sec) reads @ X:135000025-136000025
+MainProcess countReadsInRegions_worker: processing 40000 (734081.7 per sec) @ X:135000025-136000025
+MainProcess,  processing 15769 (194178.1 per sec) reads @ X:136000025-137000025
+MainProcess countReadsInRegions_worker: processing 40000 (461457.7 per sec) @ X:136000025-137000025
+MainProcess,  processing 8558 (215078.3 per sec) reads @ X:137000025-138000025
+MainProcess countReadsInRegions_worker: processing 40000 (898777.8 per sec) @ X:137000025-138000025
+MainProcess,  processing 3107 (207617.0 per sec) reads @ X:138000025-139000025
+MainProcess countReadsInRegions_worker: processing 40000 (2091504.9 per sec) @ X:138000025-139000025
+MainProcess,  processing 11109 (214928.3 per sec) reads @ X:139000025-140000025
+MainProcess countReadsInRegions_worker: processing 40000 (706837.7 per sec) @ X:139000025-140000025
+MainProcess,  processing 15063 (214744.1 per sec) reads @ X:140000025-141000025
+MainProcess countReadsInRegions_worker: processing 40000 (529339.9 per sec) @ X:140000025-141000025
+MainProcess,  processing 5473 (221939.5 per sec) reads @ X:141000025-142000025
+MainProcess countReadsInRegions_worker: processing 40000 (1373155.7 per sec) @ X:141000025-142000025
+MainProcess,  processing 11095 (215625.2 per sec) reads @ X:142000025-143000025
+MainProcess countReadsInRegions_worker: processing 40000 (710417.3 per sec) @ X:142000025-143000025
+MainProcess,  processing 4689 (217840.7 per sec) reads @ X:143000025-144000025
+MainProcess countReadsInRegions_worker: processing 40000 (1549786.7 per sec) @ X:143000025-144000025
+MainProcess,  processing 5534 (209169.0 per sec) reads @ X:144000025-145000025
+MainProcess countReadsInRegions_worker: processing 40000 (1296719.5 per sec) @ X:144000025-145000025
+MainProcess,  processing 3960 (218954.4 per sec) reads @ X:145000025-146000025
+MainProcess countReadsInRegions_worker: processing 40000 (1791079.0 per sec) @ X:145000025-146000025
+MainProcess,  processing 2707 (215200.5 per sec) reads @ X:146000025-147000025
+MainProcess countReadsInRegions_worker: processing 40000 (2393906.7 per sec) @ X:146000025-147000025
+MainProcess,  processing 3279 (214046.4 per sec) reads @ X:147000025-148000025
+MainProcess countReadsInRegions_worker: processing 40000 (2052861.5 per sec) @ X:147000025-148000025
+MainProcess,  processing 314 (186229.0 per sec) reads @ X:148000025-149000025
+MainProcess countReadsInRegions_worker: processing 40000 (6985558.6 per sec) @ X:148000025-149000025
+MainProcess,  processing 267 (179698.2 per sec) reads @ X:149000025-150000025
+MainProcess countReadsInRegions_worker: processing 40000 (7398992.7 per sec) @ X:149000025-150000025
+MainProcess,  processing 10043 (219870.2 per sec) reads @ X:150000025-151000025
+MainProcess countReadsInRegions_worker: processing 40000 (794296.8 per sec) @ X:150000025-151000025
+MainProcess,  processing 21932 (201575.3 per sec) reads @ X:151000025-152000025
+MainProcess countReadsInRegions_worker: processing 40000 (347059.8 per sec) @ X:151000025-152000025
+MainProcess,  processing 24252 (221418.8 per sec) reads @ X:152000025-153000025
+MainProcess countReadsInRegions_worker: processing 40000 (345271.3 per sec) @ X:152000025-153000025
+MainProcess,  processing 18569 (221950.0 per sec) reads @ X:153000025-154000025
+MainProcess countReadsInRegions_worker: processing 40000 (447477.1 per sec) @ X:153000025-154000025
+MainProcess,  processing 2187 (211998.0 per sec) reads @ X:154000025-155000025
+MainProcess countReadsInRegions_worker: processing 40000 (2727204.4 per sec) @ X:154000025-155000025
+MainProcess,  processing 7109 (218028.1 per sec) reads @ X:155000025-156000025
+MainProcess countReadsInRegions_worker: processing 40000 (1079330.2 per sec) @ X:155000025-156000025
+MainProcess,  processing 2030 (213909.1 per sec) reads @ X:156000025-157000025
+MainProcess countReadsInRegions_worker: processing 40000 (2934054.3 per sec) @ X:156000025-157000025
+MainProcess,  processing 7862 (217947.1 per sec) reads @ X:157000025-158000025
+MainProcess countReadsInRegions_worker: processing 40000 (984855.8 per sec) @ X:157000025-158000025
+MainProcess,  processing 5434 (218444.5 per sec) reads @ X:158000025-159000025
+MainProcess countReadsInRegions_worker: processing 40000 (1368741.8 per sec) @ X:158000025-159000025
+MainProcess,  processing 16008 (216890.0 per sec) reads @ X:159000025-160000025
+MainProcess countReadsInRegions_worker: processing 40000 (503093.6 per sec) @ X:159000025-160000025
+MainProcess,  processing 11855 (190496.8 per sec) reads @ X:160000025-161000025
+MainProcess countReadsInRegions_worker: processing 40000 (593763.9 per sec) @ X:160000025-161000025
+MainProcess,  processing 7228 (211599.0 per sec) reads @ X:161000025-162000025
+MainProcess countReadsInRegions_worker: processing 40000 (1035196.1 per sec) @ X:161000025-162000025
+MainProcess,  processing 15093 (217237.1 per sec) reads @ X:162000025-163000025
+MainProcess countReadsInRegions_worker: processing 40000 (535811.3 per sec) @ X:162000025-163000025
+MainProcess,  processing 7973 (216176.4 per sec) reads @ X:163000025-164000025
+MainProcess countReadsInRegions_worker: processing 40000 (963598.6 per sec) @ X:163000025-164000025
+MainProcess,  processing 8381 (214019.3 per sec) reads @ X:164000025-165000025
+MainProcess countReadsInRegions_worker: processing 40000 (912574.0 per sec) @ X:164000025-165000025
+MainProcess,  processing 2558 (214062.6 per sec) reads @ X:165000025-166000025
+MainProcess countReadsInRegions_worker: processing 40000 (2468689.8 per sec) @ X:165000025-166000025
+MainProcess,  processing 16370 (218231.8 per sec) reads @ X:166000025-167000025
+MainProcess countReadsInRegions_worker: processing 40000 (496412.9 per sec) @ X:166000025-167000025
+MainProcess,  processing 7040 (215732.1 per sec) reads @ X:167000025-168000025
+MainProcess countReadsInRegions_worker: processing 40000 (1072499.4 per sec) @ X:167000025-168000025
+MainProcess,  processing 8222 (219235.8 per sec) reads @ X:168000025-169000025
+MainProcess countReadsInRegions_worker: processing 40000 (947597.6 per sec) @ X:168000025-169000025
+MainProcess,  processing 7730 (212241.2 per sec) reads @ X:169000025-170000025
+MainProcess countReadsInRegions_worker: processing 40000 (973162.0 per sec) @ X:169000025-170000025
+MainProcess,  processing 157 (149219.5 per sec) reads @ X:170000025-171000025
+MainProcess countReadsInRegions_worker: processing 40000 (7911169.0 per sec) @ X:170000025-171000025
+MainProcess,  processing 0 (0.0 per sec) reads @ X:171000025-171031299
+MainProcess countReadsInRegions_worker: processing 1250 (1415464.4 per sec) @ X:171000025-171031299
+Sender: LSF System <lsfadmin@lc06e09>
+Subject: Job 177103930: <bamCoverage -b /sc/arion/scratch/arayan01/projects/chipseqtut/data/chipseqdata/wt_H3K4me3_rep1.bam -o /sc/arion/scratch/arayan01/projects/chipseqtut/results/norm/wt_H3K4me3_rep1.bw         --outFileFormat bigwig         --binSize 25         --normalizeUsing RPGC         --effectiveGenomeSize 2308125349         --region chrX         --verbose> in cluster <chimera> Done
+
+Job <bamCoverage -b /sc/arion/scratch/arayan01/projects/chipseqtut/data/chipseqdata/wt_H3K4me3_rep1.bam -o /sc/arion/scratch/arayan01/projects/chipseqtut/results/norm/wt_H3K4me3_rep1.bw         --outFileFormat bigwig         --binSize 25         --normalizeUsing RPGC         --effectiveGenomeSize 2308125349         --region chrX         --verbose> was submitted from host <li04e04> by user <arayan01> in cluster <chimera> at Wed Apr  2 12:55:57 2025
+Job was executed on host(s) <1*lc06e09>, in queue <premium>, as user <arayan01> in cluster <chimera> at Wed Apr  2 12:55:58 2025
+                            <1*lc07e10>
+</hpc/users/arayan01> was used as the home directory.
+</sc/arion/scratch/arayan01/projects/chipseqtut/results> was used as the working directory.
+Started at Wed Apr  2 12:55:58 2025
+Terminated at Wed Apr  2 12:56:13 2025
+Results reported at Wed Apr  2 12:56:13 2025
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+bamCoverage -b /sc/arion/scratch/arayan01/projects/chipseqtut/data/chipseqdata/wt_H3K4me3_rep1.bam -o /sc/arion/scratch/arayan01/projects/chipseqtut/results/norm/wt_H3K4me3_rep1.bw         --outFileFormat bigwig         --binSize 25         --normalizeUsing RPGC         --effectiveGenomeSize 2308125349         --region chrX         --verbose
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   14.12 sec.
+    Max Memory :                                 112 MB
+    Average Memory :                             59.70 MB
+    Total Requested Memory :                     16000.00 MB
+    Delta Memory :                               15888.00 MB
+    Max Swap :                                   -
+    Max Processes :                              3
+    Max Threads :                                4
+    Run time :                                   15 sec.
+    Turnaround time :                            16 sec.
+
+The output (if any) follows:
+
+Specified --scaleFactor: 1.0
+normalization: 1x (effective genome size 2308125349)
+minFragmentLength: 0
+verbose: True
+out_file_for_raw_data: None
+numberOfSamples: None
+bedFile: None
+bamFilesList: ['/sc/arion/scratch/arayan01/projects/chipseqtut/data/chipseqdata/wt_H3K4me3_rep1.bam']
+numberOfProcessors: 1
+samFlag_exclude: None
+save_data: False
+stepSize: 25
+smoothLength: None
+blackListFileName: None
+center_read: False
+ignoreDuplicates: False
+defaultFragmentLength: read length
+chrsToSkip: []
+region: chrX:25
+maxPairedFragmentLength: 1000
+samFlag_include: None
+binLength: 25
+maxFragmentLength: 0
+minMappingQuality: None
+zerosToNans: False
+genome partition size for multiprocessing: 1050000
+Estimated read length is 51
+Final scaling factor: 37.5635549051
+MainProcess,  processing 0 (0.0 per sec) reads @ X:25-1000025
+MainProcess countReadsInRegions_worker: processing 40000 (8822220.1 per sec) @ X:25-1000025
+MainProcess,  processing 0 (0.0 per sec) reads @ X:1000025-2000025
+MainProcess countReadsInRegions_worker: processing 40000 (9324301.7 per sec) @ X:1000025-2000025
+MainProcess,  processing 0 (0.0 per sec) reads @ X:2000025-3000025
+MainProcess countReadsInRegions_worker: processing 40000 (9962717.3 per sec) @ X:2000025-3000025
+MainProcess,  processing 275 (189242.6 per sec) reads @ X:3000025-4000025
+MainProcess countReadsInRegions_worker: processing 40000 (7235925.1 per sec) @ X:3000025-4000025
+MainProcess,  processing 227 (175697.9 per sec) reads @ X:4000025-5000025
+MainProcess countReadsInRegions_worker: processing 40000 (7162098.6 per sec) @ X:4000025-5000025
+MainProcess,  processing 1650 (214260.1 per sec) reads @ X:5000025-6000025
+MainProcess countReadsInRegions_worker: processing 40000 (3357390.5 per sec) @ X:5000025-6000025
+MainProcess,  processing 6442 (215531.7 per sec) reads @ X:6000025-7000025
+MainProcess countReadsInRegions_worker: processing 40000 (1163912.4 per sec) @ X:6000025-7000025
+MainProcess,  processing 37514 (205552.8 per sec) reads @ X:7000025-8000025
+MainProcess countReadsInRegions_worker: processing 40000 (210274.0 per sec) @ X:7000025-8000025
+MainProcess,  processing 19616 (222793.0 per sec) reads @ X:8000025-9000025
+MainProcess countReadsInRegions_worker: processing 40000 (427104.4 per sec) @ X:8000025-9000025
+MainProcess,  processing 6723 (222321.0 per sec) reads @ X:9000025-10000025
+MainProcess countReadsInRegions_worker: processing 40000 (1157009.5 per sec) @ X:9000025-10000025
+MainProcess,  processing 5517 (218349.0 per sec) reads @ X:10000025-11000025
+MainProcess countReadsInRegions_worker: processing 40000 (1354650.9 per sec) @ X:10000025-11000025
+MainProcess,  processing 5022 (211926.5 per sec) reads @ X:11000025-12000025
+MainProcess countReadsInRegions_worker: processing 40000 (1434048.1 per sec) @ X:11000025-12000025
+MainProcess,  processing 22772 (220881.5 per sec) reads @ X:12000025-13000025
+MainProcess countReadsInRegions_worker: processing 40000 (366042.2 per sec) @ X:12000025-13000025
+MainProcess,  processing 22849 (223831.9 per sec) reads @ X:13000025-14000025
+MainProcess countReadsInRegions_worker: processing 40000 (369255.9 per sec) @ X:13000025-14000025
+MainProcess,  processing 2557 (214479.5 per sec) reads @ X:14000025-15000025
+MainProcess countReadsInRegions_worker: processing 40000 (2485403.0 per sec) @ X:14000025-15000025
+MainProcess,  processing 2358 (215989.7 per sec) reads @ X:15000025-16000025
+MainProcess countReadsInRegions_worker: processing 40000 (2675578.7 per sec) @ X:15000025-16000025
+MainProcess,  processing 5615 (176301.2 per sec) reads @ X:16000025-17000025
+MainProcess countReadsInRegions_worker: processing 40000 (1104912.7 per sec) @ X:16000025-17000025
+MainProcess,  processing 3332 (212770.7 per sec) reads @ X:17000025-18000025
+MainProcess countReadsInRegions_worker: processing 40000 (2024913.2 per sec) @ X:17000025-18000025
+MainProcess,  processing 7947 (221551.0 per sec) reads @ X:18000025-19000025
+MainProcess countReadsInRegions_worker: processing 40000 (991057.5 per sec) @ X:18000025-19000025
+MainProcess,  processing 3166 (215242.4 per sec) reads @ X:19000025-20000025
+MainProcess countReadsInRegions_worker: processing 40000 (2120986.6 per sec) @ X:19000025-20000025
+MainProcess,  processing 34277 (221898.0 per sec) reads @ X:20000025-21000025
+MainProcess countReadsInRegions_worker: processing 40000 (247243.3 per sec) @ X:20000025-21000025
+MainProcess,  processing 4750 (218854.1 per sec) reads @ X:21000025-22000025
+MainProcess countReadsInRegions_worker: processing 40000 (1540239.8 per sec) @ X:21000025-22000025
+MainProcess,  processing 1999 (215965.1 per sec) reads @ X:22000025-23000025
+MainProcess countReadsInRegions_worker: processing 40000 (2995770.9 per sec) @ X:22000025-23000025
+MainProcess,  processing 7651 (220133.5 per sec) reads @ X:23000025-24000025
+MainProcess countReadsInRegions_worker: processing 40000 (1020071.4 per sec) @ X:23000025-24000025
+MainProcess,  processing 854 (191649.8 per sec) reads @ X:24000025-25000025
+MainProcess countReadsInRegions_worker: processing 40000 (4715217.7 per sec) @ X:24000025-25000025
+MainProcess,  processing 675 (200011.0 per sec) reads @ X:25000025-26000025
+MainProcess countReadsInRegions_worker: processing 40000 (5455650.4 per sec) @ X:25000025-26000025
+MainProcess,  processing 689 (209229.3 per sec) reads @ X:26000025-27000025
+MainProcess countReadsInRegions_worker: processing 40000 (5506684.6 per sec) @ X:26000025-27000025
+MainProcess,  processing 11 (40294.6 per sec) reads @ X:27000025-28000025
+MainProcess countReadsInRegions_worker: processing 40000 (9403214.9 per sec) @ X:27000025-28000025
+MainProcess,  processing 22 (69431.7 per sec) reads @ X:28000025-29000025
+MainProcess countReadsInRegions_worker: processing 40000 (8948325.8 per sec) @ X:28000025-29000025
+MainProcess,  processing 118 (163234.8 per sec) reads @ X:29000025-30000025
+MainProcess countReadsInRegions_worker: processing 40000 (8598409.2 per sec) @ X:29000025-30000025
+MainProcess,  processing 24 (70148.6 per sec) reads @ X:30000025-31000025
+MainProcess countReadsInRegions_worker: processing 40000 (9424872.8 per sec) @ X:30000025-31000025
+MainProcess,  processing 728 (202671.8 per sec) reads @ X:31000025-32000025
+MainProcess countReadsInRegions_worker: processing 40000 (5334059.1 per sec) @ X:31000025-32000025
+MainProcess,  processing 322 (189314.0 per sec) reads @ X:32000025-33000025
+MainProcess countReadsInRegions_worker: processing 40000 (7072130.8 per sec) @ X:32000025-33000025
+MainProcess,  processing 374 (195399.8 per sec) reads @ X:33000025-34000025
+MainProcess countReadsInRegions_worker: processing 40000 (6907330.9 per sec) @ X:33000025-34000025
+MainProcess,  processing 133 (165630.2 per sec) reads @ X:34000025-35000025
+MainProcess countReadsInRegions_worker: processing 40000 (8447742.2 per sec) @ X:34000025-35000025
+MainProcess,  processing 3520 (222024.3 per sec) reads @ X:35000025-36000025
+MainProcess countReadsInRegions_worker: processing 40000 (2005308.9 per sec) @ X:35000025-36000025
+MainProcess,  processing 22653 (224140.4 per sec) reads @ X:36000025-37000025
+MainProcess countReadsInRegions_worker: processing 40000 (373730.6 per sec) @ X:36000025-37000025
+MainProcess,  processing 11628 (197651.0 per sec) reads @ X:37000025-38000025
+MainProcess countReadsInRegions_worker: processing 40000 (628033.2 per sec) @ X:37000025-38000025
+MainProcess,  processing 13618 (224608.0 per sec) reads @ X:38000025-39000025
+MainProcess countReadsInRegions_worker: processing 40000 (608688.3 per sec) @ X:38000025-39000025
+MainProcess,  processing 2126 (217697.1 per sec) reads @ X:39000025-40000025
+MainProcess countReadsInRegions_worker: processing 40000 (2862908.4 per sec) @ X:39000025-40000025
+MainProcess,  processing 2187 (218549.1 per sec) reads @ X:40000025-41000025
+MainProcess countReadsInRegions_worker: processing 40000 (2838064.1 per sec) @ X:40000025-41000025
+MainProcess,  processing 7777 (225432.0 per sec) reads @ X:41000025-42000025
+MainProcess countReadsInRegions_worker: processing 40000 (1026455.9 per sec) @ X:41000025-42000025
+MainProcess,  processing 9474 (222765.1 per sec) reads @ X:42000025-43000025
+MainProcess countReadsInRegions_worker: processing 40000 (848967.8 per sec) @ X:42000025-43000025
+MainProcess,  processing 3262 (221106.0 per sec) reads @ X:43000025-44000025
+MainProcess countReadsInRegions_worker: processing 40000 (2110925.8 per sec) @ X:43000025-44000025
+MainProcess,  processing 2105 (217185.1 per sec) reads @ X:44000025-45000025
+MainProcess countReadsInRegions_worker: processing 40000 (2895169.2 per sec) @ X:44000025-45000025
+MainProcess,  processing 2184 (203880.7 per sec) reads @ X:45000025-46000025
+MainProcess countReadsInRegions_worker: processing 40000 (2710023.9 per sec) @ X:45000025-46000025
+MainProcess,  processing 2339 (202302.9 per sec) reads @ X:46000025-47000025
+MainProcess countReadsInRegions_worker: processing 40000 (2549728.9 per sec) @ X:46000025-47000025
+MainProcess,  processing 5477 (224631.9 per sec) reads @ X:47000025-48000025
+MainProcess countReadsInRegions_worker: processing 40000 (1393097.8 per sec) @ X:47000025-48000025
+MainProcess,  processing 26859 (220450.5 per sec) reads @ X:48000025-49000025
+MainProcess countReadsInRegions_worker: processing 40000 (311567.3 per sec) @ X:48000025-49000025
+MainProcess,  processing 4034 (217185.3 per sec) reads @ X:49000025-50000025
+MainProcess countReadsInRegions_worker: processing 40000 (1750617.3 per sec) @ X:49000025-50000025
+MainProcess,  processing 9719 (191333.8 per sec) reads @ X:50000025-51000025
+MainProcess countReadsInRegions_worker: processing 40000 (720395.4 per sec) @ X:50000025-51000025
+MainProcess,  processing 8022 (224957.8 per sec) reads @ X:51000025-52000025
+MainProcess countReadsInRegions_worker: processing 40000 (995940.5 per sec) @ X:51000025-52000025
+MainProcess,  processing 11287 (214251.0 per sec) reads @ X:52000025-53000025
+MainProcess countReadsInRegions_worker: processing 40000 (695748.8 per sec) @ X:52000025-53000025
+MainProcess,  processing 8127 (219749.5 per sec) reads @ X:53000025-54000025
+MainProcess countReadsInRegions_worker: processing 40000 (963067.6 per sec) @ X:53000025-54000025
+MainProcess,  processing 552 (166817.2 per sec) reads @ X:54000025-55000025
+MainProcess countReadsInRegions_worker: processing 40000 (5519547.3 per sec) @ X:54000025-55000025
+MainProcess,  processing 1268 (214407.5 per sec) reads @ X:55000025-56000025
+MainProcess countReadsInRegions_worker: processing 40000 (4019746.5 per sec) @ X:55000025-56000025
+MainProcess,  processing 13214 (224525.9 per sec) reads @ X:56000025-57000025
+MainProcess countReadsInRegions_worker: processing 40000 (625185.1 per sec) @ X:56000025-57000025
+MainProcess,  processing 8162 (221120.7 per sec) reads @ X:57000025-58000025
+MainProcess countReadsInRegions_worker: processing 40000 (968521.6 per sec) @ X:57000025-58000025
+MainProcess,  processing 3636 (218918.1 per sec) reads @ X:58000025-59000025
+MainProcess countReadsInRegions_worker: processing 40000 (1930590.3 per sec) @ X:58000025-59000025
+MainProcess,  processing 3937 (222426.9 per sec) reads @ X:59000025-60000025
+MainProcess countReadsInRegions_worker: processing 40000 (1837994.7 per sec) @ X:59000025-60000025
+MainProcess,  processing 12907 (222573.5 per sec) reads @ X:60000025-61000025
+MainProcess countReadsInRegions_worker: processing 40000 (635322.5 per sec) @ X:60000025-61000025
+MainProcess,  processing 2435 (214841.4 per sec) reads @ X:61000025-62000025
+MainProcess countReadsInRegions_worker: processing 40000 (2597735.7 per sec) @ X:61000025-62000025
+MainProcess,  processing 2076 (218690.4 per sec) reads @ X:62000025-63000025
+MainProcess countReadsInRegions_worker: processing 40000 (2967370.5 per sec) @ X:62000025-63000025
+MainProcess,  processing 2102 (216902.3 per sec) reads @ X:63000025-64000025
+MainProcess countReadsInRegions_worker: processing 40000 (2856571.5 per sec) @ X:63000025-64000025
+MainProcess,  processing 2182 (214046.2 per sec) reads @ X:64000025-65000025
+MainProcess countReadsInRegions_worker: processing 40000 (2802695.6 per sec) @ X:64000025-65000025
+MainProcess,  processing 2037 (214943.7 per sec) reads @ X:65000025-66000025
+MainProcess countReadsInRegions_worker: processing 40000 (2908015.9 per sec) @ X:65000025-66000025
+MainProcess,  processing 3029 (204912.0 per sec) reads @ X:66000025-67000025
+MainProcess countReadsInRegions_worker: processing 40000 (2124262.9 per sec) @ X:66000025-67000025
+MainProcess,  processing 1956 (215154.6 per sec) reads @ X:67000025-68000025
+MainProcess countReadsInRegions_worker: processing 40000 (3045751.2 per sec) @ X:67000025-68000025
+MainProcess,  processing 5874 (221135.3 per sec) reads @ X:68000025-69000025
+MainProcess countReadsInRegions_worker: processing 40000 (1292573.5 per sec) @ X:68000025-69000025
+MainProcess,  processing 4321 (214112.9 per sec) reads @ X:69000025-70000025
+MainProcess countReadsInRegions_worker: processing 40000 (1645002.5 per sec) @ X:69000025-70000025
+MainProcess,  processing 6267 (181869.0 per sec) reads @ X:70000025-71000025
+MainProcess countReadsInRegions_worker: processing 40000 (1026669.4 per sec) @ X:70000025-71000025
+MainProcess,  processing 17599 (217416.6 per sec) reads @ X:71000025-72000025
+MainProcess countReadsInRegions_worker: processing 40000 (461948.1 per sec) @ X:71000025-72000025
+MainProcess,  processing 5297 (216628.8 per sec) reads @ X:72000025-73000025
+MainProcess countReadsInRegions_worker: processing 40000 (1379546.4 per sec) @ X:72000025-73000025
+MainProcess,  processing 30029 (220215.6 per sec) reads @ X:73000025-74000025
+MainProcess countReadsInRegions_worker: processing 40000 (278924.4 per sec) @ X:73000025-74000025
+MainProcess,  processing 31417 (222304.7 per sec) reads @ X:74000025-75000025
+MainProcess countReadsInRegions_worker: processing 40000 (269505.3 per sec) @ X:74000025-75000025
+MainProcess,  processing 17071 (201138.2 per sec) reads @ X:75000025-76000025
+MainProcess countReadsInRegions_worker: processing 40000 (443173.4 per sec) @ X:75000025-76000025
+MainProcess,  processing 2748 (217836.5 per sec) reads @ X:76000025-77000025
+MainProcess countReadsInRegions_worker: processing 40000 (2388487.8 per sec) @ X:76000025-77000025
+MainProcess,  processing 9330 (221089.6 per sec) reads @ X:77000025-78000025
+MainProcess countReadsInRegions_worker: processing 40000 (856329.9 per sec) @ X:77000025-78000025
+MainProcess,  processing 3233 (219811.7 per sec) reads @ X:78000025-79000025
+MainProcess countReadsInRegions_worker: processing 40000 (2117079.0 per sec) @ X:78000025-79000025
+MainProcess,  processing 2242 (216304.7 per sec) reads @ X:79000025-80000025
+MainProcess countReadsInRegions_worker: processing 40000 (2765095.3 per sec) @ X:79000025-80000025
+MainProcess,  processing 2289 (211475.2 per sec) reads @ X:80000025-81000025
+MainProcess countReadsInRegions_worker: processing 40000 (2683109.6 per sec) @ X:80000025-81000025
+MainProcess,  processing 4980 (215509.7 per sec) reads @ X:81000025-82000025
+MainProcess countReadsInRegions_worker: processing 40000 (1460234.3 per sec) @ X:81000025-82000025
+MainProcess,  processing 2347 (215240.7 per sec) reads @ X:82000025-83000025
+MainProcess countReadsInRegions_worker: processing 40000 (2668641.6 per sec) @ X:82000025-83000025
+MainProcess,  processing 2239 (216898.3 per sec) reads @ X:83000025-84000025
+MainProcess countReadsInRegions_worker: processing 40000 (2786079.9 per sec) @ X:83000025-84000025
+MainProcess,  processing 2328 (217749.9 per sec) reads @ X:84000025-85000025
+MainProcess countReadsInRegions_worker: processing 40000 (2702515.5 per sec) @ X:84000025-85000025
+MainProcess,  processing 8906 (220184.2 per sec) reads @ X:85000025-86000025
+MainProcess countReadsInRegions_worker: processing 40000 (888379.0 per sec) @ X:85000025-86000025
+MainProcess,  processing 2556 (217660.3 per sec) reads @ X:86000025-87000025
+MainProcess countReadsInRegions_worker: processing 40000 (2527336.2 per sec) @ X:86000025-87000025
+MainProcess,  processing 2130 (216794.1 per sec) reads @ X:87000025-88000025
+MainProcess countReadsInRegions_worker: processing 40000 (2897719.4 per sec) @ X:87000025-88000025
+MainProcess,  processing 2454 (202089.5 per sec) reads @ X:88000025-89000025
+MainProcess countReadsInRegions_worker: processing 40000 (2463940.3 per sec) @ X:88000025-89000025
+MainProcess,  processing 2093 (217795.4 per sec) reads @ X:89000025-90000025
+MainProcess countReadsInRegions_worker: processing 40000 (2925255.2 per sec) @ X:89000025-90000025
+MainProcess,  processing 2211 (216359.6 per sec) reads @ X:90000025-91000025
+MainProcess countReadsInRegions_worker: processing 40000 (2750453.5 per sec) @ X:90000025-91000025
+MainProcess,  processing 1608 (213458.7 per sec) reads @ X:91000025-92000025
+MainProcess countReadsInRegions_worker: processing 40000 (3445013.6 per sec) @ X:91000025-92000025
+MainProcess,  processing 2407 (216418.1 per sec) reads @ X:92000025-93000025
+MainProcess countReadsInRegions_worker: processing 40000 (2650596.6 per sec) @ X:92000025-93000025
+MainProcess,  processing 10759 (220648.1 per sec) reads @ X:93000025-94000025
+MainProcess countReadsInRegions_worker: processing 40000 (747105.1 per sec) @ X:93000025-94000025
+MainProcess,  processing 23660 (202782.0 per sec) reads @ X:94000025-95000025
+MainProcess countReadsInRegions_worker: processing 40000 (326634.4 per sec) @ X:94000025-95000025
+MainProcess,  processing 14222 (218951.6 per sec) reads @ X:95000025-96000025
+MainProcess countReadsInRegions_worker: processing 40000 (571257.9 per sec) @ X:95000025-96000025
+MainProcess,  processing 5538 (215703.7 per sec) reads @ X:96000025-97000025
+MainProcess countReadsInRegions_worker: processing 40000 (1335297.8 per sec) @ X:96000025-97000025
+MainProcess,  processing 3094 (216333.1 per sec) reads @ X:97000025-98000025
+MainProcess countReadsInRegions_worker: processing 40000 (2161928.8 per sec) @ X:97000025-98000025
+MainProcess,  processing 9066 (221912.3 per sec) reads @ X:98000025-99000025
+MainProcess countReadsInRegions_worker: processing 40000 (879484.2 per sec) @ X:98000025-99000025
+MainProcess,  processing 12424 (220381.3 per sec) reads @ X:99000025-100000025
+MainProcess countReadsInRegions_worker: processing 40000 (652464.7 per sec) @ X:99000025-100000025
+MainProcess,  processing 12035 (210951.8 per sec) reads @ X:100000025-101000025
+MainProcess countReadsInRegions_worker: processing 40000 (645411.6 per sec) @ X:100000025-101000025
+MainProcess,  processing 25177 (220564.3 per sec) reads @ X:101000025-102000025
+MainProcess countReadsInRegions_worker: processing 40000 (331875.8 per sec) @ X:101000025-102000025
+MainProcess,  processing 16111 (199500.0 per sec) reads @ X:102000025-103000025
+MainProcess countReadsInRegions_worker: processing 40000 (464872.9 per sec) @ X:102000025-103000025
+MainProcess,  processing 25168 (222479.9 per sec) reads @ X:103000025-104000025
+MainProcess countReadsInRegions_worker: processing 40000 (336352.2 per sec) @ X:103000025-104000025
+MainProcess,  processing 10221 (223844.3 per sec) reads @ X:104000025-105000025
+MainProcess countReadsInRegions_worker: processing 40000 (794345.7 per sec) @ X:104000025-105000025
+MainProcess,  processing 15147 (220792.0 per sec) reads @ X:105000025-106000025
+MainProcess countReadsInRegions_worker: processing 40000 (542483.2 per sec) @ X:105000025-106000025
+MainProcess,  processing 11750 (220243.8 per sec) reads @ X:106000025-107000025
+MainProcess countReadsInRegions_worker: processing 40000 (686861.7 per sec) @ X:106000025-107000025
+MainProcess,  processing 4433 (218019.4 per sec) reads @ X:107000025-108000025
+MainProcess countReadsInRegions_worker: processing 40000 (1628334.2 per sec) @ X:107000025-108000025
+MainProcess,  processing 4921 (220564.1 per sec) reads @ X:108000025-109000025
+MainProcess countReadsInRegions_worker: processing 40000 (1502688.4 per sec) @ X:108000025-109000025
+MainProcess,  processing 5967 (216374.7 per sec) reads @ X:109000025-110000025
+MainProcess countReadsInRegions_worker: processing 40000 (1249643.7 per sec) @ X:109000025-110000025
+MainProcess,  processing 2451 (218078.9 per sec) reads @ X:110000025-111000025
+MainProcess countReadsInRegions_worker: processing 40000 (2606898.4 per sec) @ X:110000025-111000025
+MainProcess,  processing 4882 (211707.8 per sec) reads @ X:111000025-112000025
+MainProcess countReadsInRegions_worker: processing 40000 (1443213.8 per sec) @ X:111000025-112000025
+MainProcess,  processing 4192 (223383.6 per sec) reads @ X:112000025-113000025
+MainProcess countReadsInRegions_worker: processing 40000 (1744591.8 per sec) @ X:112000025-113000025
+MainProcess,  processing 4454 (222509.2 per sec) reads @ X:113000025-114000025
+MainProcess countReadsInRegions_worker: processing 40000 (1652830.0 per sec) @ X:113000025-114000025
+MainProcess,  processing 2101 (131864.4 per sec) reads @ X:114000025-115000025
+MainProcess countReadsInRegions_worker: processing 40000 (1960504.8 per sec) @ X:114000025-115000025
+MainProcess,  processing 2109 (214023.1 per sec) reads @ X:115000025-116000025
+MainProcess countReadsInRegions_worker: processing 40000 (2808231.3 per sec) @ X:115000025-116000025
+MainProcess,  processing 2240 (216550.1 per sec) reads @ X:116000025-117000025
+MainProcess countReadsInRegions_worker: processing 40000 (2693966.6 per sec) @ X:116000025-117000025
+MainProcess,  processing 2053 (218196.5 per sec) reads @ X:117000025-118000025
+MainProcess countReadsInRegions_worker: processing 40000 (2902733.0 per sec) @ X:117000025-118000025
+MainProcess,  processing 2084 (219715.2 per sec) reads @ X:118000025-119000025
+MainProcess countReadsInRegions_worker: processing 40000 (2934054.3 per sec) @ X:118000025-119000025
+MainProcess,  processing 2270 (217853.5 per sec) reads @ X:119000025-120000025
+MainProcess countReadsInRegions_worker: processing 40000 (2743482.1 per sec) @ X:119000025-120000025
+MainProcess,  processing 6422 (224937.5 per sec) reads @ X:120000025-121000025
+MainProcess countReadsInRegions_worker: processing 40000 (1209011.9 per sec) @ X:120000025-121000025
+MainProcess,  processing 2267 (217416.4 per sec) reads @ X:121000025-122000025
+MainProcess countReadsInRegions_worker: processing 40000 (2724237.4 per sec) @ X:121000025-122000025
+MainProcess,  processing 3638 (215969.3 per sec) reads @ X:122000025-123000025
+MainProcess countReadsInRegions_worker: processing 40000 (1904575.6 per sec) @ X:122000025-123000025
+MainProcess,  processing 473 (174210.2 per sec) reads @ X:123000025-124000025
+MainProcess countReadsInRegions_worker: processing 40000 (5825826.8 per sec) @ X:123000025-124000025
+MainProcess,  processing 369 (194410.0 per sec) reads @ X:124000025-125000025
+MainProcess countReadsInRegions_worker: processing 40000 (6816681.3 per sec) @ X:124000025-125000025
+MainProcess,  processing 7 (25822.5 per sec) reads @ X:125000025-126000025
+MainProcess countReadsInRegions_worker: processing 40000 (9300008.9 per sec) @ X:125000025-126000025
+MainProcess,  processing 1696 (218528.5 per sec) reads @ X:126000025-127000025
+MainProcess countReadsInRegions_worker: processing 40000 (3357390.5 per sec) @ X:126000025-127000025
+MainProcess,  processing 2178 (217561.6 per sec) reads @ X:127000025-128000025
+MainProcess countReadsInRegions_worker: processing 40000 (2815725.0 per sec) @ X:127000025-128000025
+MainProcess,  processing 2175 (220071.2 per sec) reads @ X:128000025-129000025
+MainProcess countReadsInRegions_worker: processing 40000 (2825636.4 per sec) @ X:128000025-129000025
+MainProcess,  processing 4390 (224414.6 per sec) reads @ X:129000025-130000025
+MainProcess countReadsInRegions_worker: processing 40000 (1673637.9 per sec) @ X:129000025-130000025
+MainProcess,  processing 2398 (220525.4 per sec) reads @ X:130000025-131000025
+MainProcess countReadsInRegions_worker: processing 40000 (2651141.1 per sec) @ X:130000025-131000025
+MainProcess,  processing 2270 (220196.4 per sec) reads @ X:131000025-132000025
+MainProcess countReadsInRegions_worker: processing 40000 (2757279.1 per sec) @ X:131000025-132000025
+MainProcess,  processing 2208 (218415.2 per sec) reads @ X:132000025-133000025
+MainProcess countReadsInRegions_worker: processing 40000 (2785339.8 per sec) @ X:132000025-133000025
+MainProcess,  processing 8697 (223970.6 per sec) reads @ X:133000025-134000025
+MainProcess countReadsInRegions_worker: processing 40000 (918273.1 per sec) @ X:133000025-134000025
+MainProcess,  processing 21344 (222196.6 per sec) reads @ X:134000025-135000025
+MainProcess countReadsInRegions_worker: processing 40000 (391354.6 per sec) @ X:134000025-135000025
+MainProcess,  processing 10748 (218917.6 per sec) reads @ X:135000025-136000025
+MainProcess countReadsInRegions_worker: processing 40000 (740781.3 per sec) @ X:135000025-136000025
+MainProcess,  processing 15769 (196980.0 per sec) reads @ X:136000025-137000025
+MainProcess countReadsInRegions_worker: processing 40000 (468154.8 per sec) @ X:136000025-137000025
+MainProcess,  processing 8558 (219015.3 per sec) reads @ X:137000025-138000025
+MainProcess countReadsInRegions_worker: processing 40000 (916382.1 per sec) @ X:137000025-138000025
+MainProcess,  processing 3107 (210684.9 per sec) reads @ X:138000025-139000025
+MainProcess countReadsInRegions_worker: processing 40000 (2107478.6 per sec) @ X:138000025-139000025
+MainProcess,  processing 11109 (218007.5 per sec) reads @ X:139000025-140000025
+MainProcess countReadsInRegions_worker: processing 40000 (716794.3 per sec) @ X:139000025-140000025
+MainProcess,  processing 15063 (218694.3 per sec) reads @ X:140000025-141000025
+MainProcess countReadsInRegions_worker: processing 40000 (539519.3 per sec) @ X:140000025-141000025
+MainProcess,  processing 5473 (224421.7 per sec) reads @ X:141000025-142000025
+MainProcess countReadsInRegions_worker: processing 40000 (1391976.6 per sec) @ X:141000025-142000025
+MainProcess,  processing 11095 (217497.7 per sec) reads @ X:142000025-143000025
+MainProcess countReadsInRegions_worker: processing 40000 (718030.6 per sec) @ X:142000025-143000025
+MainProcess,  processing 4689 (219562.5 per sec) reads @ X:143000025-144000025
+MainProcess countReadsInRegions_worker: processing 40000 (1566295.3 per sec) @ X:143000025-144000025
+MainProcess,  processing 5534 (213148.9 per sec) reads @ X:144000025-145000025
+MainProcess countReadsInRegions_worker: processing 40000 (1312853.4 per sec) @ X:144000025-145000025
+MainProcess,  processing 3960 (219925.6 per sec) reads @ X:145000025-146000025
+MainProcess countReadsInRegions_worker: processing 40000 (1802451.2 per sec) @ X:145000025-146000025
+MainProcess,  processing 2707 (217655.2 per sec) reads @ X:146000025-147000025
+MainProcess countReadsInRegions_worker: processing 40000 (2414717.5 per sec) @ X:146000025-147000025
+MainProcess,  processing 3279 (215867.3 per sec) reads @ X:147000025-148000025
+MainProcess countReadsInRegions_worker: processing 40000 (2066770.5 per sec) @ X:147000025-148000025
+MainProcess,  processing 314 (185703.8 per sec) reads @ X:148000025-149000025
+MainProcess countReadsInRegions_worker: processing 40000 (6899093.7 per sec) @ X:148000025-149000025
+MainProcess,  processing 267 (181887.1 per sec) reads @ X:149000025-150000025
+MainProcess countReadsInRegions_worker: processing 40000 (7443307.9 per sec) @ X:149000025-150000025
+MainProcess,  processing 10043 (222835.0 per sec) reads @ X:150000025-151000025
+MainProcess countReadsInRegions_worker: processing 40000 (802726.1 per sec) @ X:150000025-151000025
+MainProcess,  processing 21932 (205936.3 per sec) reads @ X:151000025-152000025
+MainProcess countReadsInRegions_worker: processing 40000 (355489.4 per sec) @ X:151000025-152000025
+MainProcess,  processing 24252 (225455.3 per sec) reads @ X:152000025-153000025
+MainProcess countReadsInRegions_worker: processing 40000 (351185.4 per sec) @ X:152000025-153000025
+MainProcess,  processing 18569 (224904.0 per sec) reads @ X:153000025-154000025
+MainProcess countReadsInRegions_worker: processing 40000 (453339.0 per sec) @ X:153000025-154000025
+MainProcess,  processing 2187 (215342.5 per sec) reads @ X:154000025-155000025
+MainProcess countReadsInRegions_worker: processing 40000 (2806399.3 per sec) @ X:154000025-155000025
+MainProcess,  processing 7109 (222560.4 per sec) reads @ X:155000025-156000025
+MainProcess countReadsInRegions_worker: processing 40000 (1097274.4 per sec) @ X:155000025-156000025
+MainProcess,  processing 2030 (218000.3 per sec) reads @ X:156000025-157000025
+MainProcess countReadsInRegions_worker: processing 40000 (2981503.1 per sec) @ X:156000025-157000025
+MainProcess,  processing 7862 (221664.0 per sec) reads @ X:157000025-158000025
+MainProcess countReadsInRegions_worker: processing 40000 (999500.5 per sec) @ X:157000025-158000025
+MainProcess,  processing 5434 (221678.2 per sec) reads @ X:158000025-159000025
+MainProcess countReadsInRegions_worker: processing 40000 (1386340.5 per sec) @ X:158000025-159000025
+MainProcess,  processing 16008 (220090.0 per sec) reads @ X:159000025-160000025
+MainProcess countReadsInRegions_worker: processing 40000 (511811.0 per sec) @ X:159000025-160000025
+MainProcess,  processing 11855 (193582.8 per sec) reads @ X:160000025-161000025
+MainProcess countReadsInRegions_worker: processing 40000 (604157.6 per sec) @ X:160000025-161000025
+MainProcess,  processing 7228 (214365.5 per sec) reads @ X:161000025-162000025
+MainProcess countReadsInRegions_worker: processing 40000 (1050670.8 per sec) @ X:161000025-162000025
+MainProcess,  processing 15093 (222116.1 per sec) reads @ X:162000025-163000025
+MainProcess countReadsInRegions_worker: processing 40000 (545992.9 per sec) @ X:162000025-163000025
+MainProcess,  processing 7973 (218924.7 per sec) reads @ X:163000025-164000025
+MainProcess countReadsInRegions_worker: processing 40000 (976322.1 per sec) @ X:163000025-164000025
+MainProcess,  processing 8381 (217733.8 per sec) reads @ X:164000025-165000025
+MainProcess countReadsInRegions_worker: processing 40000 (928354.1 per sec) @ X:164000025-165000025
+MainProcess,  processing 2558 (219138.7 per sec) reads @ X:165000025-166000025
+MainProcess countReadsInRegions_worker: processing 40000 (2531645.7 per sec) @ X:165000025-166000025
+MainProcess,  processing 16370 (221848.4 per sec) reads @ X:166000025-167000025
+MainProcess countReadsInRegions_worker: processing 40000 (504591.6 per sec) @ X:166000025-167000025
+MainProcess,  processing 7040 (219362.1 per sec) reads @ X:167000025-168000025
+MainProcess countReadsInRegions_worker: processing 40000 (1094240.0 per sec) @ X:167000025-168000025
+MainProcess,  processing 8222 (222697.3 per sec) reads @ X:168000025-169000025
+MainProcess countReadsInRegions_worker: processing 40000 (963001.3 per sec) @ X:168000025-169000025
+MainProcess,  processing 7730 (215391.2 per sec) reads @ X:169000025-170000025
+MainProcess countReadsInRegions_worker: processing 40000 (989386.0 per sec) @ X:169000025-170000025
+MainProcess,  processing 157 (152255.7 per sec) reads @ X:170000025-171000025
+MainProcess countReadsInRegions_worker: processing 40000 (7853766.5 per sec) @ X:170000025-171000025
+MainProcess,  processing 0 (0.0 per sec) reads @ X:171000025-171031299
+MainProcess countReadsInRegions_worker: processing 1250 (1428577.7 per sec) @ X:171000025-171031299

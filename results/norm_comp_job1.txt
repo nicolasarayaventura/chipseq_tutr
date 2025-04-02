@@ -1,0 +1,118 @@
+Sender: LSF System <lsfadmin@lc06e24>
+Subject: Job 177104441: <bamCompare -b1 /sc/arion/scratch/arayan01/projects/chipseqtut/data/chipseqdata/wt_H3K4me3_rep1.bam -b2 /sc/arion/scratch/arayan01/projects/chipseqtut/data/chipseqdata/wt_input_rep1.bam -o /sc/arion/scratch/arayan01/projects/chipseqtut/results/norm/comp.bedgraph -bs 50 -of bedgraph -r chrX --operation log2> in cluster <chimera> Done
+
+Job <bamCompare -b1 /sc/arion/scratch/arayan01/projects/chipseqtut/data/chipseqdata/wt_H3K4me3_rep1.bam -b2 /sc/arion/scratch/arayan01/projects/chipseqtut/data/chipseqdata/wt_input_rep1.bam -o /sc/arion/scratch/arayan01/projects/chipseqtut/results/norm/comp.bedgraph -bs 50 -of bedgraph -r chrX --operation log2> was submitted from host <li04e04> by user <arayan01> in cluster <chimera> at Wed Apr  2 13:05:43 2025
+Job was executed on host(s) <1*lc06e24>, in queue <premium>, as user <arayan01> in cluster <chimera> at Wed Apr  2 13:05:49 2025
+                            <1*lc07e25>
+</hpc/users/arayan01> was used as the home directory.
+</sc/arion/scratch/arayan01/projects/chipseqtut/results> was used as the working directory.
+Started at Wed Apr  2 13:05:49 2025
+Terminated at Wed Apr  2 13:06:27 2025
+Results reported at Wed Apr  2 13:06:27 2025
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+bamCompare -b1 /sc/arion/scratch/arayan01/projects/chipseqtut/data/chipseqdata/wt_H3K4me3_rep1.bam -b2 /sc/arion/scratch/arayan01/projects/chipseqtut/data/chipseqdata/wt_input_rep1.bam -o /sc/arion/scratch/arayan01/projects/chipseqtut/results/norm/comp.bedgraph -bs 50 -of bedgraph -r chrX --operation log2
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   31.59 sec.
+    Max Memory :                                 45 MB
+    Average Memory :                             38.71 MB
+    Total Requested Memory :                     16000.00 MB
+    Delta Memory :                               15955.00 MB
+    Max Swap :                                   -
+    Max Processes :                              3
+    Max Threads :                                4
+    Run time :                                   38 sec.
+    Turnaround time :                            44 sec.
+
+The output (if any) follows:
+
+minFragmentLength: 0
+verbose: False
+out_file_for_raw_data: None
+numberOfSamples: 0
+bedFile: None
+bamFilesList: ['/sc/arion/scratch/arayan01/projects/chipseqtut/data/chipseqdata/wt_H3K4me3_rep1.bam', '/sc/arion/scratch/arayan01/projects/chipseqtut/data/chipseqdata/wt_input_rep1.bam']
+numberOfProcessors: 1
+samFlag_exclude: None
+save_data: False
+stepSize: 50
+smoothLength: None
+blackListFileName: None
+center_read: False
+ignoreDuplicates: False
+defaultFragmentLength: read length
+chrsToSkip: []
+region: chrX:50
+maxPairedFragmentLength: 1000
+samFlag_include: None
+binLength: 50
+maxFragmentLength: 0
+minMappingQuality: None
+zerosToNans: False
+Sender: LSF System <lsfadmin@lh06c09>
+Subject: Job 177104582: <bamCompare -b1 /sc/arion/scratch/arayan01/projects/chipseqtut/data/chipseqdata/wt_H3K4me3_rep1.bam -b2 /sc/arion/scratch/arayan01/projects/chipseqtut/data/chipseqdata/wt_input_rep1.bam -o /sc/arion/scratch/arayan01/projects/chipseqtut/results/norm/comp.bw -bs 50 -of bigwig -r chrX --operation log2> in cluster <chimera> Done
+
+Job <bamCompare -b1 /sc/arion/scratch/arayan01/projects/chipseqtut/data/chipseqdata/wt_H3K4me3_rep1.bam -b2 /sc/arion/scratch/arayan01/projects/chipseqtut/data/chipseqdata/wt_input_rep1.bam -o /sc/arion/scratch/arayan01/projects/chipseqtut/results/norm/comp.bw -bs 50 -of bigwig -r chrX --operation log2> was submitted from host <li04e04> by user <arayan01> in cluster <chimera> at Wed Apr  2 13:08:03 2025
+Job was executed on host(s) <1*lh06c09>, in queue <premium>, as user <arayan01> in cluster <chimera> at Wed Apr  2 13:08:09 2025
+                            <1*lh06c16>
+</hpc/users/arayan01> was used as the home directory.
+</sc/arion/scratch/arayan01/projects/chipseqtut/results> was used as the working directory.
+Started at Wed Apr  2 13:08:09 2025
+Terminated at Wed Apr  2 13:08:57 2025
+Results reported at Wed Apr  2 13:08:57 2025
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+bamCompare -b1 /sc/arion/scratch/arayan01/projects/chipseqtut/data/chipseqdata/wt_H3K4me3_rep1.bam -b2 /sc/arion/scratch/arayan01/projects/chipseqtut/data/chipseqdata/wt_input_rep1.bam -o /sc/arion/scratch/arayan01/projects/chipseqtut/results/norm/comp.bw -bs 50 -of bigwig -r chrX --operation log2
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   46.67 sec.
+    Max Memory :                                 128 MB
+    Average Memory :                             52.17 MB
+    Total Requested Memory :                     16000.00 MB
+    Delta Memory :                               15872.00 MB
+    Max Swap :                                   -
+    Max Processes :                              3
+    Max Threads :                                4
+    Run time :                                   48 sec.
+    Turnaround time :                            54 sec.
+
+The output (if any) follows:
+
+minFragmentLength: 0
+verbose: False
+out_file_for_raw_data: None
+numberOfSamples: 0
+bedFile: None
+bamFilesList: ['/sc/arion/scratch/arayan01/projects/chipseqtut/data/chipseqdata/wt_H3K4me3_rep1.bam', '/sc/arion/scratch/arayan01/projects/chipseqtut/data/chipseqdata/wt_input_rep1.bam']
+numberOfProcessors: 1
+samFlag_exclude: None
+save_data: False
+stepSize: 50
+smoothLength: None
+blackListFileName: None
+center_read: False
+ignoreDuplicates: False
+defaultFragmentLength: read length
+chrsToSkip: []
+region: chrX:50
+maxPairedFragmentLength: 1000
+samFlag_include: None
+binLength: 50
+maxFragmentLength: 0
+minMappingQuality: None
+zerosToNans: False

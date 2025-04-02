@@ -215,6 +215,7 @@ function heatmap {
     
     merged_peaks="${outdir}/merged_peaks.bed"
 #BOOK MARK 4/2/2025
+##figure out if i need to cconvert H3K4ME3 into bw and then insert here etc.
     bsub -P acc_oscarlr -q premium -n 2 -W 24:00 -R "rusage[mem=8000]" -o "${outdir}/computeMatrix_job.txt" \
         "computeMatrix scale-regions -S ${bw1} ${bw2} \
             -R ${merged_peaks} \
@@ -223,15 +224,15 @@ function heatmap {
             --downstream 3000 \
             -o ${outdir}/matrix.gz \
             --skipZeros"
-    bsub -P acc_oscarlr -q premium -n 2 -W 24:00 -R "rusage[mem=8000]" -o "${outdir}/plotHeatmap_job.txt" \
-        plotHeatmap -m ${outdir}/matrix.gz \
-            --heatmapWidth 8 \
-            --heatmapHeight 8 \
-            --colorMap RdYlBu \
-            --outFileName ${outdir}/heatmap.png \
-            --showAdvancedOptions \
-            --refPointLabel "Center of Region" \
-            --kmeans 2
+ #   bsub -P acc_oscarlr -q premium -n 2 -W 24:00 -R "rusage[mem=8000]" -o "${outdir}/plotHeatmap_job.txt" \
+#      plotHeatmap -m ${outdir}/matrix.gz \
+#            --heatmapWidth 8 \
+ #           --heatmapHeight 8 \
+  #          --colorMap RdYlBu \
+   #         --outFileName ${outdir}/heatmap.png \
+    #        --showAdvancedOptions \
+     #       --refPointLabel "Center of Region" \
+      #      --kmeans 2
 }
 
 

@@ -1,0 +1,38 @@
+Sender: LSF System <lsfadmin@lh06c17>
+Subject: Job 177116231: <bash -c "cat /sc/arion/scratch/arayan01/projects/chipseqtut/results/signalcomp_plots/wt_CTCF_rep1_peaks.narrowPeak /sc/arion/scratch/arayan01/projects/chipseqtut/results/signalcomp_plots/wt_H3K4me3_rep1_peaks.narrowPeak > /sc/arion/scratch/arayan01/projects/chipseqtut/results/signalcomp_plots/concatenated_peaks.bed"> in cluster <chimera> Exited
+
+Job <bash -c "cat /sc/arion/scratch/arayan01/projects/chipseqtut/results/signalcomp_plots/wt_CTCF_rep1_peaks.narrowPeak /sc/arion/scratch/arayan01/projects/chipseqtut/results/signalcomp_plots/wt_H3K4me3_rep1_peaks.narrowPeak > /sc/arion/scratch/arayan01/projects/chipseqtut/results/signalcomp_plots/concatenated_peaks.bed"> was submitted from host <li04e04> by user <arayan01> in cluster <chimera> at Wed Apr  2 13:39:46 2025
+Job was executed on host(s) <1*lh06c17>, in queue <premium>, as user <arayan01> in cluster <chimera> at Wed Apr  2 13:40:33 2025
+                            <1*lh06c14>
+</hpc/users/arayan01> was used as the home directory.
+</sc/arion/scratch/arayan01/projects/chipseqtut/results> was used as the working directory.
+Started at Wed Apr  2 13:40:33 2025
+Terminated at Wed Apr  2 13:40:33 2025
+Results reported at Wed Apr  2 13:40:33 2025
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+bash -c "cat /sc/arion/scratch/arayan01/projects/chipseqtut/results/signalcomp_plots/wt_CTCF_rep1_peaks.narrowPeak /sc/arion/scratch/arayan01/projects/chipseqtut/results/signalcomp_plots/wt_H3K4me3_rep1_peaks.narrowPeak > /sc/arion/scratch/arayan01/projects/chipseqtut/results/signalcomp_plots/concatenated_peaks.bed"
+------------------------------------------------------------
+
+Exited with exit code 1.
+
+Resource usage summary:
+
+    CPU time :                                   0.04 sec.
+    Max Memory :                                 -
+    Average Memory :                             -
+    Total Requested Memory :                     16000.00 MB
+    Delta Memory :                               -
+    Max Swap :                                   -
+    Max Processes :                              -
+    Max Threads :                                -
+    Run time :                                   0 sec.
+    Turnaround time :                            47 sec.
+
+The output (if any) follows:
+
+cat: /sc/arion/scratch/arayan01/projects/chipseqtut/results/signalcomp_plots/wt_CTCF_rep1_peaks.narrowPeak: No such file or directory
+cat: /sc/arion/scratch/arayan01/projects/chipseqtut/results/signalcomp_plots/wt_H3K4me3_rep1_peaks.narrowPeak: No such file or directory

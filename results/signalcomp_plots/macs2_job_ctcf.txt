@@ -1,0 +1,87 @@
+Sender: LSF System <lsfadmin@lc06e62>
+Subject: Job 177116229: <macs2 callpeak -t /sc/arion/scratch/arayan01/projects/chipseqtut/data/chipseqdata/wt_CTCF_rep1.bam -c /sc/arion/scratch/arayan01/projects/chipseqtut/data/chipseqdata/wt_input_rep1.bam -f BAMPE --g mm --format BAM --outdir /sc/arion/scratch/arayan01/projects/chipseqtut/results/signalcomp_plots> in cluster <chimera> Done
+
+Job <macs2 callpeak -t /sc/arion/scratch/arayan01/projects/chipseqtut/data/chipseqdata/wt_CTCF_rep1.bam -c /sc/arion/scratch/arayan01/projects/chipseqtut/data/chipseqdata/wt_input_rep1.bam -f BAMPE --g mm --format BAM --outdir /sc/arion/scratch/arayan01/projects/chipseqtut/results/signalcomp_plots> was submitted from host <li04e04> by user <arayan01> in cluster <chimera> at Wed Apr  2 13:39:45 2025
+Job was executed on host(s) <1*lc06e62>, in queue <premium>, as user <arayan01> in cluster <chimera> at Wed Apr  2 13:39:48 2025
+                            <1*lc07e04>
+</hpc/users/arayan01> was used as the home directory.
+</sc/arion/scratch/arayan01/projects/chipseqtut/results> was used as the working directory.
+Started at Wed Apr  2 13:39:48 2025
+Terminated at Wed Apr  2 13:40:05 2025
+Results reported at Wed Apr  2 13:40:05 2025
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+macs2 callpeak -t /sc/arion/scratch/arayan01/projects/chipseqtut/data/chipseqdata/wt_CTCF_rep1.bam -c /sc/arion/scratch/arayan01/projects/chipseqtut/data/chipseqdata/wt_input_rep1.bam -f BAMPE --g mm --format BAM --outdir /sc/arion/scratch/arayan01/projects/chipseqtut/results/signalcomp_plots
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   15.68 sec.
+    Max Memory :                                 178 MB
+    Average Memory :                             82.60 MB
+    Total Requested Memory :                     16000.00 MB
+    Delta Memory :                               15822.00 MB
+    Max Swap :                                   -
+    Max Processes :                              3
+    Max Threads :                                4
+    Run time :                                   17 sec.
+    Turnaround time :                            20 sec.
+
+The output (if any) follows:
+
+INFO  @ Wed, 02 Apr 2025 13:39:50: 
+# Command line: callpeak -t /sc/arion/scratch/arayan01/projects/chipseqtut/data/chipseqdata/wt_CTCF_rep1.bam -c /sc/arion/scratch/arayan01/projects/chipseqtut/data/chipseqdata/wt_input_rep1.bam -f BAMPE --g mm --format BAM --outdir /sc/arion/scratch/arayan01/projects/chipseqtut/results/signalcomp_plots
+# ARGUMENTS LIST:
+# name = NA
+# format = BAM
+# ChIP-seq file = ['/sc/arion/scratch/arayan01/projects/chipseqtut/data/chipseqdata/wt_CTCF_rep1.bam']
+# control file = ['/sc/arion/scratch/arayan01/projects/chipseqtut/data/chipseqdata/wt_input_rep1.bam']
+# effective genome size = 1.87e+09
+# band width = 300
+# model fold = [5, 50]
+# qvalue cutoff = 5.00e-02
+# Larger dataset will be scaled towards smaller dataset.
+# Range for calculating regional lambda is: 1000 bps and 10000 bps
+# Broad region calling is off
+ 
+INFO  @ Wed, 02 Apr 2025 13:39:50: #1 read tag files... 
+INFO  @ Wed, 02 Apr 2025 13:39:50: #1 read treatment tags... 
+INFO  @ Wed, 02 Apr 2025 13:39:52:  1000000 
+INFO  @ Wed, 02 Apr 2025 13:39:55:  2000000 
+INFO  @ Wed, 02 Apr 2025 13:39:55: #1.2 read input tags... 
+INFO  @ Wed, 02 Apr 2025 13:39:58:  1000000 
+INFO  @ Wed, 02 Apr 2025 13:40:00: #1 tag size is determined as 51 bps 
+INFO  @ Wed, 02 Apr 2025 13:40:00: #1 tag size = 51 
+INFO  @ Wed, 02 Apr 2025 13:40:00: #1  total tags in treatment: 1205565 
+INFO  @ Wed, 02 Apr 2025 13:40:00: #1 user defined the maximum tags... 
+INFO  @ Wed, 02 Apr 2025 13:40:00: #1 filter out redundant tags at the same location and the same strand by allowing at most 1 tag(s) 
+INFO  @ Wed, 02 Apr 2025 13:40:00: #1  tags after filtering in treatment: 1179275 
+INFO  @ Wed, 02 Apr 2025 13:40:00: #1  Redundant rate of treatment: 0.02 
+INFO  @ Wed, 02 Apr 2025 13:40:00: #1  total tags in control: 929154 
+INFO  @ Wed, 02 Apr 2025 13:40:00: #1 user defined the maximum tags... 
+INFO  @ Wed, 02 Apr 2025 13:40:00: #1 filter out redundant tags at the same location and the same strand by allowing at most 1 tag(s) 
+INFO  @ Wed, 02 Apr 2025 13:40:00: #1  tags after filtering in control: 926186 
+INFO  @ Wed, 02 Apr 2025 13:40:00: #1  Redundant rate of control: 0.00 
+INFO  @ Wed, 02 Apr 2025 13:40:00: #1 finished! 
+INFO  @ Wed, 02 Apr 2025 13:40:00: #2 Build Peak Model... 
+INFO  @ Wed, 02 Apr 2025 13:40:00: #2 looking for paired plus/minus strand peaks... 
+INFO  @ Wed, 02 Apr 2025 13:40:01: #2 number of paired peaks: 59872 
+INFO  @ Wed, 02 Apr 2025 13:40:01: start model_add_line... 
+INFO  @ Wed, 02 Apr 2025 13:40:01: start X-correlation... 
+INFO  @ Wed, 02 Apr 2025 13:40:01: end of X-cor 
+INFO  @ Wed, 02 Apr 2025 13:40:01: #2 finished! 
+INFO  @ Wed, 02 Apr 2025 13:40:01: #2 predicted fragment length is 296 bps 
+INFO  @ Wed, 02 Apr 2025 13:40:01: #2 alternative fragment length(s) may be 296 bps 
+INFO  @ Wed, 02 Apr 2025 13:40:01: #2.2 Generate R script for model : /sc/arion/scratch/arayan01/projects/chipseqtut/results/signalcomp_plots/NA_model.r 
+INFO  @ Wed, 02 Apr 2025 13:40:01: #3 Call peaks... 
+INFO  @ Wed, 02 Apr 2025 13:40:01: #3 Pre-compute pvalue-qvalue table... 
+INFO  @ Wed, 02 Apr 2025 13:40:03: #3 Call peaks for each chromosome... 
+INFO  @ Wed, 02 Apr 2025 13:40:05: #4 Write output xls file... /sc/arion/scratch/arayan01/projects/chipseqtut/results/signalcomp_plots/NA_peaks.xls 
+INFO  @ Wed, 02 Apr 2025 13:40:05: #4 Write peak in narrowPeak format file... /sc/arion/scratch/arayan01/projects/chipseqtut/results/signalcomp_plots/NA_peaks.narrowPeak 
+INFO  @ Wed, 02 Apr 2025 13:40:05: #4 Write summits bed file... /sc/arion/scratch/arayan01/projects/chipseqtut/results/signalcomp_plots/NA_summits.bed 
+INFO  @ Wed, 02 Apr 2025 13:40:05: Done! 

@@ -159,51 +159,81 @@ function peakcalling {
 
 }
 
-function prepcalling {
+function prep1 {
     rm -rf ${scratch}/results/signalcomp_plots
     mkdir "${scratch}/results/signalcomp_plots"
 
     data="${scratch}/data/chipseqdata"
     experiment="${data}/wt_CTCF_rep1.bam"
     control="${data}/wt_input_rep1.bam"
-
     
     outdir="${scratch}/results/signalcomp_plots"
 
-    bsub -P acc_oscarlr -q premium -n 2 -W 24:00 -R "rusage[mem=8000]" -o "${outdir}/signalcomp_job1.txt" \
+    # Run bamCompare
+    bsub -P acc_oscarlr -q premium -n 2 -W 24:00 -R "rusage[mem=8000]" -o "${outdir}/prep1_job.txt" \
         bamCompare -b1 ${experiment} -b2 ${control} -o ${outdir}/wt_CTCF_rep1.bw \
             -bs 50 \
             -of bigwig \
             -r chrX \
             --operation log2
-
-    # Run macs2 peak calling for wt_CTCF_rep1
-    job1_id=$(bsub -P acc_oscarlr -q premium -n 2 -W 24:00 -R "rusage[mem=8000]" -o "${outdir}/macs2_job_ctcf.txt" \
-        macs2 callpeak -t ${experiment} -c ${control} -f BAMPE --g mm --format BAM --outdir ${outdir})
-
-    job1_id=$(echo $job1_id | awk '{print $2}' | tr -d '<>')
-
-    # Run macs2 peak calling for wt_H3K4me3_rep1
-    job2_id=$(bsub -P acc_oscarlr -q premium -n 2 -W 24:00 -R "rusage[mem=8000]" -o "${outdir}/macs2_job_h3k4me3.txt" \
-        macs2 callpeak -t ${experiment} -c ${data}/wt_H3K4me3_rep1.bam -f BAMPE --g mm --format BAM --outdir ${outdir})
-
-    job2_id=$(echo $job2_id | awk '{print $2}' | tr -d '<>')
-
-    # Concatenate the datasets after both macs2 jobs are done
-    bsub -P acc_oscarlr -q premium -n 2 -W 24:00 -R "rusage[mem=8000]" -o "${outdir}/concatenate_job.txt" \
-        -w "done(${job1_id}) && done(${job2_id})" \
-        bash -c "cat ${outdir}/wt_CTCF_rep1_peaks.narrowPeak ${outdir}/wt_H3K4me3_rep1_peaks.narrowPeak > ${outdir}/concatenated_peaks.bed"
-
-    # Sort the concatenated dataset
-    bsub -P acc_oscarlr -q premium -n 2 -W 24:00 -R "rusage[mem=8000]" -o "${outdir}/sortbed_job.txt" \
-        -w "done(${job1_id}) && done(${job2_id})" \
-        bedtools sort -i ${outdir}/concatenated_peaks.bed > ${outdir}/sorted_peaks.bed
-
-    # Merge the sorted dataset
-    bsub -P acc_oscarlr -q premium -n 2 -W 24:00 -R "rusage[mem=8000]" -o "${outdir}/mergebed_job.txt" \
-        -w "done(${job1_id}) && done(${job2_id})" \
-        bedtools merge -i ${outdir}/sorted_peaks.bed > ${outdir}/merged_peaks.bed
 }
+
+function prep2 {
+    data="${scratch}/data/chipseqdata"
+    experiment="${data}/wt_CTCF_rep1.bam"
+    control="${data}/wt_input_rep1.bam"
+    
+    outdir="${scratch}/results/signalcomp_plots"
+
+    bsub -P acc_oscarlr -q premium -n 2 -W 24:00 -R "rusage[mem=8000]" -o "${outdir}/prep2a_job.txt" \
+        macs2 callpeak -t ${experiment} -c ${control} -f BAMPE --g mm --format BAM --outdir ${outdir} -n wt_CTCF_rep1
+}
+
+function prep3 {
+    data="${scratch}/data/chipseqdata"
+    experiment="${data}/wt_CTCF_rep1.bam"
+    experiment2="${scratch}/results/peakcalling/wt_H3K4me3_rep1_peak_peaks.narrowPeak"
+    control="${data}/wt_input_rep1.bam"
+
+    outdir="${scratch}/results/signalcomp_plots"
+
+    #Concatenate
+    cat ${outdir}/wt_CTCF_rep1_peaks.narrowPeak ${experiment2} > ${outdir}/concatenated_peaks.bed
+    concatenated="${outdir}/concatenated_peaks.bed"
+
+    bsub -P acc_oscarlr -q premium -n 2 -W 24:00 -R "rusage[mem=8000]" -o "${outdir}/prep3a_job.txt" \
+        "bedtools sort -i ${concatenated} > ${outdir}/sorted_peaks.bed"
+    bsub -P acc_oscarlr -q premium -n 2 -W 24:00 -R "rusage[mem=8000]" -o "${outdir}/prep3b_job.txt" \
+        "bedtools merge -i ${outdir}/sorted_peaks.bed > ${outdir}/merged_peaks.bed"
+}
+function heatmap {
+    data="${scratch}/data/chipseqdata"
+    outdir="${scratch}/results/signalcomp_plots"
+
+    bw1="${outdir}/wt_CTCF_rep1.bw"
+    bw2="${scratch}/results/peakcalling/wt_H3K4me3_rep1_peak_peaks.narrowPeak"
+    
+    merged_peaks="${outdir}/merged_peaks.bed"
+#BOOK MARK 4/2/2025
+    bsub -P acc_oscarlr -q premium -n 2 -W 24:00 -R "rusage[mem=8000]" -o "${outdir}/computeMatrix_job.txt" \
+        "computeMatrix scale-regions -S ${bw1} ${bw2} \
+            -R ${merged_peaks} \
+            --referencePoint center \
+            --upstream 3000 \
+            --downstream 3000 \
+            -o ${outdir}/matrix.gz \
+            --skipZeros"
+    bsub -P acc_oscarlr -q premium -n 2 -W 24:00 -R "rusage[mem=8000]" -o "${outdir}/plotHeatmap_job.txt" \
+        plotHeatmap -m ${outdir}/matrix.gz \
+            --heatmapWidth 8 \
+            --heatmapHeight 8 \
+            --colorMap RdYlBu \
+            --outFileName ${outdir}/heatmap.png \
+            --showAdvancedOptions \
+            --refPointLabel "Center of Region" \
+            --kmeans 2
+}
+
 
 #fastqc
 #trimming
@@ -215,5 +245,7 @@ function prepcalling {
 #bamcov
 #bamcomp
 #peakcalling
-prepcalling
-#heatmap
+#prep1
+#prep2
+#prep3
+heatmap

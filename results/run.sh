@@ -159,6 +159,7 @@ function peakcalling {
 
 }
 
+#4/3 found that ctcf has no data showing in igv potential issue can start here ~2:50 pm 
 function prep1 {
     rm -rf ${scratch}/results/signalcomp_plots
     mkdir "${scratch}/results/signalcomp_plots"
@@ -169,7 +170,6 @@ function prep1 {
     
     outdir="${scratch}/results/signalcomp_plots"
 
-    # Run bamCompare
     bsub -P acc_oscarlr -q premium -n 2 -W 24:00 -R "rusage[mem=8000]" -o "${outdir}/prep1_job.txt" \
         bamCompare -b1 ${experiment} -b2 ${control} -o ${outdir}/wt_CTCF_rep1.bw \
             -bs 50 \
@@ -189,6 +189,7 @@ function prep2 {
         macs2 callpeak -t ${experiment} -c ${control} -f BAMPE --g mm --format BAM --outdir ${outdir} -n wt_CTCF_rep1
 }
 
+
 function prep3 {
     data="${scratch}/data/chipseqdata"
     experiment="${data}/wt_CTCF_rep1.bam"
@@ -198,43 +199,43 @@ function prep3 {
     outdir="${scratch}/results/signalcomp_plots"
 
     #Concatenate
-    cat ${outdir}/wt_CTCF_rep1_peaks.narrowPeak ${experiment2} > ${outdir}/concatenated_peaks.bed
-    concatenated="${outdir}/concatenated_peaks.bed"
+    cat ${outdir}/wt_CTCF_rep1_peaks.narrowPeak ${experiment2} > ${outdir}/concatenated_peaks.narrowPeak
+    concatenated="${outdir}/concatenated_peaks.narrowPeak"
 
     bsub -P acc_oscarlr -q premium -n 2 -W 24:00 -R "rusage[mem=8000]" -o "${outdir}/prep3a_job.txt" \
-        "bedtools sort -i ${concatenated} > ${outdir}/sorted_peaks.bed"
-    bsub -P acc_oscarlr -q premium -n 2 -W 24:00 -R "rusage[mem=8000]" -o "${outdir}/prep3b_job.txt" \
-        "bedtools merge -i ${outdir}/sorted_peaks.bed > ${outdir}/merged_peaks.bed"
+        "bedtools sort -i ${concatenated} > ${outdir}/sorted_peaks.narrowPeak && \
+        bedtools merge -i ${outdir}/sorted_peaks.narrowPeak > ${outdir}/merged_peaks.narrowPeak"
 }
-function heatmap {
+function heatprep {
     data="${scratch}/data/chipseqdata"
     outdir="${scratch}/results/signalcomp_plots"
 
     bw1="${outdir}/wt_CTCF_rep1.bw"
-    bw2="${scratch}/results/peakcalling/wt_H3K4me3_rep1_peak_peaks.narrowPeak"
-    
-    merged_peaks="${outdir}/merged_peaks.bed"
-#BOOK MARK 4/2/2025
-##figure out if i need to cconvert H3K4ME3 into bw and then insert here etc.
+    bw2="${scratch}/results/norm/wt_H3K4me3_rep1.bw" 
+    merged_peaks="${outdir}/merged_peaks.narrowPeak"
+
     bsub -P acc_oscarlr -q premium -n 2 -W 24:00 -R "rusage[mem=8000]" -o "${outdir}/computeMatrix_job.txt" \
-        "computeMatrix scale-regions -S ${bw1} ${bw2} \
-            -R ${merged_peaks} \
+        "computeMatrix reference-point \
+            --regionsFileName ${merged_peaks} \
+            --scoreFileName ${bw1} ${bw2} \
             --referencePoint center \
             --upstream 3000 \
             --downstream 3000 \
-            -o ${outdir}/matrix.gz \
-            --skipZeros"
- #   bsub -P acc_oscarlr -q premium -n 2 -W 24:00 -R "rusage[mem=8000]" -o "${outdir}/plotHeatmap_job.txt" \
-#      plotHeatmap -m ${outdir}/matrix.gz \
-#            --heatmapWidth 8 \
- #           --heatmapHeight 8 \
-  #          --colorMap RdYlBu \
-   #         --outFileName ${outdir}/heatmap.png \
-    #        --showAdvancedOptions \
-     #       --refPointLabel "Center of Region" \
-      #      --kmeans 2
+            --outFileName ${outdir}/matrix.gz \
+            --skipZeros \
+            --verbose"
 }
 
+function heatplot {
+    outdir="${scratch}/results/signalcomp_plots"
+    bsub -P acc_oscarlr -q premium -n 2 -W 24:00 -R "rusage[mem=8000]" -o "${outdir}/plotHeatmap_job.txt" \
+        "plotHeatmap -m ${outdir}/matrix.gz \
+            --heatmapWidth 8 \
+            --heatmapHeight 8 \
+            --colorMap RdYlBu \
+            --outFileName ${outdir}/heatmap.png \
+            --kmeans 2"
+}
 
 #fastqc
 #trimming
@@ -249,4 +250,5 @@ function heatmap {
 #prep1
 #prep2
 #prep3
-heatmap
+#heatprep
+heatplot

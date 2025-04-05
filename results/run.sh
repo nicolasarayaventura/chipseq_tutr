@@ -191,21 +191,22 @@ function prep2 {
 
 
 function prep3 {
-    data="${scratch}/data/chipseqdata"
-    experiment="${data}/wt_CTCF_rep1.bam"
+    data="${scratch}/results/signalcomp_plots"
+    experiment="${data}/wt_CTCF_rep1_peaks.narrowPeak"
     experiment2="${scratch}/results/peakcalling/wt_H3K4me3_rep1_peak_peaks.narrowPeak"
     control="${data}/wt_input_rep1.bam"
 
     outdir="${scratch}/results/signalcomp_plots"
 
     #Concatenate
-    cat ${outdir}/wt_CTCF_rep1_peaks.narrowPeak ${experiment2} > ${outdir}/concatenated_peaks.narrowPeak
+    cat ${experiment} ${experiment2} > ${outdir}/concatenated_peaks.narrowPeak
     concatenated="${outdir}/concatenated_peaks.narrowPeak"
 
     bsub -P acc_oscarlr -q premium -n 2 -W 24:00 -R "rusage[mem=8000]" -o "${outdir}/prep3a_job.txt" \
         "bedtools sort -i ${concatenated} > ${outdir}/sorted_peaks.narrowPeak && \
         bedtools merge -i ${outdir}/sorted_peaks.narrowPeak > ${outdir}/merged_peaks.narrowPeak"
 }
+
 function heatprep {
     data="${scratch}/data/chipseqdata"
     outdir="${scratch}/results/signalcomp_plots"
@@ -225,7 +226,7 @@ function heatprep {
             --skipZeros \
             --verbose"
 }
-
+#Fixed issue was because i wasnt using my Bampcompare output from wt_H3K4ME3 
 function heatplot {
     outdir="${scratch}/results/signalcomp_plots"
     bsub -P acc_oscarlr -q premium -n 2 -W 24:00 -R "rusage[mem=8000]" -o "${outdir}/plotHeatmap_job.txt" \

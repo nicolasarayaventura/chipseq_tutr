@@ -122,15 +122,16 @@ function bamcov {
         --verbose"
 }
 
+#bamcomp for out control 
 function bamcomp {
     data="${scratch}/data/chipseqdata"
 
-    control="${data}/wt_input_rep1.bam"
-    experiment="${data}/wt_H3K4me3_rep1.bam"
+    control="${data}/wt_H3K4me3_rep1.bam"
+    experiment="${data}/wt_input_rep1.bam"
     outdir="${scratch}/results/norm"
 
     bsub -P acc_oscarlr -q premium -n 2 -W 24:00 -R "rusage[mem=8000]" -o "norm_comp_job1.txt" \
-        bamCompare -b1 ${experiment} -b2 ${control} -o ${outdir}/comp.bw \
+        bamCompare -b1 ${control} -b2 ${experiment} -o ${outdir}/comp.bw \
         -bs 50 \
         -of bigwig \
         -r chrX \

@@ -159,7 +159,6 @@ function peakcalling {
 
 }
 
-#4/3 found that ctcf has no data showing in igv potential issue can start here ~2:50 pm 
 function prep1 {
     rm -rf ${scratch}/results/signalcomp_plots
     mkdir "${scratch}/results/signalcomp_plots"
